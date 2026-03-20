@@ -1,0 +1,322 @@
+{
+    "source_file": "AI Powered Legal Contract Risk Assessment (1).pdf",
+    "total_clauses": 6,
+    "clauses": [
+        {
+            "clause_id": 0,
+            "clause_text": "This will cover: \u25cf Risk Assessment \u25cf Clause Extraction \u25cf Obligation Tracking \u25cf Compliance Checking \u25cf Contract Comparison \u25cf Negotiation Insights \u25cf RAG-based Legal Q&A \u25cf Explainability \u25cf Architecture + Deployment Design Assumptions: \u25cf Students know Python (intermediate) \u25cf Allowed: LangChain, Ollama, open-source SLMs \u25cf Python-only frontend + backend (Streamlit/FastAPI allowed) \u25cf Weekly 1-hour demo \u25cf Teams choose their own industry \u25cf No actual deployment, but full architecture plan required 8-Week Capsule Plan Project: AI-Powered Legal Contract Intelligence System Week Focus Area Concepts Covered Technical Implementation Weekly Deliverable Demo Expectations Wee Problem Framing & Contract lifecycle, industry-specific contracts, risk types, Define industry (FinTech, Healthcare, SaaS, Real Estate, etc.), collect 10\u201320 sample contracts Problem Statement + Use Case Explain industry pain points k 1 Industry Selection legal NLP basics (public/redacted), define value proposition Document + Dataset & system vision Week 2 Contract Structure Understanding Legal clause taxonomy, NER in legal docs, document parsing Build contract parser (PDF \u2192 text), chunking strategy, clause segmentation, basic metadata extraction Working parser + structured JSON output Live parsing of contract into structured format Week 3 LLM Integration (Ollama + LangChain) Prompt engineering, SLM vs LLM behavior, structured outputs Integrate Ollama model, build clause extractor using prompt templates, output structured JSON Clause Extraction Module Live demo extracting clauses automatically Week 4 Risk & Obligation Intelligence Risk taxonomy design, obligation detection, rule-based + LLM hybrid logic Implement: Risk classification, Obligation extraction, Simple risk scoring algorithm Risk & Obligation Analyzer Show risk heatmap & obligation summary Week 5 RAG-based Contract Q&A & Compliance Embeddings, vector DB, Retrieval Augmented Generation Build RAG pipeline using contract corpus",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Legal Q&A \u25cf Explainability \u25cf Architecture + Deployment Design Assumptions",
+                    "label": "ORG",
+                    "start_char": 156,
+                    "end_char": 229
+                },
+                {
+                    "text": "LangChain",
+                    "label": "ORG",
+                    "start_char": 280,
+                    "end_char": 289
+                },
+                {
+                    "text": "Ollama",
+                    "label": "ORG",
+                    "start_char": 291,
+                    "end_char": 297
+                },
+                {
+                    "text": "Streamlit",
+                    "label": "PERSON",
+                    "start_char": 350,
+                    "end_char": 359
+                },
+                {
+                    "text": "1-hour",
+                    "label": "TIME",
+                    "start_char": 386,
+                    "end_char": 392
+                },
+                {
+                    "text": "8",
+                    "label": "CARDINAL",
+                    "start_char": 492,
+                    "end_char": 493
+                },
+                {
+                    "text": "AI-Powered Legal Contract Intelligence System",
+                    "label": "ORG",
+                    "start_char": 521,
+                    "end_char": 566
+                },
+                {
+                    "text": "Focus Area Concepts Covered Technical Implementation Weekly Deliverable Demo Expectations Wee Problem Framing & Contract",
+                    "label": "ORG",
+                    "start_char": 572,
+                    "end_char": 692
+                },
+                {
+                    "text": "FinTech",
+                    "label": "ORG",
+                    "start_char": 762,
+                    "end_char": 769
+                },
+                {
+                    "text": "Healthcare",
+                    "label": "ORG",
+                    "start_char": 771,
+                    "end_char": 781
+                },
+                {
+                    "text": "Real Estate",
+                    "label": "ORG",
+                    "start_char": 789,
+                    "end_char": 800
+                },
+                {
+                    "text": "10\u201320",
+                    "label": "CARDINAL",
+                    "start_char": 817,
+                    "end_char": 822
+                },
+                {
+                    "text": "Problem Statement + Use Case Explain",
+                    "label": "PERSON",
+                    "start_char": 840,
+                    "end_char": 876
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 900,
+                    "end_char": 901
+                },
+                {
+                    "text": "NLP",
+                    "label": "ORG",
+                    "start_char": 927,
+                    "end_char": 930
+                },
+                {
+                    "text": "Document + Dataset &",
+                    "label": "ORG",
+                    "start_char": 982,
+                    "end_char": 1002
+                },
+                {
+                    "text": "Week 2 Contract Structure Understanding Legal",
+                    "label": "WORK_OF_ART",
+                    "start_char": 1017,
+                    "end_char": 1062
+                },
+                {
+                    "text": "NER",
+                    "label": "ORG",
+                    "start_char": 1080,
+                    "end_char": 1083
+                },
+                {
+                    "text": "Build",
+                    "label": "LOC",
+                    "start_char": 1116,
+                    "end_char": 1121
+                },
+                {
+                    "text": "PDF",
+                    "label": "ORG",
+                    "start_char": 1139,
+                    "end_char": 1142
+                },
+                {
+                    "text": "Working",
+                    "label": "ORG",
+                    "start_char": 1218,
+                    "end_char": 1225
+                },
+                {
+                    "text": "Week 3",
+                    "label": "DATE",
+                    "start_char": 1306,
+                    "end_char": 1312
+                },
+                {
+                    "text": "SLM",
+                    "label": "ORG",
+                    "start_char": 1370,
+                    "end_char": 1373
+                },
+                {
+                    "text": "LLM",
+                    "label": "ORG",
+                    "start_char": 1377,
+                    "end_char": 1380
+                },
+                {
+                    "text": "Integrate Ollama",
+                    "label": "PERSON",
+                    "start_char": 1410,
+                    "end_char": 1426
+                },
+                {
+                    "text": "JSON Clause Extraction Module Live",
+                    "label": "ORG",
+                    "start_char": 1499,
+                    "end_char": 1533
+                },
+                {
+                    "text": "Week 4 Risk & Obligation Intelligence Risk",
+                    "label": "ORG",
+                    "start_char": 1572,
+                    "end_char": 1614
+                },
+                {
+                    "text": "Risk & Obligation Analyzer Show",
+                    "label": "ORG",
+                    "start_char": 1769,
+                    "end_char": 1800
+                },
+                {
+                    "text": "Week 5",
+                    "label": "DATE",
+                    "start_char": 1835,
+                    "end_char": 1841
+                },
+                {
+                    "text": "Contract Q&A & Compliance Embeddings",
+                    "label": "ORG",
+                    "start_char": 1852,
+                    "end_char": 1888
+                },
+                {
+                    "text": "DB",
+                    "label": "PERSON",
+                    "start_char": 1897,
+                    "end_char": 1899
+                }
+            ]
+        },
+        {
+            "clause_id": 1,
+            "clause_text": "allow natural language queries like: \u201cWhat are termination penalties?\u201d Contract Q&A module Live Q&A over uploaded contract Week 6 Advanced Intelligence Features Contract comparison, deviation detection, explainability, hallucination control Implement: Compare 2 contracts",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Week 6",
+                    "label": "DATE",
+                    "start_char": 123,
+                    "end_char": 129
+                },
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 260,
+                    "end_char": 261
+                }
+            ]
+        },
+        {
+            "clause_id": 2,
+            "clause_text": "detect missing clauses",
+            "category": "Severability",
+            "entities": []
+        },
+        {
+            "clause_id": 3,
+            "clause_text": "add explainability layer (why risk assigned) Contract Comparator + Explainable Risk Engine Demo comparison of vendor vs standard template Week 7 Application Integration (Frontend + Backend) API design, modular architecture, logging, evaluation Build full Python app (Streamlit or FastAPI)",
+            "category": "Assignment",
+            "entities": [
+                {
+                    "text": "API",
+                    "label": "ORG",
+                    "start_char": 190,
+                    "end_char": 193
+                },
+                {
+                    "text": "Streamlit",
+                    "label": "PERSON",
+                    "start_char": 267,
+                    "end_char": 276
+                }
+            ]
+        },
+        {
+            "clause_id": 4,
+            "clause_text": "integrate all modules",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 5,
+            "clause_text": "add logging & basic evaluation metrics Fully working integrated system End-to-end demo: Upload \u2192 Analyze \u2192 Report Week 8 Architecture & Deployment Planning System design, scalability, security, model hosting, compliance (GDPR, etc.) Design production-ready architecture (on-prem vs cloud), CI/CD plan, model serving plan, cost estimation Architecture Document + Deployment Plan + Final Presentation Final system demo + Architecture walkthrough Suggested Technical Stack Layer Technology LLM Ollama (Mistral / LLaMA / Phi / Gemma SLM) Framework LangChain Embeddings Ollama embeddings or SentenceTransformers Vector DB FAISS / Chroma Backend FastAPI Frontend Streamlit (recommended) Storage JSON / SQLite Logging Python logging module Suggested Repository Structure contract-ai/ \u2502 \u251c\u2500\u2500 data/ \u251c\u2500\u2500 models/ \u251c\u2500\u2500 ingestion/ \u2502 \u251c\u2500\u2500 parser.py \u2502 \u251c\u2500\u2500 chunking.py \u2502 \u251c\u2500\u2500 intelligence/ \u2502 \u251c\u2500\u2500 clause_extractor.py \u2502 \u251c\u2500\u2500 risk_engine.py \u2502 \u251c\u2500\u2500 obligation_detector.py \u2502 \u251c\u2500\u2500 comparator.py \u2502 \u251c\u2500\u2500 rag/ \u2502 \u251c\u2500\u2500 embedder.py \u2502 \u251c\u2500\u2500 retriever.py \u2502 \u251c\u2500\u2500 app/ \u2502 \u251c\u2500\u2500 api.py \u2502 \u251c\u2500\u2500 ui.py \u2502 \u251c\u2500\u2500 evaluation/ \u251c\u2500\u2500 architecture/ \u2514\u2500\u2500 main.py Industry Examples Students Can Choose \u25cf Healthcare Provider Agreements \u25cf SaaS Vendor Contracts \u25cf Insurance Policies \u25cf Real Estate Lease Agreements \u25cf Supply Chain Agreements \u25cf Employment Contracts \u25cf Banking Loan Agreements Final Week Architecture Requirements They must design: \u25cf Microservice architecture diagram \u25cf Model serving layer \u25cf RAG pipeline diagram \u25cf Security & access control \u25cf Data privacy compliance plan \u25cf Cost estimation \u25cf Monitoring strategy \u25cf Human-in-the-loop workflow (No actual deployment required.)",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Architecture & Deployment Planning System",
+                    "label": "ORG",
+                    "start_char": 121,
+                    "end_char": 162
+                },
+                {
+                    "text": "CI",
+                    "label": "ORG",
+                    "start_char": 290,
+                    "end_char": 292
+                },
+                {
+                    "text": "Suggested Technical Stack Layer Technology LLM Ollama (Mistral / LLaMA / Phi /",
+                    "label": "ORG",
+                    "start_char": 444,
+                    "end_char": 522
+                },
+                {
+                    "text": "LangChain",
+                    "label": "PRODUCT",
+                    "start_char": 544,
+                    "end_char": 553
+                },
+                {
+                    "text": "Embeddings Ollama",
+                    "label": "PERSON",
+                    "start_char": 554,
+                    "end_char": 571
+                },
+                {
+                    "text": "SentenceTransformers Vector DB",
+                    "label": "ORG",
+                    "start_char": 586,
+                    "end_char": 616
+                },
+                {
+                    "text": "FastAPI Frontend Streamlit",
+                    "label": "PERSON",
+                    "start_char": 640,
+                    "end_char": 666
+                },
+                {
+                    "text": "Suggested Repository Structure",
+                    "label": "ORG",
+                    "start_char": 733,
+                    "end_char": 763
+                },
+                {
+                    "text": "chunking.py \u2502 \u251c\u2500",
+                    "label": "ORG",
+                    "start_char": 838,
+                    "end_char": 854
+                },
+                {
+                    "text": "obligation_detector.py \u2502 \u251c\u2500\u2500 comparator.py \u2502 \u251c\u2500\u2500",
+                    "label": "ORG",
+                    "start_char": 923,
+                    "end_char": 971
+                },
+                {
+                    "text": "ui.py \u2502 \u251c\u2500\u2500 evaluation/ \u251c\u2500\u2500",
+                    "label": "ORG",
+                    "start_char": 1044,
+                    "end_char": 1071
+                }
+            ]
+        }
+    ]
+}
