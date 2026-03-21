@@ -1,0 +1,1699 @@
+{
+    "source_file": "Law_Insider_fidelity-salem-street-trust_general-distribution-agreement-between-fidelity-salem-street-trust-and_Filed_10-04-2025_Contract.pdf",
+    "total_clauses": 72,
+    "clauses": [
+        {
+            "clause_id": 0,
+            "clause_text": "1.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 1,
+            "clause_text": "2.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 2,
+            "clause_text": "3.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 3,
+            "clause_text": "4.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "4",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 4,
+            "clause_text": "5.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "5",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 5,
+            "clause_text": "GENERAL DISTRIBUTION AGREEMENT between FIDELITY SALEM STREET TRUST and FIDELITY DISTRIBUTORS COMPANY LLC AGREEMENT made this 15th day of January, 2025, between Fidelity Salem Street Trust, a Massachusetts business trust having its principal place of business in Boston, Massachusetts and which may issue one or more series of bene\ufb01cial interest (\u201cIssuer\u201d), with respect to shares of Fidelity SAI Enhanced Core Bond Fund, a series of the Issuer, and Fidelity Distributors Company LLC, a Delaware limited liability company having its principal place of business in Smith\ufb01eld, Rhode Island (\u201cDistributors\u201d).",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "DISTRIBUTION",
+                    "label": "PERSON",
+                    "start_char": 8,
+                    "end_char": 20
+                },
+                {
+                    "text": "FIDELITY SALEM STREET TRUST",
+                    "label": "ORG",
+                    "start_char": 39,
+                    "end_char": 66
+                },
+                {
+                    "text": "FIDELITY DISTRIBUTORS",
+                    "label": "ORG",
+                    "start_char": 71,
+                    "end_char": 92
+                },
+                {
+                    "text": "this 15th day of January, 2025",
+                    "label": "DATE",
+                    "start_char": 120,
+                    "end_char": 150
+                },
+                {
+                    "text": "Fidelity Salem Street Trust",
+                    "label": "ORG",
+                    "start_char": 160,
+                    "end_char": 187
+                },
+                {
+                    "text": "Massachusetts",
+                    "label": "GPE",
+                    "start_char": 191,
+                    "end_char": 204
+                },
+                {
+                    "text": "Boston",
+                    "label": "GPE",
+                    "start_char": 262,
+                    "end_char": 268
+                },
+                {
+                    "text": "Massachusetts",
+                    "label": "GPE",
+                    "start_char": 270,
+                    "end_char": 283
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 347,
+                    "end_char": 353
+                },
+                {
+                    "text": "Fidelity SAI Enhanced Core Bond Fund",
+                    "label": "ORG",
+                    "start_char": 383,
+                    "end_char": 419
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 437,
+                    "end_char": 443
+                },
+                {
+                    "text": "Fidelity Distributors Company LLC",
+                    "label": "ORG",
+                    "start_char": 449,
+                    "end_char": 482
+                },
+                {
+                    "text": "Delaware",
+                    "label": "GPE",
+                    "start_char": 486,
+                    "end_char": 494
+                },
+                {
+                    "text": "Smith\ufb01eld",
+                    "label": "GPE",
+                    "start_char": 563,
+                    "end_char": 572
+                },
+                {
+                    "text": "Rhode Island",
+                    "label": "GPE",
+                    "start_char": 574,
+                    "end_char": 586
+                }
+            ]
+        },
+        {
+            "clause_id": 6,
+            "clause_text": "In consideration of the mutual promises and undertakings herein contained, the parties agree as follows: Sale of Shares - The Issuer grants to Distributors the right to sell shares on behalf of the Issuer during the term of this Agreement and subject to the registration requirements of the Securities Act of 1933, as amended (\u201c1933 Act\u201d), and of the laws governing the sale of securities in the various states (\u201cBlue Sky Laws\u201d) under the following terms and conditions: Distributors (i) shall have the right to sell, as agent on behalf of the Issuer, shares authorized for issue and registered under the 1933 Act, and (ii) may sell shares under o\ufb00ers of exchange, if available, between and among the funds advised by Fidelity Management & Research Company LLC (the \u201cAdviser\u201d) or any of its a\ufb03liates.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 126,
+                    "end_char": 132
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 198,
+                    "end_char": 204
+                },
+                {
+                    "text": "Agreement",
+                    "label": "PRODUCT",
+                    "start_char": 229,
+                    "end_char": 238
+                },
+                {
+                    "text": "the Securities Act",
+                    "label": "LAW",
+                    "start_char": 287,
+                    "end_char": 305
+                },
+                {
+                    "text": "1933",
+                    "label": "DATE",
+                    "start_char": 309,
+                    "end_char": 313
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 544,
+                    "end_char": 550
+                },
+                {
+                    "text": "Fidelity Management & Research Company LLC",
+                    "label": "ORG",
+                    "start_char": 718,
+                    "end_char": 760
+                }
+            ]
+        },
+        {
+            "clause_id": 7,
+            "clause_text": "Sale of Shares by the Issuer - The rights granted to Distributors shall be non-exclusive in that the Issuer reserves the right to sell its shares to investors on applications received and accepted by the Issuer.",
+            "category": "Intellectual Property",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 22,
+                    "end_char": 28
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 101,
+                    "end_char": 107
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 204,
+                    "end_char": 210
+                }
+            ]
+        },
+        {
+            "clause_id": 8,
+            "clause_text": "Further, the Issuer reserves the right to issue shares in connection with the merger or consolidation, or acquisition by the Issuer through purchase or otherwise, with any other investment company, trust, or personal holding company.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 13,
+                    "end_char": 19
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 125,
+                    "end_char": 131
+                }
+            ]
+        },
+        {
+            "clause_id": 9,
+            "clause_text": "Shares Covered by this Agreement - This Agreement shall apply to unissued shares of the Issuer, shares of the Issuer held in its treasury in the event that in the discretion of the Issuer treasury shares shall be sold, and shares of the Issuer repurchased for resale.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 88,
+                    "end_char": 94
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 110,
+                    "end_char": 116
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 181,
+                    "end_char": 187
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 237,
+                    "end_char": 243
+                }
+            ]
+        },
+        {
+            "clause_id": 10,
+            "clause_text": "Public O\ufb00ering Price - Except as otherwise noted in the Issuer\u2019s current Prospectus and/or Statement of Additional Information, all shares sold to investors by Distributors or the Issuer will be sold at the public o\ufb00ering price.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 56,
+                    "end_char": 62
+                },
+                {
+                    "text": "Prospectus and/or Statement of Additional Information",
+                    "label": "ORG",
+                    "start_char": 73,
+                    "end_char": 126
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 180,
+                    "end_char": 186
+                }
+            ]
+        },
+        {
+            "clause_id": 11,
+            "clause_text": "The public o\ufb00ering price for all accepted subscriptions will be the net asset value per share, as determined in the manner described in the Issuer\u2019s current Prospectus and/or Statement of Additional Information, plus a sales charge (if any) described in the Issuer\u2019s current Prospectus and/or Statement of Additional Information.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 140,
+                    "end_char": 146
+                },
+                {
+                    "text": "Prospectus and/or Statement of Additional Information",
+                    "label": "ORG",
+                    "start_char": 157,
+                    "end_char": 210
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 258,
+                    "end_char": 264
+                },
+                {
+                    "text": "Prospectus and/or Statement of Additional Information",
+                    "label": "ORG",
+                    "start_char": 275,
+                    "end_char": 328
+                }
+            ]
+        },
+        {
+            "clause_id": 12,
+            "clause_text": "The Issuer shall in all cases receive the net asset value per share on all sales.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 4,
+                    "end_char": 10
+                }
+            ]
+        },
+        {
+            "clause_id": 13,
+            "clause_text": "If a sales charge is in e\ufb00ect, Distributors shall have the right subject to such rules or regulations of the Securities and Exchange Commission as may then be in e\ufb00ect pursuant to Section 22 of the Investment Company Act of 1940 to pay a portion of the sales charge to dealers who have sold shares of the Issuer.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "the Securities and Exchange Commission",
+                    "label": "ORG",
+                    "start_char": 105,
+                    "end_char": 143
+                },
+                {
+                    "text": "Section 22",
+                    "label": "LAW",
+                    "start_char": 180,
+                    "end_char": 190
+                },
+                {
+                    "text": "the Investment Company Act",
+                    "label": "ORG",
+                    "start_char": 194,
+                    "end_char": 220
+                },
+                {
+                    "text": "1940",
+                    "label": "DATE",
+                    "start_char": 224,
+                    "end_char": 228
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 305,
+                    "end_char": 311
+                }
+            ]
+        },
+        {
+            "clause_id": 14,
+            "clause_text": "If a fee in connection with shareholder redemptions is in e\ufb00ect, the Issuer shall collect the fee and, unless otherwise agreed upon by the Issuer and Distributors, the Issuer shall be entitled to receive all of such fees.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 69,
+                    "end_char": 75
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 139,
+                    "end_char": 145
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 168,
+                    "end_char": 174
+                }
+            ]
+        },
+        {
+            "clause_id": 15,
+            "clause_text": "Suspension of Sales - If and whenever the determination of net asset value is suspended and until such suspension is terminated, no further orders for shares shall be processed by Distributors except such unconditional 6.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "6",
+                    "label": "CARDINAL",
+                    "start_char": 219,
+                    "end_char": 220
+                }
+            ]
+        },
+        {
+            "clause_id": 16,
+            "clause_text": "7.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "7",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 17,
+            "clause_text": "8.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "8",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 18,
+            "clause_text": "9.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "9",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 1
+                }
+            ]
+        },
+        {
+            "clause_id": 19,
+            "clause_text": "10.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "10",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 2
+                }
+            ]
+        },
+        {
+            "clause_id": 20,
+            "clause_text": "orders as may have been placed with Distributors before it had knowledge of the suspension.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 21,
+            "clause_text": "In addition, the Issuer reserves the right to suspend sales and Distributors\u2019 authority to process orders for shares on behalf of the Issuer if, in the judgment of the Issuer, it is in the best interests of the Issuer to do so.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 17,
+                    "end_char": 23
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 134,
+                    "end_char": 140
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 168,
+                    "end_char": 174
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 211,
+                    "end_char": 217
+                }
+            ]
+        },
+        {
+            "clause_id": 22,
+            "clause_text": "Suspension will continue for such period as may be determined by the Issuer.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 69,
+                    "end_char": 75
+                }
+            ]
+        },
+        {
+            "clause_id": 23,
+            "clause_text": "Solicitation of Sales - In consideration of these rights granted to Distributors, Distributors agrees to use all reasonable e\ufb00orts, consistent with its other business, to secure purchasers for shares of the Issuer.",
+            "category": "Intellectual Property",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 207,
+                    "end_char": 213
+                }
+            ]
+        },
+        {
+            "clause_id": 24,
+            "clause_text": "This shall not prevent Distributors from entering into like arrangements (including arrangements involving the payment of underwriting commissions) with other Issuers.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuers",
+                    "label": "ORG",
+                    "start_char": 159,
+                    "end_char": 166
+                }
+            ]
+        },
+        {
+            "clause_id": 25,
+            "clause_text": "This does not obligate Distributors to register as a broker or dealer under the Blue Sky Laws of any jurisdiction in which it is not now registered or to maintain its registration in any jurisdiction in which it is now registered.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "the Blue Sky Laws",
+                    "label": "LAW",
+                    "start_char": 76,
+                    "end_char": 93
+                }
+            ]
+        },
+        {
+            "clause_id": 26,
+            "clause_text": "If a sales charge is in e\ufb00ect, Distributors shall have the right to enter into sales agreements with dealers of its choice for the sale of shares of the Issuer to the public at the public o\ufb00ering price only and \ufb01x in such agreements the portion of the sales charge which may be retained by dealers, provided that the Issuer shall approve the form of the dealer agreement and the dealer discounts set forth therein and shall evidence such approval by \ufb01ling said form of dealer agreement and amendments thereto as an exhibit to its currently e\ufb00ective Registration Statement under the 1933 Act.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 153,
+                    "end_char": 159
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 317,
+                    "end_char": 323
+                },
+                {
+                    "text": "Registration Statement",
+                    "label": "PERSON",
+                    "start_char": 549,
+                    "end_char": 571
+                }
+            ]
+        },
+        {
+            "clause_id": 27,
+            "clause_text": "The Distributor will not direct remuneration from commissions paid by the Issuer for portfolio securities transactions to a broker or dealer for promoting or selling fund shares.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 74,
+                    "end_char": 80
+                }
+            ]
+        },
+        {
+            "clause_id": 28,
+            "clause_text": "Authorized Representations - Distributors is not authorized by the Issuer to give any information or to make any representations other than those contained in the appropriate registration statements or Prospectuses and Statements of Additional Information \ufb01led with the Securities and Exchange Commission under the 1933 Act (as these registration statements, Prospectuses and Statements of Additional Information may be amended from time to time), or contained in shareholder reports or other material that may be prepared by or on behalf of the Issuer for Distributors\u2019 use.",
+            "category": "Representations and Warranties",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 67,
+                    "end_char": 73
+                },
+                {
+                    "text": "Statements of Additional Information",
+                    "label": "ORG",
+                    "start_char": 219,
+                    "end_char": 255
+                },
+                {
+                    "text": "the Securities and Exchange Commission",
+                    "label": "ORG",
+                    "start_char": 266,
+                    "end_char": 304
+                },
+                {
+                    "text": "Statements of Additional Information",
+                    "label": "ORG",
+                    "start_char": 376,
+                    "end_char": 412
+                }
+            ]
+        },
+        {
+            "clause_id": 29,
+            "clause_text": "This shall not be construed to prevent Distributors from preparing and distributing sales literature or other material as it may deem appropriate.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 30,
+            "clause_text": "Portfolio Securities - Portfolio securities of the Issuer may be bought or sold by or through Distributors, and Distributors may participate directly or indirectly in brokerage commissions or \u201cspreads\u201d for transactions in portfolio securities of the Issuer.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Portfolio Securities - Portfolio",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 32
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 51,
+                    "end_char": 57
+                },
+                {
+                    "text": "Distributors",
+                    "label": "ORG",
+                    "start_char": 94,
+                    "end_char": 106
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 250,
+                    "end_char": 256
+                }
+            ]
+        },
+        {
+            "clause_id": 31,
+            "clause_text": "Registration of Shares - The Issuer agrees that it will take all action necessary to register shares under the 1933 Act (subject to the necessary approval of its shareholders) so that there will be available for sale the number of shares Distributors may reasonably be expected to sell.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 29,
+                    "end_char": 35
+                }
+            ]
+        },
+        {
+            "clause_id": 32,
+            "clause_text": "The Issuer shall make available to Distributors such number of copies of its currently e\ufb00ective Prospectus and Statement of Additional Information as Distributors may reasonably request.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 4,
+                    "end_char": 10
+                },
+                {
+                    "text": "Prospectus",
+                    "label": "ORG",
+                    "start_char": 96,
+                    "end_char": 106
+                },
+                {
+                    "text": "Statement of Additional Information as Distributors",
+                    "label": "ORG",
+                    "start_char": 111,
+                    "end_char": 162
+                }
+            ]
+        },
+        {
+            "clause_id": 33,
+            "clause_text": "The Issuer shall furnish to Distributors copies of all information, \ufb01nancial statements and other papers which Distributors may reasonably request for use in connection with the distribution of shares of the Issuer.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 4,
+                    "end_char": 10
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 208,
+                    "end_char": 214
+                }
+            ]
+        },
+        {
+            "clause_id": 34,
+            "clause_text": "Expenses - The Issuer shall pay all fees and expenses (a) in connection with the preparation, setting in type and \ufb01ling of any registration statement, Prospectus and Statement of Additional Information under the 1933 Act and amendments for the issue of its shares, (b) in connection with the registration and quali\ufb01cation of shares for sale in the various states in which the Board of Trustees of the Issuer shall determine it advisable to qualify such shares for sale (including registering the Issuer as a broker or dealer or any o\ufb03cer of 11.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 15,
+                    "end_char": 21
+                },
+                {
+                    "text": "Prospectus",
+                    "label": "ORG",
+                    "start_char": 151,
+                    "end_char": 161
+                },
+                {
+                    "text": "Statement of Additional Information",
+                    "label": "ORG",
+                    "start_char": 166,
+                    "end_char": 201
+                },
+                {
+                    "text": "the Board of Trustees",
+                    "label": "ORG",
+                    "start_char": 372,
+                    "end_char": 393
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 401,
+                    "end_char": 407
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 496,
+                    "end_char": 502
+                },
+                {
+                    "text": "11",
+                    "label": "CARDINAL",
+                    "start_char": 541,
+                    "end_char": 543
+                }
+            ]
+        },
+        {
+            "clause_id": 35,
+            "clause_text": "the Issuer as agent or salesman in any state), (c) of preparing, setting in type, printing and mailing any report or other communication to shareholders of the Issuer in their capacity as such, and (d) of preparing, setting in type, printing and mailing Prospectuses, Statements of Additional Information and any supplements thereto sent to existing shareholders.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 4,
+                    "end_char": 10
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 160,
+                    "end_char": 166
+                },
+                {
+                    "text": "Statements of Additional Information",
+                    "label": "ORG",
+                    "start_char": 268,
+                    "end_char": 304
+                }
+            ]
+        },
+        {
+            "clause_id": 36,
+            "clause_text": "As provided in the Distribution and Service Plan adopted by the Issuer, it is recognized by the Issuer that the Adviser or its a\ufb03liates may make payment to Distributors with respect to any expenses incurred in the distribution of shares of the Issuer, such payments payable from the past pro\ufb01ts or other resources of the Adviser or its a\ufb03liates including management fees paid to it by the Issuer.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "the Distribution and Service Plan",
+                    "label": "ORG",
+                    "start_char": 15,
+                    "end_char": 48
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 64,
+                    "end_char": 70
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 96,
+                    "end_char": 102
+                },
+                {
+                    "text": "Adviser",
+                    "label": "PERSON",
+                    "start_char": 112,
+                    "end_char": 119
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 244,
+                    "end_char": 250
+                },
+                {
+                    "text": "Adviser",
+                    "label": "PERSON",
+                    "start_char": 321,
+                    "end_char": 328
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 389,
+                    "end_char": 395
+                }
+            ]
+        },
+        {
+            "clause_id": 37,
+            "clause_text": "Indemni\ufb01cation - The Issuer agrees to indemnify and hold harmless Distributors and each of its directors and o\ufb03cers and each person, if any, who controls Distributors within the meaning of Section 15 of the 1933 Act against any loss, liability, claim, damages or expense (including the reasonable cost of investigating or defending any alleged loss, liability, claim, damages, or expense and reasonable counsel fees incurred in connection therewith) arising by reason of any person acquiring any shares, based upon the ground that the registration statement, Prospectus, Statement of Additional Information, shareholder reports or other information \ufb01led or made public by the Issuer (as from time to time amended) included an untrue statement of a material fact or omitted to state a material fact required to be stated or necessary in order to make the statements not misleading under the 1933 Act, or any other statute or the common law.",
+            "category": "Indemnification",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 21,
+                    "end_char": 27
+                },
+                {
+                    "text": "Section 15 of the",
+                    "label": "LAW",
+                    "start_char": 189,
+                    "end_char": 206
+                },
+                {
+                    "text": "Prospectus",
+                    "label": "ORG",
+                    "start_char": 559,
+                    "end_char": 569
+                },
+                {
+                    "text": "Statement of Additional Information",
+                    "label": "ORG",
+                    "start_char": 571,
+                    "end_char": 606
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 676,
+                    "end_char": 682
+                }
+            ]
+        },
+        {
+            "clause_id": 38,
+            "clause_text": "However, the Issuer does not agree to indemnify Distributors or hold it harmless to the extent that the statement or omission was made in reliance upon, and in conformity with, information furnished to the Issuer by or on behalf of Distributors.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 13,
+                    "end_char": 19
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 206,
+                    "end_char": 212
+                },
+                {
+                    "text": "Distributors",
+                    "label": "ORG",
+                    "start_char": 232,
+                    "end_char": 244
+                }
+            ]
+        },
+        {
+            "clause_id": 39,
+            "clause_text": "In no case (i) is the indemnity of the Issuer in favor of Distributors or any person indemni\ufb01ed to be deemed to protect Distributors or any person against any liability to the Issuer or its security holders to which Distributors or such person would otherwise be subject by reason of willful misfeasance, bad faith or gross negligence in the performance of its duties or by reason of its reckless disregard of its obligations and duties under this Agreement, or (ii) is the Issuer to be liable under its indemnity agreement contained in this paragraph with respect to any claim made against Distributors or any person indemni\ufb01ed unless Distributors or person, as the case may be, shall have noti\ufb01ed the Issuer in writing of the claim within a reasonable time after the summons or other \ufb01rst written noti\ufb01cation giving information of the nature of the claim shall have been served upon Distributors or any such person (or after Distributors or such person shall have received notice of service on any designated agent).",
+            "category": "Notices",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 39,
+                    "end_char": 45
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 176,
+                    "end_char": 182
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 474,
+                    "end_char": 480
+                },
+                {
+                    "text": "noti\ufb01ed",
+                    "label": "PERSON",
+                    "start_char": 691,
+                    "end_char": 698
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 703,
+                    "end_char": 709
+                }
+            ]
+        },
+        {
+            "clause_id": 40,
+            "clause_text": "However, failure to notify the Issuer of any claim shall not relieve the Issuer from any liability which it may have to Distributors or any person against whom such action is brought otherwise than on account of its indemnity agreement contained in this paragraph.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 31,
+                    "end_char": 37
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 73,
+                    "end_char": 79
+                }
+            ]
+        },
+        {
+            "clause_id": 41,
+            "clause_text": "The Issuer shall be entitled to participate at its own expense in the defense, or, if it so elects, to assume the defense of any suit brought to enforce any claims, but if the Issuer elects to assume the defense, the defense shall be conducted by counsel chosen by it and satisfactory to Distributors or person or persons, defendant or defendants in the suit.",
+            "category": "Indemnification",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 4,
+                    "end_char": 10
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 176,
+                    "end_char": 182
+                }
+            ]
+        },
+        {
+            "clause_id": 42,
+            "clause_text": "In the event the Issuer elects to assume the defense of any suit and retain counsel, Distributors, o\ufb03cers or directors or controlling person or persons, defendant or defendants in the suit, shall bear the fees and expenses of any additional counsel retained by them.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 17,
+                    "end_char": 23
+                }
+            ]
+        },
+        {
+            "clause_id": 43,
+            "clause_text": "If the Issuer does not elect to assume the defense of any suit, it will reimburse Distributors, o\ufb03cers or directors or controlling person or persons, defendant or defendants in the suit, for the reasonable fees and expenses of any counsel retained by them.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 7,
+                    "end_char": 13
+                }
+            ]
+        },
+        {
+            "clause_id": 44,
+            "clause_text": "The Issuer agrees to notify Distributors promptly of the 12.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 4,
+                    "end_char": 10
+                },
+                {
+                    "text": "12",
+                    "label": "CARDINAL",
+                    "start_char": 57,
+                    "end_char": 59
+                }
+            ]
+        },
+        {
+            "clause_id": 45,
+            "clause_text": "commencement of any litigation or proceedings against it or any of its o\ufb03cers or trustees in connection with the issuance or sale of any of the shares.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 46,
+            "clause_text": "Distributors also covenants and agrees that it will indemnify and hold harmless the Issuer and each of its Board members and o\ufb03cers and each person, if any, who controls the Issuer within the meaning of Section 15 of the 1933 Act, against any loss, liability, damages, claim or expense (including the reasonable cost of investigating or defending any alleged loss, liability, damages, claim or expense and reasonable counsel fees incurred in connection therewith) arising by reason of any person acquiring any shares, based upon the 1933 Act or any other statute or common law, alleging any wrongful act of Distributors or any of its employees or alleging that the registration statement, Prospectus, Statement of Additional Information, shareholder reports or other information \ufb01led or made public by the Issuer (as from time to time amended) included an untrue statement of a material fact or omitted to state a material fact required to be stated or necessary in order to make the statements not misleading, insofar as the statement or omission was made in reliance upon, and in conformity with information furnished to the Issuer by or on behalf of Distributors.",
+            "category": "Indemnification",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 84,
+                    "end_char": 90
+                },
+                {
+                    "text": "Board",
+                    "label": "ORG",
+                    "start_char": 107,
+                    "end_char": 112
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 174,
+                    "end_char": 180
+                },
+                {
+                    "text": "Section 15 of the 1933 Act",
+                    "label": "LAW",
+                    "start_char": 203,
+                    "end_char": 229
+                },
+                {
+                    "text": "Prospectus",
+                    "label": "ORG",
+                    "start_char": 689,
+                    "end_char": 699
+                },
+                {
+                    "text": "Statement of Additional Information",
+                    "label": "ORG",
+                    "start_char": 701,
+                    "end_char": 736
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 806,
+                    "end_char": 812
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 1127,
+                    "end_char": 1133
+                },
+                {
+                    "text": "Distributors",
+                    "label": "ORG",
+                    "start_char": 1153,
+                    "end_char": 1165
+                }
+            ]
+        },
+        {
+            "clause_id": 47,
+            "clause_text": "In no case (i) is the indemnity of Distributors in favor of the Issuer or any person indemni\ufb01ed to be deemed to protect the Issuer or any person against any liability to which the Issuer or such person would otherwise be subject by reason of willful misfeasance, bad faith or gross negligence in the performance of its duties or by reason of its reckless disregard of its obligations and duties under this Agreement, or (ii) is Distributors to be liable under its indemnity agreement contained in this paragraph with respect to any claim made against the Issuer or any person indemni\ufb01ed unless the Issuer or person, as the case may be, shall have noti\ufb01ed Distributors in writing of the claim within a reasonable time after the summons or other \ufb01rst written noti\ufb01cation giving information of the nature of the claim shall have been served upon the Issuer or any such person (or after the Issuer or such person shall have received notice of service on any designated agent).",
+            "category": "Notices",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 64,
+                    "end_char": 70
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 124,
+                    "end_char": 130
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 180,
+                    "end_char": 186
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 555,
+                    "end_char": 561
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 598,
+                    "end_char": 604
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 847,
+                    "end_char": 853
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 887,
+                    "end_char": 893
+                }
+            ]
+        },
+        {
+            "clause_id": 48,
+            "clause_text": "However, failure to notify Distributors of any claim shall not relieve Distributors from any liability which it may have to the Issuer or any person against whom the action is brought otherwise than on account of its indemnity agreement contained in this paragraph.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 128,
+                    "end_char": 134
+                }
+            ]
+        },
+        {
+            "clause_id": 49,
+            "clause_text": "In the case of any notice to Distributors, it shall be entitled to participate, at its own expense, in the defense or, if it so elects, to assume the defense of any suit brought to enforce the claim, but if Distributors elects to assume the defense, the defense shall be conducted by counsel chosen by it and satisfactory to the Issuer, to its o\ufb03cers and Board and to any controlling person or persons, defendant or defendants in the suit.",
+            "category": "Notices",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 329,
+                    "end_char": 335
+                },
+                {
+                    "text": "Board",
+                    "label": "ORG",
+                    "start_char": 355,
+                    "end_char": 360
+                }
+            ]
+        },
+        {
+            "clause_id": 50,
+            "clause_text": "In the event that Distributors elects to assume the defense of any suit and retain counsel, the Issuer or controlling persons, defendant or defendants in the suit, shall bear the fees and expense of any additional counsel retained by them.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Distributors",
+                    "label": "ORG",
+                    "start_char": 18,
+                    "end_char": 30
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 96,
+                    "end_char": 102
+                }
+            ]
+        },
+        {
+            "clause_id": 51,
+            "clause_text": "If Distributors does not elect to assume the defense of any suit, it will reimburse the Issuer, o\ufb03cers and Board or controlling person or persons, defendant or defendants in the suit, for the reasonable fees and expenses of any counsel retained by them.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 88,
+                    "end_char": 94
+                },
+                {
+                    "text": "Board",
+                    "label": "ORG",
+                    "start_char": 107,
+                    "end_char": 112
+                }
+            ]
+        },
+        {
+            "clause_id": 52,
+            "clause_text": "Distributors agrees to notify the Issuer promptly of the commencement of any litigation or proceedings against it in connection with the issue and sale of any of the shares.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 34,
+                    "end_char": 40
+                }
+            ]
+        },
+        {
+            "clause_id": 53,
+            "clause_text": "E\ufb00ective Date - This agreement shall be e\ufb00ective upon its execution, and unless terminated as provided, shall continue in force until September 30, 2026 and thereafter from year to year, provided continuance is approved annually by the vote of a majority of the Board members of the Issuer, and by the vote of those Board members of the Issuer who are not \u201cinterested persons\u201d of the Issuer and, if a plan under Rule 12b-1 under the Investment 13.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "September 30, 2026",
+                    "label": "DATE",
+                    "start_char": 134,
+                    "end_char": 152
+                },
+                {
+                    "text": "from year to year",
+                    "label": "DATE",
+                    "start_char": 168,
+                    "end_char": 185
+                },
+                {
+                    "text": "annually",
+                    "label": "DATE",
+                    "start_char": 220,
+                    "end_char": 228
+                },
+                {
+                    "text": "Board",
+                    "label": "ORG",
+                    "start_char": 262,
+                    "end_char": 267
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 283,
+                    "end_char": 289
+                },
+                {
+                    "text": "Board",
+                    "label": "ORG",
+                    "start_char": 316,
+                    "end_char": 321
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 337,
+                    "end_char": 343
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 384,
+                    "end_char": 390
+                },
+                {
+                    "text": "Rule 12b-1",
+                    "label": "LAW",
+                    "start_char": 412,
+                    "end_char": 422
+                },
+                {
+                    "text": "the Investment 13",
+                    "label": "LAW",
+                    "start_char": 429,
+                    "end_char": 446
+                }
+            ]
+        },
+        {
+            "clause_id": 54,
+            "clause_text": "14.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "14",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 2
+                }
+            ]
+        },
+        {
+            "clause_id": 55,
+            "clause_text": "15.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "15",
+                    "label": "CARDINAL",
+                    "start_char": 0,
+                    "end_char": 2
+                }
+            ]
+        },
+        {
+            "clause_id": 56,
+            "clause_text": "Company Act of 1940 is in e\ufb00ect, by the vote of those Board members of the Issuer who are not \u201cinterested persons\u201d of the Issuer and who are not parties to the Distribution and Service Plan or this Agreement and have no \ufb01nancial interest in the operation of the Distribution and Service Plan or in any agreements related to the Distribution and Service Plan, cast in person at a meeting called for the purpose of voting on the approval (to the extent required by the 1940 Act).",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "1940",
+                    "label": "DATE",
+                    "start_char": 15,
+                    "end_char": 19
+                },
+                {
+                    "text": "Board",
+                    "label": "ORG",
+                    "start_char": 54,
+                    "end_char": 59
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 75,
+                    "end_char": 81
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 122,
+                    "end_char": 128
+                },
+                {
+                    "text": "the Distribution and Service Plan",
+                    "label": "ORG",
+                    "start_char": 156,
+                    "end_char": 189
+                },
+                {
+                    "text": "Agreement",
+                    "label": "PRODUCT",
+                    "start_char": 198,
+                    "end_char": 207
+                },
+                {
+                    "text": "the Distribution and Service Plan",
+                    "label": "ORG",
+                    "start_char": 258,
+                    "end_char": 291
+                },
+                {
+                    "text": "the Distribution and Service Plan",
+                    "label": "ORG",
+                    "start_char": 324,
+                    "end_char": 357
+                }
+            ]
+        },
+        {
+            "clause_id": 57,
+            "clause_text": "This Agreement shall automatically terminate in the event of its assignment.",
+            "category": "Term and Termination",
+            "entities": []
+        },
+        {
+            "clause_id": 58,
+            "clause_text": "As used in this paragraph, the terms \u201cassignment\u201d and \u201cinterested persons\u201d shall have the respective meanings speci\ufb01ed in the Investment Company Act of 1940 as now in e\ufb00ect or as hereafter amended.",
+            "category": "Assignment",
+            "entities": [
+                {
+                    "text": "the Investment Company Act",
+                    "label": "ORG",
+                    "start_char": 122,
+                    "end_char": 148
+                },
+                {
+                    "text": "1940",
+                    "label": "DATE",
+                    "start_char": 152,
+                    "end_char": 156
+                }
+            ]
+        },
+        {
+            "clause_id": 59,
+            "clause_text": "In addition to termination by failure to approve continuance or by assignment, this Agreement may at any time be terminated by either party upon not less than sixty days\u2019 prior written notice to the other party.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "less than sixty days",
+                    "label": "DATE",
+                    "start_char": 149,
+                    "end_char": 169
+                }
+            ]
+        },
+        {
+            "clause_id": 60,
+            "clause_text": "Notice - Any notice required or permitted to be given by either party to the other shall be deemed su\ufb03cient if sent by registered or certi\ufb01ed mail, postage prepaid, addressed by the party giving notice to the other party at the last address furnished by the other party to the party giving notice: if to the Issuer, at 000 Xxxxxx Xxxxxx, Xxxxxx, Xxxxxxxxxxxxx, and if to Distributors, at 000 Xxxxx Xxxxxx, Xxxxxxxxxx, Xxxxx Xxxxxx.",
+            "category": "Notices",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 308,
+                    "end_char": 314
+                },
+                {
+                    "text": "000",
+                    "label": "CARDINAL",
+                    "start_char": 319,
+                    "end_char": 322
+                },
+                {
+                    "text": "Xxxxxx Xxxxxx",
+                    "label": "LOC",
+                    "start_char": 323,
+                    "end_char": 336
+                },
+                {
+                    "text": "Xxxxxx",
+                    "label": "GPE",
+                    "start_char": 338,
+                    "end_char": 344
+                },
+                {
+                    "text": "Xxxxxxxxxxxxx",
+                    "label": "GPE",
+                    "start_char": 346,
+                    "end_char": 359
+                },
+                {
+                    "text": "Xxxxx Xxxxxx",
+                    "label": "PERSON",
+                    "start_char": 392,
+                    "end_char": 404
+                },
+                {
+                    "text": "Xxxxxxxxxx",
+                    "label": "GPE",
+                    "start_char": 406,
+                    "end_char": 416
+                },
+                {
+                    "text": "Xxxxx Xxxxxx",
+                    "label": "PERSON",
+                    "start_char": 418,
+                    "end_char": 430
+                }
+            ]
+        },
+        {
+            "clause_id": 61,
+            "clause_text": "Limitation of Liability - Distributors is expressly put on notice of the limitation of shareholder liability as set forth in the Declaration of Trust or other organizational document of the Issuer and agrees that the obligations assumed by the Issuer under this contract shall be limited in all cases to the Issuer and its assets.",
+            "category": "Limitation of Liability",
+            "entities": [
+                {
+                    "text": "Limitation of Liability - Distributors",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 38
+                },
+                {
+                    "text": "the Declaration of Trust",
+                    "label": "WORK_OF_ART",
+                    "start_char": 125,
+                    "end_char": 149
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 190,
+                    "end_char": 196
+                },
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 244,
+                    "end_char": 250
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 308,
+                    "end_char": 314
+                }
+            ]
+        },
+        {
+            "clause_id": 62,
+            "clause_text": "Distributors shall not seek satisfaction of any such obligation from the shareholders or any shareholder of the Issuer.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 112,
+                    "end_char": 118
+                }
+            ]
+        },
+        {
+            "clause_id": 63,
+            "clause_text": "Nor shall Distributors seek satisfaction of any such obligation from the Trustees or any individual Trustee of the Issuer.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Trustees",
+                    "label": "PERSON",
+                    "start_char": 73,
+                    "end_char": 81
+                },
+                {
+                    "text": "Issuer",
+                    "label": "NORP",
+                    "start_char": 115,
+                    "end_char": 121
+                }
+            ]
+        },
+        {
+            "clause_id": 64,
+            "clause_text": "Distributors understands that the rights and obligations of each series of shares of the Issuer under the Issuer\u2019s Declaration of Trust or other organizational document are separate and distinct from those of any and all other series.",
+            "category": "Intellectual Property",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 89,
+                    "end_char": 95
+                },
+                {
+                    "text": "the Issuer\u2019s Declaration of Trust",
+                    "label": "LAW",
+                    "start_char": 102,
+                    "end_char": 135
+                }
+            ]
+        },
+        {
+            "clause_id": 65,
+            "clause_text": "This agreement shall be governed by, and construed in accordance with, the laws of the Commonwealth of Massachusetts, without giving e\ufb00ect to the choice of laws provisions thereof.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "the Commonwealth of Massachusetts",
+                    "label": "ORG",
+                    "start_char": 83,
+                    "end_char": 116
+                }
+            ]
+        },
+        {
+            "clause_id": 66,
+            "clause_text": "IN WITNESS WHEREOF, the Issuer has executed this instrument in its name and behalf, and its seal a\ufb03xed, by one of its o\ufb03cers duly authorized, and Distributors has executed this instrument in its name and behalf by one of its o\ufb03cers duly authorized, as of the day and year \ufb01rst above written.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Issuer",
+                    "label": "ORG",
+                    "start_char": 24,
+                    "end_char": 30
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 107,
+                    "end_char": 110
+                },
+                {
+                    "text": "Distributors",
+                    "label": "ORG",
+                    "start_char": 146,
+                    "end_char": 158
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 214,
+                    "end_char": 217
+                },
+                {
+                    "text": "the day and",
+                    "label": "DATE",
+                    "start_char": 255,
+                    "end_char": 266
+                }
+            ]
+        },
+        {
+            "clause_id": 67,
+            "clause_text": "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIDELITY SALEM STREET TRUST By /s/ Xxxxx X.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "FIDELITY SALEM",
+                    "label": "ORG",
+                    "start_char": 78,
+                    "end_char": 92
+                },
+                {
+                    "text": "Xxxxx X.",
+                    "label": "PERSON",
+                    "start_char": 113,
+                    "end_char": 121
+                }
+            ]
+        },
+        {
+            "clause_id": 68,
+            "clause_text": "Del XxxxxXxxxx X.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 69,
+            "clause_text": "Xxx XxxxxPresident and Treasurer FIDELITY DISTRIBUTORS COMPANY LLC By /s/ Xxxxxx X.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Xxx XxxxxPresident",
+                    "label": "PERSON",
+                    "start_char": 0,
+                    "end_char": 18
+                },
+                {
+                    "text": "Treasurer FIDELITY",
+                    "label": "PERSON",
+                    "start_char": 23,
+                    "end_char": 41
+                },
+                {
+                    "text": "Xxxxxx X.",
+                    "label": "PERSON",
+                    "start_char": 74,
+                    "end_char": 83
+                }
+            ]
+        },
+        {
+            "clause_id": 70,
+            "clause_text": "XxxxxxxxxXxxxxx X.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "XxxxxxxxxXxxxxx X.",
+                    "label": "PERSON",
+                    "start_char": 0,
+                    "end_char": 18
+                }
+            ]
+        },
+        {
+            "clause_id": 71,
+            "clause_text": "XxxxxxxxxPresident",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "XxxxxxxxxPresident",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 18
+                }
+            ]
+        }
+    ]
+}

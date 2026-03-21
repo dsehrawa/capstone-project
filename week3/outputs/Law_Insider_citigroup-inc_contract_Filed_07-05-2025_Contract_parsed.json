@@ -1,0 +1,4373 @@
+{
+    "source_file": "Law_Insider_citigroup-inc_contract_Filed_07-05-2025_Contract.pdf",
+    "total_clauses": 172,
+    "clauses": [
+        {
+            "clause_id": 0,
+            "clause_text": "Exhibit 4.01 This Note is a Global Security within the meaning of the Indenture hereinafter referred to and is registered in thename of the Depository named below or a nominee of the Depository.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Global Security",
+                    "label": "ORG",
+                    "start_char": 28,
+                    "end_char": 43
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 70,
+                    "end_char": 79
+                }
+            ]
+        },
+        {
+            "clause_id": 1,
+            "clause_text": "This Note is not exchangeable for Notes registered inthe name of a Person other than the Depository or its nominee except in the limited circumstances described herein and inthe Indenture, and no transfer of this Note (other than a transfer of this Note as a whole by the Depository to a nominee ofthe Depository or by a nominee of the Depository to the Depository or another nominee of the Depository) may beregistered except in the limited circumstances described herein.",
+            "category": "Force Majeure",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 34,
+                    "end_char": 39
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 178,
+                    "end_char": 187
+                },
+                {
+                    "text": "Depository",
+                    "label": "PERSON",
+                    "start_char": 302,
+                    "end_char": 312
+                }
+            ]
+        },
+        {
+            "clause_id": 2,
+            "clause_text": "Unless this certi\ufb01cate is presented by an authorized representative of The Depository Trust Company, a New Yorkcorporation (the \u201cDepository\u201d), to the Company or its agent for registration of transfer, exchange, or payment, and anycerti\ufb01cate issued is registered in the name of Cede & Co.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "The Depository Trust Company",
+                    "label": "ORG",
+                    "start_char": 71,
+                    "end_char": 99
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 150,
+                    "end_char": 157
+                },
+                {
+                    "text": "Cede & Co.",
+                    "label": "ORG",
+                    "start_char": 277,
+                    "end_char": 287
+                }
+            ]
+        },
+        {
+            "clause_id": 3,
+            "clause_text": "or in such other name as is requested by an authorizedrepresentative of the Depository (and any payment is made to Cede & Co.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Cede & Co.",
+                    "label": "ORG",
+                    "start_char": 115,
+                    "end_char": 125
+                }
+            ]
+        },
+        {
+            "clause_id": 4,
+            "clause_text": "or to such other entity as is requested by anauthorized representative of the Depository), ANY TRANSFER, PLEDGE, OR OTHER USE HEREOF FOR VALUE OR OTHERWISE BYOR TO ANY PERSON IS WRONGFUL inasmuch as the registered owner hereof, Cede & Co., has an interest herein.",
+            "category": "Representations and Warranties",
+            "entities": [
+                {
+                    "text": "BYOR",
+                    "label": "ORG",
+                    "start_char": 156,
+                    "end_char": 160
+                },
+                {
+                    "text": "Cede & Co.",
+                    "label": "ORG",
+                    "start_char": 228,
+                    "end_char": 238
+                }
+            ]
+        },
+        {
+            "clause_id": 5,
+            "clause_text": "CITIGROUP INC.4.643% Fixed Rate / Floating Rate Senior Notes due May 7, 2028 REGISTERED REGISTERED CUSIP: 000000XX0ISIN: US172967PZ83 No.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "CITIGROUP",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 9
+                },
+                {
+                    "text": "May 7, 2028",
+                    "label": "DATE",
+                    "start_char": 65,
+                    "end_char": 76
+                }
+            ]
+        },
+        {
+            "clause_id": 6,
+            "clause_text": "R-00* $* CITIGROUP INC., a Delaware corporation (the \u201cCompany\u201d, which term includes any successor Person under theIndenture), for value received, hereby promises to pay to Cede & Co., or registered assigns, the principal sum of $* on May 7,2028 (the \u201cMaturity Date\u201d) and to pay interest thereon from and including May 7, 2025 or from the most recent InterestPayment Date to which interest has been paid or duly provided for.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "CITIGROUP INC.",
+                    "label": "ORG",
+                    "start_char": 9,
+                    "end_char": 23
+                },
+                {
+                    "text": "Delaware",
+                    "label": "GPE",
+                    "start_char": 27,
+                    "end_char": 35
+                },
+                {
+                    "text": "Person",
+                    "label": "PERSON",
+                    "start_char": 98,
+                    "end_char": 104
+                },
+                {
+                    "text": "Cede & Co.",
+                    "label": "ORG",
+                    "start_char": 172,
+                    "end_char": 182
+                },
+                {
+                    "text": "May 7,2028",
+                    "label": "DATE",
+                    "start_char": 234,
+                    "end_char": 244
+                },
+                {
+                    "text": "May 7, 2025",
+                    "label": "DATE",
+                    "start_char": 314,
+                    "end_char": 325
+                },
+                {
+                    "text": "InterestPayment Date",
+                    "label": "ORG",
+                    "start_char": 350,
+                    "end_char": 370
+                }
+            ]
+        },
+        {
+            "clause_id": 7,
+            "clause_text": "The Company shall pay interest (i) from May 7, 2025 to,but excluding, May 7, 2027 (the \u201cFixed Rate Period\u201d) at a \ufb01xed rate of 4.643% per annum semi-annually, on May 7th andNovember 7th of each year (each such date, a \u201cFixed Rate Period Interest Payment Date\u201d), commencing November 7, 2025and (ii) from, and including, November 7, 2027 (the \u201cFloating Rate Period\u201d), at an annual rate equal to Compounded SOFR(and de\ufb01ned on the reverse hereof) plus 1.143% quarterly, on the second business day following each Interest Period EndDate (each such business day, a \u201cFloating Rate Period Interest Payment Date\u201d and together with any Fixed Rate PeriodPayment Date, an \u201cInterest Payment Date\u201d), commencing August 11, 2027, until the principal hereof is paid or madeavailable for payment and provided that the Interest Payment Date with respect to the \ufb01nal Interest Period will be aredemption date or the Maturity Date.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "May 7, 2025",
+                    "label": "DATE",
+                    "start_char": 40,
+                    "end_char": 51
+                },
+                {
+                    "text": "May 7, 2027",
+                    "label": "DATE",
+                    "start_char": 70,
+                    "end_char": 81
+                },
+                {
+                    "text": "4.643%",
+                    "label": "PERCENT",
+                    "start_char": 126,
+                    "end_char": 132
+                },
+                {
+                    "text": "semi-annually",
+                    "label": "DATE",
+                    "start_char": 143,
+                    "end_char": 156
+                },
+                {
+                    "text": "May 7th",
+                    "label": "DATE",
+                    "start_char": 161,
+                    "end_char": 168
+                },
+                {
+                    "text": "7th",
+                    "label": "ORDINAL",
+                    "start_char": 181,
+                    "end_char": 184
+                },
+                {
+                    "text": "November 7, 2025and (ii",
+                    "label": "DATE",
+                    "start_char": 272,
+                    "end_char": 295
+                },
+                {
+                    "text": "November 7, 2027",
+                    "label": "DATE",
+                    "start_char": 318,
+                    "end_char": 334
+                },
+                {
+                    "text": "the \u201cFloating Rate Period",
+                    "label": "EVENT",
+                    "start_char": 336,
+                    "end_char": 361
+                },
+                {
+                    "text": "annual",
+                    "label": "DATE",
+                    "start_char": 371,
+                    "end_char": 377
+                },
+                {
+                    "text": "Compounded",
+                    "label": "PERSON",
+                    "start_char": 392,
+                    "end_char": 402
+                },
+                {
+                    "text": "1.143%",
+                    "label": "PERCENT",
+                    "start_char": 447,
+                    "end_char": 453
+                },
+                {
+                    "text": "quarterly",
+                    "label": "DATE",
+                    "start_char": 454,
+                    "end_char": 463
+                },
+                {
+                    "text": "the second business day",
+                    "label": "DATE",
+                    "start_char": 468,
+                    "end_char": 491
+                },
+                {
+                    "text": "each Interest Period EndDate",
+                    "label": "ORG",
+                    "start_char": 502,
+                    "end_char": 530
+                },
+                {
+                    "text": "Floating Rate Period Interest Payment Date",
+                    "label": "WORK_OF_ART",
+                    "start_char": 559,
+                    "end_char": 601
+                },
+                {
+                    "text": "Fixed Rate PeriodPayment Date",
+                    "label": "ORG",
+                    "start_char": 625,
+                    "end_char": 654
+                },
+                {
+                    "text": "August 11, 2027",
+                    "label": "DATE",
+                    "start_char": 696,
+                    "end_char": 711
+                },
+                {
+                    "text": "the Interest Payment Date",
+                    "label": "ORG",
+                    "start_char": 795,
+                    "end_char": 820
+                },
+                {
+                    "text": "the \ufb01nal Interest Period",
+                    "label": "ORG",
+                    "start_char": 837,
+                    "end_char": 861
+                },
+                {
+                    "text": "the Maturity Date",
+                    "label": "ORG",
+                    "start_char": 890,
+                    "end_char": 907
+                }
+            ]
+        },
+        {
+            "clause_id": 8,
+            "clause_text": "An Interest Period End Date is the 7th of each February, May, August, and November,beginning on August 9, 2027 and ending on a redemption date or the Maturity Date.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "An Interest Period End Date",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 27
+                },
+                {
+                    "text": "the 7th",
+                    "label": "DATE",
+                    "start_char": 31,
+                    "end_char": 38
+                },
+                {
+                    "text": "August",
+                    "label": "DATE",
+                    "start_char": 62,
+                    "end_char": 68
+                },
+                {
+                    "text": "November",
+                    "label": "DATE",
+                    "start_char": 74,
+                    "end_char": 82
+                },
+                {
+                    "text": "August 9, 2027",
+                    "label": "DATE",
+                    "start_char": 96,
+                    "end_char": 110
+                },
+                {
+                    "text": "the Maturity Date",
+                    "label": "ORG",
+                    "start_char": 146,
+                    "end_char": 163
+                }
+            ]
+        },
+        {
+            "clause_id": 9,
+            "clause_text": "The interest so payable, and punctually paid or duly provided for, on any Interest Payment Date will, asprovided in the Indenture, be paid to the Person in whose name this Note is registered at the close of business on the RecordDate for such interest, which shall be the Business Day immediately preceding such Interest Payment Date.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Interest Payment Date",
+                    "label": "ORG",
+                    "start_char": 74,
+                    "end_char": 95
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 120,
+                    "end_char": 129
+                },
+                {
+                    "text": "RecordDate",
+                    "label": "ORG",
+                    "start_char": 223,
+                    "end_char": 233
+                },
+                {
+                    "text": "the Business Day",
+                    "label": "DATE",
+                    "start_char": 268,
+                    "end_char": 284
+                }
+            ]
+        },
+        {
+            "clause_id": 10,
+            "clause_text": "Any suchinterest not so punctually paid or duly provided for will forthwith cease to be payable to the holder on such Record Date andmay either be paid to the Person in whose name this Note is registered at the close of business on a subsequent RecordDate, such subsequent Record Date to be not less than ten days prior to the date of payment of such defaulted interest,notice whereof shall be given to holders of Notes of this series not less than ten days prior to such subsequent Record Date,or be paid at any time in any other lawful manner not inconsistent with the requirements of any securities exchange onwhich the Notes of this series may be listed, and upon such notice as may be required by such exchange, all as more fullyprovided in the Indenture.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Record Date",
+                    "label": "ORG",
+                    "start_char": 118,
+                    "end_char": 129
+                },
+                {
+                    "text": "RecordDate",
+                    "label": "ORG",
+                    "start_char": 245,
+                    "end_char": 255
+                },
+                {
+                    "text": "Record Date",
+                    "label": "ORG",
+                    "start_char": 273,
+                    "end_char": 284
+                },
+                {
+                    "text": "less than ten days",
+                    "label": "DATE",
+                    "start_char": 295,
+                    "end_char": 313
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 414,
+                    "end_char": 419
+                },
+                {
+                    "text": "less than ten days",
+                    "label": "DATE",
+                    "start_char": 439,
+                    "end_char": 457
+                },
+                {
+                    "text": "Record Date",
+                    "label": "ORG",
+                    "start_char": 483,
+                    "end_char": 494
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 623,
+                    "end_char": 628
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 750,
+                    "end_char": 759
+                }
+            ]
+        },
+        {
+            "clause_id": 11,
+            "clause_text": "During the Fixed Rate Period, interest hereon will be calculated on the basis of a 360-day year comprised of twelve 30-daymonths, and an Interest Period shall be the period from and including an Interest Payment Date (or May 7, 2025 in the caseof the \ufb01rst Interest Period) to and including the day immediately preceding the next Interest Payment Date.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Fixed Rate Period",
+                    "label": "EVENT",
+                    "start_char": 7,
+                    "end_char": 28
+                },
+                {
+                    "text": "a 360-day year",
+                    "label": "DATE",
+                    "start_char": 81,
+                    "end_char": 95
+                },
+                {
+                    "text": "twelve",
+                    "label": "CARDINAL",
+                    "start_char": 109,
+                    "end_char": 115
+                },
+                {
+                    "text": "30-daymonths",
+                    "label": "TIME",
+                    "start_char": 116,
+                    "end_char": 128
+                },
+                {
+                    "text": "an Interest Payment Date",
+                    "label": "ORG",
+                    "start_char": 192,
+                    "end_char": 216
+                },
+                {
+                    "text": "May 7, 2025",
+                    "label": "DATE",
+                    "start_char": 221,
+                    "end_char": 232
+                },
+                {
+                    "text": "Interest Period",
+                    "label": "ORG",
+                    "start_char": 256,
+                    "end_char": 271
+                },
+                {
+                    "text": "the day",
+                    "label": "DATE",
+                    "start_char": 290,
+                    "end_char": 297
+                }
+            ]
+        },
+        {
+            "clause_id": 12,
+            "clause_text": "During the FixedRate Period, if an Interest Payment Date falls on a day that is not a Business Day, such Interest Payment Date will be thenext succeeding Business Day, and no further interest will accrue in respect of such postponement.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the FixedRate Period",
+                    "label": "EVENT",
+                    "start_char": 7,
+                    "end_char": 27
+                },
+                {
+                    "text": "an Interest Payment Date",
+                    "label": "ORG",
+                    "start_char": 32,
+                    "end_char": 56
+                },
+                {
+                    "text": "a day",
+                    "label": "DATE",
+                    "start_char": 66,
+                    "end_char": 71
+                },
+                {
+                    "text": "Business Day",
+                    "label": "DATE",
+                    "start_char": 154,
+                    "end_char": 166
+                }
+            ]
+        },
+        {
+            "clause_id": 13,
+            "clause_text": "For these purposes,\u201cBusiness Day\u201d means any day on which commercial banks settle payments and are open for general business in The Cityof New York.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "these purposes,\u201cBusiness Day",
+                    "label": "EVENT",
+                    "start_char": 4,
+                    "end_char": 32
+                },
+                {
+                    "text": "The Cityof New York",
+                    "label": "ORG",
+                    "start_char": 127,
+                    "end_char": 146
+                }
+            ]
+        },
+        {
+            "clause_id": 14,
+            "clause_text": "During the Floating Rate Period, interest hereon will be calculated on the basis of the actual number of days elapsed in aninterest period and a 360-day year, and an Interest Period shall be the period from and including an Interest Period End Date(or May 7, 2027 in the case of the \ufb01rst Interest Period during the Floating Rate Period) to, but excluding, the next succeedingInterest Period End Date",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "WORK_OF_ART",
+                    "start_char": 7,
+                    "end_char": 31
+                },
+                {
+                    "text": "days",
+                    "label": "DATE",
+                    "start_char": 105,
+                    "end_char": 109
+                },
+                {
+                    "text": "a 360-day year",
+                    "label": "DATE",
+                    "start_char": 143,
+                    "end_char": 157
+                },
+                {
+                    "text": "an Interest Period End",
+                    "label": "ORG",
+                    "start_char": 221,
+                    "end_char": 243
+                },
+                {
+                    "text": "May 7, 2027",
+                    "label": "DATE",
+                    "start_char": 252,
+                    "end_char": 263
+                },
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "EVENT",
+                    "start_char": 311,
+                    "end_char": 335
+                }
+            ]
+        },
+        {
+            "clause_id": 15,
+            "clause_text": "provided that the Interest Period following an election by the Company to redeem the Notes andthe \ufb01nal Interest Period will be the period from, and including, the immediately preceding Interest Period End Date to, butexcluding, the redemption date or the Maturity Date",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Interest Period",
+                    "label": "ORG",
+                    "start_char": 14,
+                    "end_char": 33
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 63,
+                    "end_char": 70
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 85,
+                    "end_char": 90
+                },
+                {
+                    "text": "Interest Period End Date",
+                    "label": "ORG",
+                    "start_char": 185,
+                    "end_char": 209
+                },
+                {
+                    "text": "the Maturity Date",
+                    "label": "ORG",
+                    "start_char": 251,
+                    "end_char": 268
+                }
+            ]
+        },
+        {
+            "clause_id": 16,
+            "clause_text": "and provided further that SOFR for each calendar day from, andincluding, the Rate Cut-O\ufb00 Date (as de\ufb01ned on the reverse hereof) to, but excluding, the redemption date or the MaturityDate will equal SOFR in respect of the Rate Cut-O\ufb00 Date.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "SOFR",
+                    "label": "NORP",
+                    "start_char": 26,
+                    "end_char": 30
+                },
+                {
+                    "text": "the Rate Cut-O\ufb00 Date",
+                    "label": "ORG",
+                    "start_char": 73,
+                    "end_char": 93
+                },
+                {
+                    "text": "MaturityDate",
+                    "label": "ORG",
+                    "start_char": 174,
+                    "end_char": 186
+                },
+                {
+                    "text": "SOFR",
+                    "label": "NORP",
+                    "start_char": 198,
+                    "end_char": 202
+                },
+                {
+                    "text": "the Rate Cut-O\ufb00 Date",
+                    "label": "ORG",
+                    "start_char": 217,
+                    "end_char": 237
+                }
+            ]
+        },
+        {
+            "clause_id": 17,
+            "clause_text": "In the event that any Interest Period End Date (other than aredemption date or the Maturity Date) is not a Business Day, then such date will be postponed to the next succeedingBusiness Day, unless that day falls in the next calendar month, in which case the interest period end date will be theimmediately preceding Business Day.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Interest Period End Date",
+                    "label": "ORG",
+                    "start_char": 22,
+                    "end_char": 46
+                },
+                {
+                    "text": "the Maturity Date",
+                    "label": "ORG",
+                    "start_char": 79,
+                    "end_char": 96
+                },
+                {
+                    "text": "a Business Day",
+                    "label": "DATE",
+                    "start_char": 105,
+                    "end_char": 119
+                },
+                {
+                    "text": "that day",
+                    "label": "DATE",
+                    "start_char": 197,
+                    "end_char": 205
+                },
+                {
+                    "text": "the next calendar month",
+                    "label": "DATE",
+                    "start_char": 215,
+                    "end_char": 238
+                },
+                {
+                    "text": "the interest period end",
+                    "label": "DATE",
+                    "start_char": 254,
+                    "end_char": 277
+                }
+            ]
+        },
+        {
+            "clause_id": 18,
+            "clause_text": "For these purposes, \u201cBusiness Day\u201d means any day on which commercial banks settlepayments and are open for general business in The City of New York and a U.S.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "The City of New York",
+                    "label": "GPE",
+                    "start_char": 127,
+                    "end_char": 147
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 154,
+                    "end_char": 158
+                }
+            ]
+        },
+        {
+            "clause_id": 19,
+            "clause_text": "Government Securities Business Day (asde\ufb01ned on the reverse hereof).",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                }
+            ]
+        },
+        {
+            "clause_id": 20,
+            "clause_text": "Dollar amounts resulting from such calculations will be rounded to the nearest cent, with one-half cent being roundedupward.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "one-half cent",
+                    "label": "MONEY",
+                    "start_char": 90,
+                    "end_char": 103
+                }
+            ]
+        },
+        {
+            "clause_id": 21,
+            "clause_text": "In the event that the Maturity Date or a redemption date is not a Business Day, then such date will be postponed tothe next succeeding Business Day, and no further interest will accrue with respect to such postponement.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "the Maturity Date",
+                    "label": "ORG",
+                    "start_char": 18,
+                    "end_char": 35
+                },
+                {
+                    "text": "a Business Day",
+                    "label": "DATE",
+                    "start_char": 64,
+                    "end_char": 78
+                },
+                {
+                    "text": "Business Day",
+                    "label": "DATE",
+                    "start_char": 135,
+                    "end_char": 147
+                }
+            ]
+        },
+        {
+            "clause_id": 22,
+            "clause_text": "No interest willaccrue on any amounts payable for the period from and after the due date for payment of such principal or interest.",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 23,
+            "clause_text": "Payment of the principal of and interest on this Note will be made at the o\ufb03ce or agency of the paying agent maintained forthat purpose in The City of New York.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "The City of New York",
+                    "label": "GPE",
+                    "start_char": 139,
+                    "end_char": 159
+                }
+            ]
+        },
+        {
+            "clause_id": 24,
+            "clause_text": "Reference is hereby made to the further provisions of this Note set forth on the reverse hereof, which further provisions shallfor all purposes have the same e\ufb00ect as if set forth at this place.",
+            "category": "Severability",
+            "entities": []
+        },
+        {
+            "clause_id": 25,
+            "clause_text": "Unless the certi\ufb01cate of authentication hereon has been executed by the Trustee or by an authenticating agent on behalf ofthe Trustee by manual signature, this Note shall not be entitled to any bene\ufb01t under the Indenture or be valid or obligatoryfor any purpose.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 72,
+                    "end_char": 79
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 126,
+                    "end_char": 133
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 211,
+                    "end_char": 220
+                }
+            ]
+        },
+        {
+            "clause_id": 26,
+            "clause_text": "IN WITNESS WHEREOF, the Company has caused this instrument to be duly executed under its corporate seal.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 24,
+                    "end_char": 31
+                }
+            ]
+        },
+        {
+            "clause_id": 27,
+            "clause_text": "Dated: May 7, 2025 CITIGROUP INC.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "May 7, 2025",
+                    "label": "DATE",
+                    "start_char": 7,
+                    "end_char": 18
+                },
+                {
+                    "text": "CITIGROUP INC",
+                    "label": "ORG",
+                    "start_char": 19,
+                    "end_char": 32
+                }
+            ]
+        },
+        {
+            "clause_id": 28,
+            "clause_text": "By: Name: Title: ATTEST: By: Name: Title: This is one of the Notes of the series issued under the within-mentioned Indenture.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 50,
+                    "end_char": 53
+                }
+            ]
+        },
+        {
+            "clause_id": 29,
+            "clause_text": "Dated: May 7, 2025 THE BANK OF NEW YORK MELLON,as Trustee By: Name: Title: -or- CITIBANK, N.A.,as Authenticating Agent By: Name: Title: This Note is one of a duly authorized issue of Securities of the Company (the \u201cNotes\u201d), issued and to be issued in one ormore series under the senior debt indenture, dated as of November 13, 2013 (as amended and supplemented from time totime, the \u201cIndenture\u201d), between the Company and The Bank of New York Mellon, as trustee (the \u201cTrustee\u201d, which termincludes any successor trustee under the Indenture), to which Indenture and all indentures supplemental thereto reference ishereby made for a statement of the respective rights, limitations of rights, duties and immunities thereunder of theCompany, the Trustee and the holders of the Notes and of the terms upon which the Notes are, and are to be, authenticatedand delivered.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "May 7, 2025",
+                    "label": "DATE",
+                    "start_char": 7,
+                    "end_char": 18
+                },
+                {
+                    "text": "THE BANK OF NEW YORK MELLON",
+                    "label": "ORG",
+                    "start_char": 19,
+                    "end_char": 46
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 50,
+                    "end_char": 57
+                },
+                {
+                    "text": "N.A.,as Authenticating",
+                    "label": "ORG",
+                    "start_char": 90,
+                    "end_char": 112
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 149,
+                    "end_char": 152
+                },
+                {
+                    "text": "Securities of the Company",
+                    "label": "ORG",
+                    "start_char": 183,
+                    "end_char": 208
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 215,
+                    "end_char": 220
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 251,
+                    "end_char": 254
+                },
+                {
+                    "text": "November 13, 2013",
+                    "label": "DATE",
+                    "start_char": 314,
+                    "end_char": 331
+                },
+                {
+                    "text": "Indenture",
+                    "label": "WORK_OF_ART",
+                    "start_char": 384,
+                    "end_char": 393
+                },
+                {
+                    "text": "The Bank of New York Mellon",
+                    "label": "ORG",
+                    "start_char": 421,
+                    "end_char": 448
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 467,
+                    "end_char": 474
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 528,
+                    "end_char": 537
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 549,
+                    "end_char": 558
+                },
+                {
+                    "text": "theCompany",
+                    "label": "ORG",
+                    "start_char": 724,
+                    "end_char": 734
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 740,
+                    "end_char": 747
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 771,
+                    "end_char": 776
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 809,
+                    "end_char": 814
+                }
+            ]
+        },
+        {
+            "clause_id": 30,
+            "clause_text": "This Note is one of the series designated on the face hereof, initially limited in aggregate principal to$2,350,000,000.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 13,
+                    "end_char": 16
+                },
+                {
+                    "text": "to$2,350,000,000",
+                    "label": "PRODUCT",
+                    "start_char": 103,
+                    "end_char": 119
+                }
+            ]
+        },
+        {
+            "clause_id": 31,
+            "clause_text": "During the Floating Rate Period, this Note will bear interest for each Interest Period at a rate determined by a CalculationAgent that will be appointed prior to the \ufb01rst Interest Period End Date.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "WORK_OF_ART",
+                    "start_char": 7,
+                    "end_char": 31
+                },
+                {
+                    "text": "each Interest Period",
+                    "label": "ORG",
+                    "start_char": 66,
+                    "end_char": 86
+                },
+                {
+                    "text": "CalculationAgent",
+                    "label": "ORG",
+                    "start_char": 113,
+                    "end_char": 129
+                },
+                {
+                    "text": "the \ufb01rst Interest Period End Date",
+                    "label": "ORG",
+                    "start_char": 162,
+                    "end_char": 195
+                }
+            ]
+        },
+        {
+            "clause_id": 32,
+            "clause_text": "The interest rate on this Note for a particular InterestPeriod during the Floating Rate Period will be a per annum rate equal to Compounded SOFR (as de\ufb01ned below) plus 1.143%.Interest during the Floating Rate Period will be calculated by multiplying the principal amount of the Notes by the product of(i) Compounded SOFR plus 1.143% multiplied by (ii) the quotient of actual number of calendar days in such interest perioddivided by 360",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "InterestPeriod",
+                    "label": "ORG",
+                    "start_char": 48,
+                    "end_char": 62
+                },
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "WORK_OF_ART",
+                    "start_char": 70,
+                    "end_char": 94
+                },
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "EVENT",
+                    "start_char": 191,
+                    "end_char": 215
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 278,
+                    "end_char": 283
+                },
+                {
+                    "text": "1.143%",
+                    "label": "PERCENT",
+                    "start_char": 326,
+                    "end_char": 332
+                },
+                {
+                    "text": "360",
+                    "label": "CARDINAL",
+                    "start_char": 433,
+                    "end_char": 436
+                }
+            ]
+        },
+        {
+            "clause_id": 33,
+            "clause_text": "provided that in no event will the interest payable on the Notes be less than zero.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 59,
+                    "end_char": 64
+                },
+                {
+                    "text": "less than zero",
+                    "label": "CARDINAL",
+                    "start_char": 68,
+                    "end_char": 82
+                }
+            ]
+        },
+        {
+            "clause_id": 34,
+            "clause_text": "Promptly upondetermination, the Calculation Agent will inform the Trustee and the Company of the interest rate for the next InterestPeriod.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 66,
+                    "end_char": 73
+                }
+            ]
+        },
+        {
+            "clause_id": 35,
+            "clause_text": "Absent manifest error, the determination of the interest rate by the Calculation Agent shall be binding and conclusiveon the holders of Notes, the Trustee and the Company.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 136,
+                    "end_char": 141
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 147,
+                    "end_char": 154
+                }
+            ]
+        },
+        {
+            "clause_id": 36,
+            "clause_text": "Nothing herein or in the Indenture shall obligate the Trustee to act asthe Calculation Agent hereunder.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 54,
+                    "end_char": 61
+                }
+            ]
+        },
+        {
+            "clause_id": 37,
+            "clause_text": "For the purposes of calculating interest with respect to any Interest Period during the Floating Rate Period: \u201cCompounded SOFR\u201d means a rate of return of a daily compounded interest investment calculated in accordance withthe formula below, with the resulting percentage being rounded, if necessary, to the nearest one hundred-thousandth of apercentage point (0.00000005 being rounded upwards): where \u201cdo\u201d, for any Interest Period, is the number of U.S.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Interest Period",
+                    "label": "ORG",
+                    "start_char": 61,
+                    "end_char": 76
+                },
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "WORK_OF_ART",
+                    "start_char": 84,
+                    "end_char": 108
+                },
+                {
+                    "text": "daily",
+                    "label": "DATE",
+                    "start_char": 156,
+                    "end_char": 161
+                },
+                {
+                    "text": "one hundred-thousandth",
+                    "label": "QUANTITY",
+                    "start_char": 315,
+                    "end_char": 337
+                },
+                {
+                    "text": "0.00000005",
+                    "label": "CARDINAL",
+                    "start_char": 360,
+                    "end_char": 370
+                },
+                {
+                    "text": "Interest Period",
+                    "label": "ORG",
+                    "start_char": 415,
+                    "end_char": 430
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 449,
+                    "end_char": 453
+                }
+            ]
+        },
+        {
+            "clause_id": 38,
+            "clause_text": "Government Securities Business Days in the relevant Interest Period.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Government Securities Business Days",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 35
+                }
+            ]
+        },
+        {
+            "clause_id": 39,
+            "clause_text": "\u201ci\u201d is a series of whole numbers from one to do, each representing the relevant U.S.",
+            "category": "Representations and Warranties",
+            "entities": [
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 80,
+                    "end_char": 84
+                }
+            ]
+        },
+        {
+            "clause_id": 40,
+            "clause_text": "Government Securities BusinessDays in chronological order from, and including, the \ufb01rst U.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 88,
+                    "end_char": 92
+                }
+            ]
+        },
+        {
+            "clause_id": 41,
+            "clause_text": "Government Securities Business Day in the relevant InterestPeriod.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                },
+                {
+                    "text": "InterestPeriod",
+                    "label": "ORG",
+                    "start_char": 51,
+                    "end_char": 65
+                }
+            ]
+        },
+        {
+            "clause_id": 42,
+            "clause_text": "\u201cSOFRi\u201d, for any day \u201ci\u201d in the relevant Interest Period, is a reference rate equal to SOFR in respect of that day.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "SOFR",
+                    "label": "NORP",
+                    "start_char": 87,
+                    "end_char": 91
+                },
+                {
+                    "text": "that day",
+                    "label": "DATE",
+                    "start_char": 106,
+                    "end_char": 114
+                }
+            ]
+        },
+        {
+            "clause_id": 43,
+            "clause_text": "\u201cni\u201d, for any day \u201ci\u201d in the relevant Interest Period, is the number of calendar days from, and including, such U.S.Government Securities Business Day \u201ci\u201d to, but excluding, the following U.S.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "U.S.Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 112,
+                    "end_char": 150
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 188,
+                    "end_char": 192
+                }
+            ]
+        },
+        {
+            "clause_id": 44,
+            "clause_text": "Government Securities Business Day.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                }
+            ]
+        },
+        {
+            "clause_id": 45,
+            "clause_text": "\u201cd\u201d is the number of calendar days in the relevant Interest Period.",
+            "category": "Term and Termination",
+            "entities": []
+        },
+        {
+            "clause_id": 46,
+            "clause_text": "\u201cU.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 1,
+                    "end_char": 5
+                }
+            ]
+        },
+        {
+            "clause_id": 47,
+            "clause_text": "Government Securities Business Day\u201d means any day except for a Saturday, Sunday or a day on which theSecurities Industry and Financial Markets Association (SIFMA) recommends that the \ufb01xed income departments of itsmembers be closed for the entire day for purposes of trading in U.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                },
+                {
+                    "text": "Saturday, Sunday or a day",
+                    "label": "DATE",
+                    "start_char": 63,
+                    "end_char": 88
+                },
+                {
+                    "text": "theSecurities Industry and Financial Markets Association",
+                    "label": "ORG",
+                    "start_char": 98,
+                    "end_char": 154
+                },
+                {
+                    "text": "the entire day",
+                    "label": "DATE",
+                    "start_char": 235,
+                    "end_char": 249
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 277,
+                    "end_char": 281
+                }
+            ]
+        },
+        {
+            "clause_id": 48,
+            "clause_text": "government securities.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 49,
+            "clause_text": "\u201cSOFR\u201d means, with respect to any day, the rate determined by the Calculation Agent in accordance with the followingprovisions: (1) the Secured Overnight Financing Rate for trades made on such day that appears at approximately 3:00 p.m.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "SOFR",
+                    "label": "NORP",
+                    "start_char": 1,
+                    "end_char": 5
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 129,
+                    "end_char": 130
+                },
+                {
+                    "text": "such day",
+                    "label": "DATE",
+                    "start_char": 188,
+                    "end_char": 196
+                },
+                {
+                    "text": "approximately 3:00 p.m.",
+                    "label": "TIME",
+                    "start_char": 213,
+                    "end_char": 236
+                }
+            ]
+        },
+        {
+            "clause_id": 50,
+            "clause_text": "(NewYork City time) on the NY Federal Reserve\u2019s Website on the U.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "NewYork City",
+                    "label": "GPE",
+                    "start_char": 1,
+                    "end_char": 13
+                },
+                {
+                    "text": "the NY Federal Reserve\u2019s",
+                    "label": "ORG",
+                    "start_char": 23,
+                    "end_char": 47
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 63,
+                    "end_char": 67
+                }
+            ]
+        },
+        {
+            "clause_id": 51,
+            "clause_text": "Government Securities Business Day immediatelyfollowing such day (\u201cSOFR Determination Time\u201d)",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                }
+            ]
+        },
+        {
+            "clause_id": 52,
+            "clause_text": "or (2) if the rate speci\ufb01ed in (1) above does not so appear, unless a Benchmark Transition Event and its related BenchmarkReplacement Date have occurred as described in (3) below, the Secured Overnight Financing Rate published on the NYFederal Reserve\u2019s Website for the \ufb01rst preceding U.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 32,
+                    "end_char": 33
+                },
+                {
+                    "text": "BenchmarkReplacement Date",
+                    "label": "ORG",
+                    "start_char": 113,
+                    "end_char": 138
+                },
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 170,
+                    "end_char": 171
+                },
+                {
+                    "text": "the Secured Overnight Financing Rate",
+                    "label": "LAW",
+                    "start_char": 180,
+                    "end_char": 216
+                },
+                {
+                    "text": "the NYFederal Reserve\u2019s",
+                    "label": "ORG",
+                    "start_char": 230,
+                    "end_char": 253
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 285,
+                    "end_char": 289
+                }
+            ]
+        },
+        {
+            "clause_id": 53,
+            "clause_text": "Government Securities Business Day for which the SecuredOvernight Financing Rate was published on the NY Federal Reserve\u2019s Website",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                },
+                {
+                    "text": "the SecuredOvernight Financing Rate",
+                    "label": "ORG",
+                    "start_char": 45,
+                    "end_char": 80
+                },
+                {
+                    "text": "the NY Federal Reserve\u2019s",
+                    "label": "ORG",
+                    "start_char": 98,
+                    "end_char": 122
+                }
+            ]
+        },
+        {
+            "clause_id": 54,
+            "clause_text": "or (3) if a Benchmark Transition Event and its related Benchmark Replacement Date have occurred prior to the relevantinterest period end date, the Calculation Agent will use the Benchmark Replacement to determine the rate and for allother purposes relating to the Notes.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "Benchmark Replacement Date",
+                    "label": "ORG",
+                    "start_char": 55,
+                    "end_char": 81
+                },
+                {
+                    "text": "the Benchmark Replacement",
+                    "label": "LOC",
+                    "start_char": 174,
+                    "end_char": 199
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 264,
+                    "end_char": 269
+                }
+            ]
+        },
+        {
+            "clause_id": 55,
+            "clause_text": "In connection with the Compounded SOFR de\ufb01nition above, the following de\ufb01nitions apply: \u201cBenchmark\u201d means, initially, Compounded SOFR",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 56,
+            "clause_text": "provided that if the Company (or one of its a\ufb03liates) determinesthat on or prior to the Reference Time that a Benchmark Transition Event and its related Benchmark Replacement Date haveoccurred with respect to Compounded SOFR or the then-current Benchmark, then \u201cBenchmark\u201d means the applicableBenchmark Replacement.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 33,
+                    "end_char": 36
+                },
+                {
+                    "text": "the Reference Time",
+                    "label": "ORG",
+                    "start_char": 84,
+                    "end_char": 102
+                },
+                {
+                    "text": "Benchmark Replacement Date",
+                    "label": "ORG",
+                    "start_char": 153,
+                    "end_char": 179
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 245,
+                    "end_char": 254
+                }
+            ]
+        },
+        {
+            "clause_id": 57,
+            "clause_text": "\u201cBenchmark Replacement\u201d means the \ufb01rst alternative set forth in the order below that can be determined by Citigroup(or one of its a\ufb03liates) as of the Benchmark Replacement Date: (1) the sum of: (a) the alternate rate of interest that has been selected or recommended by the Relevant GovernmentalBody as the replacement for the then-current Benchmark and (b) the Benchmark Replacement Adjustment",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Benchmark Replacement Date",
+                    "label": "ORG",
+                    "start_char": 146,
+                    "end_char": 176
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 179,
+                    "end_char": 180
+                },
+                {
+                    "text": "the Relevant GovernmentalBody",
+                    "label": "ORG",
+                    "start_char": 270,
+                    "end_char": 299
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 340,
+                    "end_char": 349
+                },
+                {
+                    "text": "the Benchmark Replacement Adjustment",
+                    "label": "ORG",
+                    "start_char": 358,
+                    "end_char": 394
+                }
+            ]
+        },
+        {
+            "clause_id": 58,
+            "clause_text": "or (2) the sum of: (a) the ISDA Fallback Rate and (b) the Benchmark Replacement Adjustment",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "the Benchmark Replacement Adjustment",
+                    "label": "ORG",
+                    "start_char": 54,
+                    "end_char": 90
+                }
+            ]
+        },
+        {
+            "clause_id": 59,
+            "clause_text": "or (3) the sum of: (a) the alternate rate of interest that has been selected by the Company (or one of its a\ufb03liates) as thereplacement for the then-current Benchmark giving due consideration to any industry-accepted rate of interest as areplacement for the then-current Benchmark for U.S.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 96,
+                    "end_char": 99
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 156,
+                    "end_char": 165
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 270,
+                    "end_char": 279
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 284,
+                    "end_char": 288
+                }
+            ]
+        },
+        {
+            "clause_id": 60,
+            "clause_text": "dollar-denominated \ufb02oating rate notes at such time and (b) theBenchmark Replacement Adjustment.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "theBenchmark Replacement Adjustment",
+                    "label": "ORG",
+                    "start_char": 59,
+                    "end_char": 94
+                }
+            ]
+        },
+        {
+            "clause_id": 61,
+            "clause_text": "\u201cBenchmark Replacement Adjustment\u201d means the \ufb01rst alternative set forth in the order below that can be determinedby the Company (or one of its a\ufb03liates) as of the Benchmark Replacement Date: (1) the spread adjustment, or method for calculating or determining such spread adjustment, (which may be a positiveor negative value or zero) that has been selected or recommended by the Relevant Governmental Body for theapplicable Unadjusted Benchmark Replacement",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 132,
+                    "end_char": 135
+                },
+                {
+                    "text": "the Benchmark Replacement Date",
+                    "label": "ORG",
+                    "start_char": 159,
+                    "end_char": 189
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 192,
+                    "end_char": 193
+                },
+                {
+                    "text": "zero",
+                    "label": "CARDINAL",
+                    "start_char": 328,
+                    "end_char": 332
+                },
+                {
+                    "text": "the Relevant Governmental Body",
+                    "label": "ORG",
+                    "start_char": 375,
+                    "end_char": 405
+                }
+            ]
+        },
+        {
+            "clause_id": 62,
+            "clause_text": "(2) if the applicable Unadjusted Benchmark Replacement is equivalent to the ISDA Fallback Rate, then the ISDA FallbackAdjustment",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Unadjusted Benchmark Replacement",
+                    "label": "FAC",
+                    "start_char": 22,
+                    "end_char": 54
+                }
+            ]
+        },
+        {
+            "clause_id": 63,
+            "clause_text": "(3) the spread adjustment (which may be a positive or negative value or zero) that has been selected by the Company(or one of its a\ufb03liates) giving due consideration to any industry-accepted spread adjustment, or method for calculatingor determining such spread adjustment, for the replacement of the then-current Benchmark with the applicableUnadjusted Benchmark Replacement for U.S.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "zero",
+                    "label": "CARDINAL",
+                    "start_char": 72,
+                    "end_char": 76
+                },
+                {
+                    "text": "Company(or",
+                    "label": "PERSON",
+                    "start_char": 108,
+                    "end_char": 118
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 313,
+                    "end_char": 322
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 379,
+                    "end_char": 383
+                }
+            ]
+        },
+        {
+            "clause_id": 64,
+            "clause_text": "dollar-denominated \ufb02oating rate notes at such time.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 65,
+            "clause_text": "\u201cBenchmark Replacement Conforming Changes\u201d means, with respect to any Benchmark Replacement, any technical,administrative or operational changes that the Company (or one of its a\ufb03liates) decides may be appropriate to re\ufb02ect theadoption of such Benchmark Replacement in a manner substantially consistent with market practice (or, if the Company (orsuch a\ufb03liate) decides that adoption of any portion of such market practice is not administratively feasible or if the Company(or such a\ufb03liate) determines that no market practice for use of the Benchmark Replacement exists, in such other manner asthe Company (or such a\ufb03liate) determines is reasonably necessary).",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Benchmark Replacement",
+                    "label": "ORG",
+                    "start_char": 70,
+                    "end_char": 91
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 166,
+                    "end_char": 169
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 336,
+                    "end_char": 343
+                },
+                {
+                    "text": "Company(or",
+                    "label": "PERSON",
+                    "start_char": 465,
+                    "end_char": 475
+                }
+            ]
+        },
+        {
+            "clause_id": 66,
+            "clause_text": "\u201cBenchmark Replacement Date\u201d means the earliest to occur of the following events with respect to the then-currentBenchmark: (1) in the case of clause (1) or (2) of the de\ufb01nition of \u201cBenchmark Transition Event,\u201d the later of (a) the date of thepublic statement or publication of information referenced therein and (b) the date on which the administrator of theBenchmark permanently or inde\ufb01nitely ceases to provide the Benchmark",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 125,
+                    "end_char": 126
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 151,
+                    "end_char": 152
+                },
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 158,
+                    "end_char": 159
+                },
+                {
+                    "text": "theBenchmark",
+                    "label": "ORG",
+                    "start_char": 356,
+                    "end_char": 368
+                }
+            ]
+        },
+        {
+            "clause_id": 67,
+            "clause_text": "or (2) in the case of clause (3) of the de\ufb01nition of \u201cBenchmark Transition Event,\u201d the date of the public statement orpublication of information referenced therein.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 30,
+                    "end_char": 31
+                }
+            ]
+        },
+        {
+            "clause_id": 68,
+            "clause_text": "For the avoidance of doubt, if the event giving rise to the Benchmark Replacement Date occurs on the same day as, butearlier than, the Reference Time in respect of any determination, the Benchmark Replacement Date will be deemed to haveoccurred prior to the Reference Time for such determination.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Benchmark Replacement Date",
+                    "label": "ORG",
+                    "start_char": 56,
+                    "end_char": 86
+                },
+                {
+                    "text": "the same day",
+                    "label": "DATE",
+                    "start_char": 97,
+                    "end_char": 109
+                },
+                {
+                    "text": "the Reference Time",
+                    "label": "ORG",
+                    "start_char": 131,
+                    "end_char": 149
+                },
+                {
+                    "text": "the Benchmark Replacement Date",
+                    "label": "ORG",
+                    "start_char": 183,
+                    "end_char": 213
+                },
+                {
+                    "text": "the Reference Time",
+                    "label": "ORG",
+                    "start_char": 254,
+                    "end_char": 272
+                }
+            ]
+        },
+        {
+            "clause_id": 69,
+            "clause_text": "\u201cBenchmark Transition Event\u201d means the occurrence of one or more of the following events with respect to the then-current Benchmark: (1) a public statement or publication of information by or on behalf of the administrator of the Benchmark announcingthat such administrator has ceased or will cease to provide the Benchmark, permanently or inde\ufb01nitely, provided that,at the time of such statement or publication, there is no successor administrator that will continue to provide theBenchmark",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 53,
+                    "end_char": 56
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 122,
+                    "end_char": 131
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 134,
+                    "end_char": 135
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 230,
+                    "end_char": 239
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 314,
+                    "end_char": 323
+                },
+                {
+                    "text": "theBenchmark",
+                    "label": "ORG",
+                    "start_char": 479,
+                    "end_char": 491
+                }
+            ]
+        },
+        {
+            "clause_id": 70,
+            "clause_text": "(2) a public statement or publication of information by the regulatory supervisor for the administrator of theBenchmark, the central bank for the currency of the Benchmark, an insolvency o\ufb03cial with jurisdiction over theadministrator for the Benchmark, a resolution authority with jurisdiction over the administrator for the Benchmark or acourt or an entity with similar insolvency or resolution authority over the administrator for the Benchmark, which statesthat the administrator of the Benchmark has ceased or will cease to provide the Benchmark permanently orinde\ufb01nitely, provided that, at the time of such statement or publication, there is no successor administrator that willcontinue to provide the Benchmark",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "theBenchmark",
+                    "label": "ORG",
+                    "start_char": 107,
+                    "end_char": 119
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 162,
+                    "end_char": 171
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 242,
+                    "end_char": 251
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 325,
+                    "end_char": 334
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 437,
+                    "end_char": 446
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 490,
+                    "end_char": 499
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 540,
+                    "end_char": 549
+                }
+            ]
+        },
+        {
+            "clause_id": 71,
+            "clause_text": "or (3) a public statement or publication of information by the regulatory supervisor for the administrator of the Benchmarkannouncing that the Benchmark is no longer representative.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "Benchmarkannouncing",
+                    "label": "ORG",
+                    "start_char": 114,
+                    "end_char": 133
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 143,
+                    "end_char": 152
+                }
+            ]
+        },
+        {
+            "clause_id": 72,
+            "clause_text": "\u201cBusiness Day\u201d means any weekday that is not a legal holiday in New York City and is not a day on which bankinginstitutions in New York City are authorized or required by law or regulation to be closed and is a U.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "weekday",
+                    "label": "DATE",
+                    "start_char": 25,
+                    "end_char": 32
+                },
+                {
+                    "text": "New York City",
+                    "label": "GPE",
+                    "start_char": 64,
+                    "end_char": 77
+                },
+                {
+                    "text": "New York City",
+                    "label": "GPE",
+                    "start_char": 127,
+                    "end_char": 140
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 211,
+                    "end_char": 215
+                }
+            ]
+        },
+        {
+            "clause_id": 73,
+            "clause_text": "Government SecuritiesBusiness Day.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 74,
+            "clause_text": "\u201cISDA\u201d means the International Swaps and Derivatives Association, Inc.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "ISDA",
+                    "label": "ORG",
+                    "start_char": 1,
+                    "end_char": 5
+                },
+                {
+                    "text": "the International Swaps and Derivatives Association, Inc.",
+                    "label": "LAW",
+                    "start_char": 13,
+                    "end_char": 70
+                }
+            ]
+        },
+        {
+            "clause_id": 75,
+            "clause_text": "or any successor thereto.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 76,
+            "clause_text": "\u201cISDA De\ufb01nitions\u201d means the 2006 ISDA De\ufb01nitions published by ISDA, as amended or supplemented from time totime, or any successor de\ufb01nitional booklet for interest rate derivatives published from time to time.",
+            "category": "Amendments",
+            "entities": [
+                {
+                    "text": "2006",
+                    "label": "DATE",
+                    "start_char": 28,
+                    "end_char": 32
+                },
+                {
+                    "text": "ISDA",
+                    "label": "ORG",
+                    "start_char": 62,
+                    "end_char": 66
+                }
+            ]
+        },
+        {
+            "clause_id": 77,
+            "clause_text": "\u201cISDA Fallback Adjustment\u201d means the spread adjustment (which may be a positive or negative value or zero) thatwould apply for derivatives transactions referencing the ISDA De\ufb01nitions to be determined upon the occurrence of an indexcessation event with respect to the Benchmark for the applicable tenor.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "zero",
+                    "label": "CARDINAL",
+                    "start_char": 101,
+                    "end_char": 105
+                },
+                {
+                    "text": "the ISDA De\ufb01nitions",
+                    "label": "ORG",
+                    "start_char": 164,
+                    "end_char": 183
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 268,
+                    "end_char": 277
+                }
+            ]
+        },
+        {
+            "clause_id": 78,
+            "clause_text": "\u201cISDA Fallback Rate\u201d means the rate that would apply for derivatives transactions referencing the ISDA De\ufb01nitions tobe e\ufb00ective upon the occurrence of an index cessation date with respect to the Benchmark for the applicable tenor excludingthe applicable ISDA Fallback Adjustment.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "the ISDA De\ufb01nitions",
+                    "label": "ORG",
+                    "start_char": 94,
+                    "end_char": 113
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 195,
+                    "end_char": 204
+                },
+                {
+                    "text": "ISDA Fallback Adjustment",
+                    "label": "ORG",
+                    "start_char": 254,
+                    "end_char": 278
+                }
+            ]
+        },
+        {
+            "clause_id": 79,
+            "clause_text": "\u201cNY Federal Reserve\u201d means the Federal Reserve Bank of New York.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "NY Federal Reserve",
+                    "label": "ORG",
+                    "start_char": 1,
+                    "end_char": 19
+                },
+                {
+                    "text": "the Federal Reserve Bank",
+                    "label": "ORG",
+                    "start_char": 27,
+                    "end_char": 51
+                },
+                {
+                    "text": "New York",
+                    "label": "GPE",
+                    "start_char": 55,
+                    "end_char": 63
+                }
+            ]
+        },
+        {
+            "clause_id": 80,
+            "clause_text": "\u201cNY Federal Reserve\u2019s Website\u201d means the website of the NY Federal Reserve, currently at xxxx://xxx.xxxxxxxxxx.xxx,or any successor website of the NY Federal Reserve or the website of any successor administrator of the Secured OvernightFinancing Rate.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "NY Federal Reserve\u2019s",
+                    "label": "ORG",
+                    "start_char": 1,
+                    "end_char": 21
+                },
+                {
+                    "text": "the NY Federal Reserve",
+                    "label": "ORG",
+                    "start_char": 52,
+                    "end_char": 74
+                },
+                {
+                    "text": "xxxx://xxx.xxxxxxxxxx.xxx",
+                    "label": "ORG",
+                    "start_char": 89,
+                    "end_char": 114
+                },
+                {
+                    "text": "the NY Federal Reserve",
+                    "label": "ORG",
+                    "start_char": 143,
+                    "end_char": 165
+                },
+                {
+                    "text": "the Secured OvernightFinancing Rate",
+                    "label": "ORG",
+                    "start_char": 215,
+                    "end_char": 250
+                }
+            ]
+        },
+        {
+            "clause_id": 81,
+            "clause_text": "\u201cRate Cut-O\ufb00 Date\u201d means the second U.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Rate Cut-O\ufb00 Date",
+                    "label": "ORG",
+                    "start_char": 1,
+                    "end_char": 17
+                },
+                {
+                    "text": "second",
+                    "label": "ORDINAL",
+                    "start_char": 29,
+                    "end_char": 35
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 36,
+                    "end_char": 40
+                }
+            ]
+        },
+        {
+            "clause_id": 82,
+            "clause_text": "Government Securities Business Day prior to a redemption date or theMaturity Date.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Government Securities Business Day",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 34
+                },
+                {
+                    "text": "theMaturity Date",
+                    "label": "ORG",
+                    "start_char": 65,
+                    "end_char": 81
+                }
+            ]
+        },
+        {
+            "clause_id": 83,
+            "clause_text": "\u201cReference Time\u201d with respect to any determination of the Benchmark means (1) if the Benchmark is CompoundedSOFR, the SOFR Determination Time and (2) if the Benchmark is not Compounded SOFR, the time determined by Citigroup(or one of its a\ufb03liates) in accordance with the Benchmark Replacement Conforming Changes.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 58,
+                    "end_char": 67
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 75,
+                    "end_char": 76
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 85,
+                    "end_char": 94
+                },
+                {
+                    "text": "CompoundedSOFR",
+                    "label": "PERSON",
+                    "start_char": 98,
+                    "end_char": 112
+                },
+                {
+                    "text": "the SOFR Determination Time",
+                    "label": "ORG",
+                    "start_char": 114,
+                    "end_char": 141
+                },
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 147,
+                    "end_char": 148
+                },
+                {
+                    "text": "Benchmark",
+                    "label": "PERSON",
+                    "start_char": 157,
+                    "end_char": 166
+                },
+                {
+                    "text": "the Benchmark Replacement Conforming Changes",
+                    "label": "ORG",
+                    "start_char": 267,
+                    "end_char": 311
+                }
+            ]
+        },
+        {
+            "clause_id": 84,
+            "clause_text": "\u201cRelevant Governmental Body\u201d means the Federal Reserve Board and/or the NY Federal Reserve, or a committeeo\ufb03cially endorsed or convened by the Federal Reserve Board and/or the NY Federal Reserve or any successor thereto.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "the Federal Reserve Board",
+                    "label": "ORG",
+                    "start_char": 35,
+                    "end_char": 60
+                },
+                {
+                    "text": "the NY Federal Reserve",
+                    "label": "ORG",
+                    "start_char": 68,
+                    "end_char": 90
+                },
+                {
+                    "text": "the Federal Reserve Board",
+                    "label": "ORG",
+                    "start_char": 139,
+                    "end_char": 164
+                },
+                {
+                    "text": "the NY Federal Reserve",
+                    "label": "ORG",
+                    "start_char": 172,
+                    "end_char": 194
+                }
+            ]
+        },
+        {
+            "clause_id": 85,
+            "clause_text": "\u201cUnadjusted Benchmark Replacement\u201d means the Benchmark Replacement excluding the Benchmark ReplacementAdjustment.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "the Benchmark Replacement",
+                    "label": "LOC",
+                    "start_char": 41,
+                    "end_char": 66
+                },
+                {
+                    "text": "the Benchmark ReplacementAdjustment",
+                    "label": "FAC",
+                    "start_char": 77,
+                    "end_char": 112
+                }
+            ]
+        },
+        {
+            "clause_id": 86,
+            "clause_text": "Upon request from any Noteholder, the Calculation Agent will provide the interest rate in e\ufb00ect on this Note for the currentInterest Period during the Floating Rate Period and, if it has been determined, the interest rate to be in e\ufb00ect for the nextInterest Period during the Floating Rate Period.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Noteholder",
+                    "label": "PERSON",
+                    "start_char": 22,
+                    "end_char": 32
+                },
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "WORK_OF_ART",
+                    "start_char": 147,
+                    "end_char": 171
+                },
+                {
+                    "text": "the Floating Rate Period",
+                    "label": "EVENT",
+                    "start_char": 272,
+                    "end_char": 296
+                }
+            ]
+        },
+        {
+            "clause_id": 87,
+            "clause_text": "If an event of default (as de\ufb01ned in the Indenture) with respect to Notes of this series shall occur and be continuing, theprincipal of the Notes of this series may be declared due and payable in the manner and with the e\ufb00ect provided in theIndenture.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 41,
+                    "end_char": 50
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 68,
+                    "end_char": 73
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 140,
+                    "end_char": 145
+                },
+                {
+                    "text": "theIndenture",
+                    "label": "GPE",
+                    "start_char": 238,
+                    "end_char": 250
+                }
+            ]
+        },
+        {
+            "clause_id": 88,
+            "clause_text": "Sections 12.02 and 12.03 of the Indenture containing provisions for defeasance apply to this Note.",
+            "category": "Severability",
+            "entities": [
+                {
+                    "text": "12.02",
+                    "label": "CARDINAL",
+                    "start_char": 9,
+                    "end_char": 14
+                },
+                {
+                    "text": "12.03",
+                    "label": "CARDINAL",
+                    "start_char": 19,
+                    "end_char": 24
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 32,
+                    "end_char": 41
+                }
+            ]
+        },
+        {
+            "clause_id": 89,
+            "clause_text": "At any time the entireindebtedness of this Note may be defeased upon compliance by the Company with certain conditions set forth inSection 12.04 of the Indenture.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "12.04",
+                    "label": "CARDINAL",
+                    "start_char": 139,
+                    "end_char": 144
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 152,
+                    "end_char": 161
+                }
+            ]
+        },
+        {
+            "clause_id": 90,
+            "clause_text": "The Indenture contains provisions permitting the Company and the Trustee, without the consent of the holders of theSecurities, to establish, among other things, the form and terms of any series of Securities issuable thereunder by one ormore supplemental indentures, and, with the consent of the holders of a majority in aggregate principal amount of Securitiesat the time outstanding which are a\ufb00ected thereby, to modify the Indenture or any supplemental indenture or the rights ofthe holders of Securities of such series to be a\ufb00ected, provided that no such modi\ufb01cation will (i) extend the \ufb01xed maturity ofany Securities, reduce the rate or extend the time of payment of interest thereon, reduce the principal amount thereof or thepremium, if any, thereon, reduce the amount of the principal of Original Issue Discount Securities payable on any date,change the currency in which Securities are payable, or impair the right to institute suit for the enforcement of any suchpayment on or after the maturity thereof, without the consent of the holder of each Security so a\ufb00ected, or (ii) reduce theaforesaid percentage of Securities of any series the consent of the holders of which is required for any such modi\ufb01cationwithout the consent of the holders of all Securities of such series then outstanding, or (iii) modify the rights, duties orimmunities of the Trustee unless the Trustee agrees to such modi\ufb01cation.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 4,
+                    "end_char": 13
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 49,
+                    "end_char": 56
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 65,
+                    "end_char": 72
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 231,
+                    "end_char": 234
+                },
+                {
+                    "text": "Securitiesat",
+                    "label": "GPE",
+                    "start_char": 351,
+                    "end_char": 363
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 426,
+                    "end_char": 435
+                },
+                {
+                    "text": "Original",
+                    "label": "ORG",
+                    "start_char": 797,
+                    "end_char": 805
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 1359,
+                    "end_char": 1366
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 1378,
+                    "end_char": 1385
+                }
+            ]
+        },
+        {
+            "clause_id": 91,
+            "clause_text": "No reference herein to the Indenture and no provision of this Note or of the Indenture shall alter or impair the obligation ofthe Company, which is absolute and unconditional, to pay the principal of and interest on this Note at the times, place andrate, and in the coin or currency, herein prescribed.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 27,
+                    "end_char": 36
+                },
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 77,
+                    "end_char": 86
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 130,
+                    "end_char": 137
+                }
+            ]
+        },
+        {
+            "clause_id": 92,
+            "clause_text": "This Note is a Global Security registered in the name of a nominee of the Depository.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Global Security",
+                    "label": "ORG",
+                    "start_char": 15,
+                    "end_char": 30
+                }
+            ]
+        },
+        {
+            "clause_id": 93,
+            "clause_text": "This Note is exchangeable for Notesregistered in the name of a person other than the Depository or its nominee only in the limited circumstances hereinafterdescribed.",
+            "category": "Force Majeure",
+            "entities": []
+        },
+        {
+            "clause_id": 94,
+            "clause_text": "Unless and until it is exchanged in whole or in part for de\ufb01nitive Notes in certi\ufb01cated form, this Note may not betransferred except as a whole by the Depository to a nominee of the Depository or by a nominee of the Depository to theDepository or another nominee of the Depository.",
+            "category": "Assignment",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 67,
+                    "end_char": 72
+                }
+            ]
+        },
+        {
+            "clause_id": 95,
+            "clause_text": "The Notes represented by this Global Security are exchangeable for de\ufb01nitive Notes in certi\ufb01cated form of like tenor as suchNotes in denominations of $1,000 and whole multiples of $1,000 in excess thereof only if (i) the Depository noti\ufb01es theCompany that it is unwilling or unable to continue as Depository for the Notes and the Company is unable to appoint asuccessor depository or (ii) the Depository ceases to be a clearing agency registered under the Securities Exchange Act of1934, as amended, or (iii) the Company in its sole discretion decides to allow the Notes to be exchanged for de\ufb01nitive Notesin registered form.",
+            "category": "Amendments",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 4,
+                    "end_char": 9
+                },
+                {
+                    "text": "Global Security",
+                    "label": "ORG",
+                    "start_char": 30,
+                    "end_char": 45
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 77,
+                    "end_char": 82
+                },
+                {
+                    "text": "1,000",
+                    "label": "MONEY",
+                    "start_char": 151,
+                    "end_char": 156
+                },
+                {
+                    "text": "1,000",
+                    "label": "MONEY",
+                    "start_char": 181,
+                    "end_char": 186
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 316,
+                    "end_char": 321
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 330,
+                    "end_char": 337
+                },
+                {
+                    "text": "the Securities Exchange Act",
+                    "label": "ORG",
+                    "start_char": 452,
+                    "end_char": 479
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 565,
+                    "end_char": 570
+                },
+                {
+                    "text": "Notesin",
+                    "label": "ORG",
+                    "start_char": 601,
+                    "end_char": 608
+                }
+            ]
+        },
+        {
+            "clause_id": 96,
+            "clause_text": "Any Notes that are exchangeable pursuant to the preceding sentence are exchangeable for certi\ufb01catedNotes issuable in authorized denominations and registered in such names as the Depository shall direct.",
+            "category": "Amendments",
+            "entities": []
+        },
+        {
+            "clause_id": 97,
+            "clause_text": "As provided in theIndenture and subject to certain limitations therein set forth, the transfer of de\ufb01nitive Notes in certi\ufb01cated form is registrablein the register maintained by the Company in The City of New York for such purpose, upon surrender of the de\ufb01nitive Notefor registration of transfer at the o\ufb03ce or agency of the registrar, duly endorsed by, or accompanied by a written instrumentof transfer in form satisfactory to the Company and the registrar duly executed by, the holder thereof or his attorney dulyauthorized in writing, and thereupon one or more new Notes of this series and of like tenor, of authorized denominations andfor the same aggregate principal amount, will be issued to the designated transferee or transferees.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "theIndenture",
+                    "label": "GPE",
+                    "start_char": 15,
+                    "end_char": 27
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 108,
+                    "end_char": 113
+                },
+                {
+                    "text": "The City of New York",
+                    "label": "GPE",
+                    "start_char": 193,
+                    "end_char": 213
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 433,
+                    "end_char": 440
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 569,
+                    "end_char": 574
+                },
+                {
+                    "text": "transferee",
+                    "label": "CARDINAL",
+                    "start_char": 714,
+                    "end_char": 724
+                }
+            ]
+        },
+        {
+            "clause_id": 98,
+            "clause_text": "Subject to the foregoing,this Note is not exchangeable, except for a Global Security or Global Securities of this issue of the same principal amount tobe registered in the name of the Depository or its nominee.",
+            "category": "Amendments",
+            "entities": []
+        },
+        {
+            "clause_id": 99,
+            "clause_text": "No service charge shall be made for any such registration of transfer or exchange, but the Company may require payment ofa sum su\ufb03cient to cover any tax or other governmental charge payable in connection therewith.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 91,
+                    "end_char": 98
+                }
+            ]
+        },
+        {
+            "clause_id": 100,
+            "clause_text": "Prior to due presentment of this Note for registration of transfer, the Company, the Trustee and any agent of the Company orthe Trustee may treat the Person in whose name this Note is registered as the owner hereof for all purposes, whether or notthis Note be overdue, and neither the Company, the Trustee nor any such agent shall be a\ufb00ected by notice to the contrary.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 72,
+                    "end_char": 79
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 85,
+                    "end_char": 92
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 128,
+                    "end_char": 135
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 285,
+                    "end_char": 292
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 298,
+                    "end_char": 305
+                }
+            ]
+        },
+        {
+            "clause_id": 101,
+            "clause_text": "The Company will pay additional amounts (\u201cAdditional Amounts\u201d) to the bene\ufb01cial owner of any Note that is a non-UnitedStates person in order to ensure that every net payment on such Note will not be less, due to payment of U.S.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Additional Amounts",
+                    "label": "WORK_OF_ART",
+                    "start_char": 42,
+                    "end_char": 60
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 223,
+                    "end_char": 227
+                }
+            ]
+        },
+        {
+            "clause_id": 102,
+            "clause_text": "withholdingtax, than the amount then due and payable.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "withholdingtax",
+                    "label": "ORG",
+                    "start_char": 0,
+                    "end_char": 14
+                }
+            ]
+        },
+        {
+            "clause_id": 103,
+            "clause_text": "For this purpose, a \u201cnet payment\u201d on a Note means a payment by the Companyor a paying agent, including payment of principal and interest, after deduction for any present or future tax, assessment orother governmental charge of the United States.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Companyor",
+                    "label": "ORG",
+                    "start_char": 67,
+                    "end_char": 76
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 227,
+                    "end_char": 244
+                }
+            ]
+        },
+        {
+            "clause_id": 104,
+            "clause_text": "These Additional Amounts will constitute additional interest on the Note.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 105,
+            "clause_text": "The Company will not be required to pay Additional Amounts, however, in any of the circumstances described in items(1) through (13) below.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 40,
+                    "end_char": 58
+                },
+                {
+                    "text": "13",
+                    "label": "CARDINAL",
+                    "start_char": 128,
+                    "end_char": 130
+                }
+            ]
+        },
+        {
+            "clause_id": 106,
+            "clause_text": "(1) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld solely by reason of the bene\ufb01cial owner: (a) having a relationship with the United States as a citizen, resident or otherwise",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 240,
+                    "end_char": 257
+                }
+            ]
+        },
+        {
+            "clause_id": 107,
+            "clause_text": "(b) having had such a relationship in the past",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 108,
+            "clause_text": "or (c) being considered as having had such a relationship.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 109,
+            "clause_text": "(2) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld solely by reason of the bene\ufb01cial owner: (a) being treated as present in or engaged in a trade or business in the United States",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 278,
+                    "end_char": 295
+                }
+            ]
+        },
+        {
+            "clause_id": 110,
+            "clause_text": "(b) being treated as having been present in or engaged in a trade or business in the United States in the past",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 81,
+                    "end_char": 98
+                }
+            ]
+        },
+        {
+            "clause_id": 111,
+            "clause_text": "or (c) having or having had a permanent establishment in the United States.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 57,
+                    "end_char": 74
+                }
+            ]
+        },
+        {
+            "clause_id": 112,
+            "clause_text": "(3) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld in whole or in part by reason of the bene\ufb01cial owner being or havingbeen any of the following (as such terms are de\ufb01ned in the Internal Revenue Code of 1986, as amended): (a) personal holding company",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "the Internal Revenue Code",
+                    "label": "ORG",
+                    "start_char": 291,
+                    "end_char": 316
+                },
+                {
+                    "text": "1986",
+                    "label": "DATE",
+                    "start_char": 320,
+                    "end_char": 324
+                }
+            ]
+        },
+        {
+            "clause_id": 113,
+            "clause_text": "(b) foreign private foundation or other foreign tax-exempt organization",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 114,
+            "clause_text": "(c) passive foreign investment company",
+            "category": "Parties",
+            "entities": []
+        },
+        {
+            "clause_id": 115,
+            "clause_text": "(d) controlled foreign corporation",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 116,
+            "clause_text": "or (e) corporation which has accumulated earnings to avoid United States federal income tax.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "United States",
+                    "label": "GPE",
+                    "start_char": 59,
+                    "end_char": 72
+                }
+            ]
+        },
+        {
+            "clause_id": 117,
+            "clause_text": "(4) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld solely by reason of the bene\ufb01cial owner owning or having owned,actually or constructively, 10 percent or more of the total combined voting power of all classes of stock of the Companyentitled to vote or by reason of the bene\ufb01cial owner being a bank that has invested in a Note as an extension of credit in theordinary course of its trade or business.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "4",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "10 percent",
+                    "label": "PERCENT",
+                    "start_char": 259,
+                    "end_char": 269
+                }
+            ]
+        },
+        {
+            "clause_id": 118,
+            "clause_text": "For purposes of items (1) through (4) above, \u201cbene\ufb01cial owner\u201d means a \ufb01duciary, settlor, bene\ufb01ciary, member orshareholder of the holder if the holder is an estate, trust, partnership, limited liability company, corporation or other entity,or a person holding a power over an estate or trust administered by a \ufb01duciary holder.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 23,
+                    "end_char": 24
+                }
+            ]
+        },
+        {
+            "clause_id": 119,
+            "clause_text": "(5) Additional Amounts will not be payable to any bene\ufb01cial owner of a Note that is a: (a) \ufb01duciary",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "5",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                }
+            ]
+        },
+        {
+            "clause_id": 120,
+            "clause_text": "(b) partnership",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 121,
+            "clause_text": "(c) limited liability company",
+            "category": "Parties",
+            "entities": []
+        },
+        {
+            "clause_id": 122,
+            "clause_text": "or (d) other \ufb01scally transparent entity or that is not the sole bene\ufb01cial owner of the Note, or any portion of the Note.",
+            "category": "General Provisions",
+            "entities": []
+        },
+        {
+            "clause_id": 123,
+            "clause_text": "However, this exception to the obligationto pay Additional Amounts will only apply to the extent that a bene\ufb01ciary or settlor in relation to the \ufb01duciary, or a bene\ufb01cialowner or member of the partnership, limited liability company or other \ufb01scally transparent entity, would not have beenentitled to the payment of an Additional Amount had the bene\ufb01ciary, settlor, bene\ufb01cial owner or member received directlyits bene\ufb01cial or distributive share of the payment.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 48,
+                    "end_char": 66
+                }
+            ]
+        },
+        {
+            "clause_id": 124,
+            "clause_text": "(6) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld solely by reason of the failure of the bene\ufb01cial owner or any otherperson to comply with applicable certi\ufb01cation, identi\ufb01cation, documentation or other information reporting requirements.This exception to the obligation to pay Additional Amounts will only apply if compliance with such reporting requirements isrequired by statute or regulation of the United States or by an applicable income tax treaty to which the United States is aparty as a precondition to exemption from such tax, assessment or other governmental charge.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "6",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 395,
+                    "end_char": 413
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 516,
+                    "end_char": 533
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 581,
+                    "end_char": 598
+                }
+            ]
+        },
+        {
+            "clause_id": 125,
+            "clause_text": "(7) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is collected or imposed by any method other than by withholding from a payment on a Noteby the Company or a paying agent.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "7",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Noteby the Company",
+                    "label": "ORG",
+                    "start_char": 229,
+                    "end_char": 247
+                }
+            ]
+        },
+        {
+            "clause_id": 126,
+            "clause_text": "(8) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld by reason of a change in law, regulation, or administrative or judicialinterpretation that becomes e\ufb00ective more than 15 days after the payment becomes due or is duly provided for, whicheveroccurs later.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "8)",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 3
+                },
+                {
+                    "text": "more than 15 days",
+                    "label": "DATE",
+                    "start_char": 276,
+                    "end_char": 293
+                }
+            ]
+        },
+        {
+            "clause_id": 127,
+            "clause_text": "(9) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment orother governmental charge that is imposed or withheld by reason of the presentation by the bene\ufb01cial owner of a Note forpayment more than 30 days after the date on which such payment becomes due or is duly provided for, whichever occurslater.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "9",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "more than 30 days",
+                    "label": "DATE",
+                    "start_char": 242,
+                    "end_char": 259
+                }
+            ]
+        },
+        {
+            "clause_id": 128,
+            "clause_text": "(10) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any: (a) estate tax",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "10",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 3
+                }
+            ]
+        },
+        {
+            "clause_id": 129,
+            "clause_text": "(b) inheritance tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 130,
+            "clause_text": "(c) gift tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 131,
+            "clause_text": "(d) sales tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 132,
+            "clause_text": "(e) excise tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 133,
+            "clause_text": "(f) transfer tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 134,
+            "clause_text": "(g) wealth tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 135,
+            "clause_text": "(h) personal property tax",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 136,
+            "clause_text": "or (i) any similar tax, assessment, withholding, deduction or other governmental charge.",
+            "category": "Payment",
+            "entities": []
+        },
+        {
+            "clause_id": 137,
+            "clause_text": "(11) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any tax, assessment, orother governmental charge required to be withheld by any paying agent from a payment of principal or interest on a Note ifsuch payment can be made without such withholding by any other paying agent.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "11",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 3
+                },
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 5,
+                    "end_char": 23
+                }
+            ]
+        },
+        {
+            "clause_id": 138,
+            "clause_text": "(12) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any withholding,deduction, tax, duty assessment or other governmental charge that would not have been imposed but for a failure by theholder or bene\ufb01cial owner of a Note (or any \ufb01nancial institution through which the holder or bene\ufb01cial owner holds the Noteor through which payment on the Note is made) to take any action (including entering into an agreement with the InternalRevenue Service, or a governmental authority of another jurisdiction if the holder is entitled to the bene\ufb01ts of anintergovernmental agreement between that jurisdiction and the United States) or to comply with any applicable certi\ufb01cation,documentation, information or other reporting requirement or agreement concerning accounts maintained by the holder orbene\ufb01cial owner (or any such \ufb01nancial institution), or concerning ownership of the holder or bene\ufb01cial owner, or anysubstantially similar requirement or agreement.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "12",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 3
+                },
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 5,
+                    "end_char": 23
+                },
+                {
+                    "text": "Noteor",
+                    "label": "ORG",
+                    "start_char": 346,
+                    "end_char": 352
+                },
+                {
+                    "text": "the InternalRevenue Service",
+                    "label": "ORG",
+                    "start_char": 458,
+                    "end_char": 485
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 643,
+                    "end_char": 660
+                }
+            ]
+        },
+        {
+            "clause_id": 139,
+            "clause_text": "(13) Additional Amounts will not be payable if a payment on a Note is reduced as a result of any combination of items(1) through (12) above.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "13",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 3
+                },
+                {
+                    "text": "12",
+                    "label": "CARDINAL",
+                    "start_char": 130,
+                    "end_char": 132
+                }
+            ]
+        },
+        {
+            "clause_id": 140,
+            "clause_text": "Except as speci\ufb01cally provided herein, the Company will not be required to make any payment of any tax, assessmentor other governmental charge imposed by any government or a political subdivision or taxing authority of such government.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 43,
+                    "end_char": 50
+                }
+            ]
+        },
+        {
+            "clause_id": 141,
+            "clause_text": "As used in this Note, \u201cUnited States person\u201d means: (a) any individual who is a citizen or resident of the United States",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "United States",
+                    "label": "GPE",
+                    "start_char": 23,
+                    "end_char": 36
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 103,
+                    "end_char": 120
+                }
+            ]
+        },
+        {
+            "clause_id": 142,
+            "clause_text": "(b) any corporation, partnership or other entity created or organized in or under the laws of the United States or anypolitical subdivision thereof",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 94,
+                    "end_char": 111
+                }
+            ]
+        },
+        {
+            "clause_id": 143,
+            "clause_text": "(c) any estate if the income of such estate falls within the federal income tax jurisdiction of the United Statesregardless of the source of such income",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "the United Statesregardless",
+                    "label": "ORG",
+                    "start_char": 96,
+                    "end_char": 123
+                }
+            ]
+        },
+        {
+            "clause_id": 144,
+            "clause_text": "and (d) any trust if (i) a United States court is able to exercise primary supervision over its administration and one ormore United States persons have the authority to control all of the substantial decisions of the trust",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "United States",
+                    "label": "GPE",
+                    "start_char": 27,
+                    "end_char": 40
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 115,
+                    "end_char": 118
+                },
+                {
+                    "text": "United States",
+                    "label": "GPE",
+                    "start_char": 126,
+                    "end_char": 139
+                }
+            ]
+        },
+        {
+            "clause_id": 145,
+            "clause_text": "or (ii) it hasa valid election in e\ufb00ect under applicable United States Treasury regulations to be treated as a United Statesperson.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "United States Treasury",
+                    "label": "ORG",
+                    "start_char": 57,
+                    "end_char": 79
+                },
+                {
+                    "text": "a United Statesperson",
+                    "label": "PERSON",
+                    "start_char": 109,
+                    "end_char": 130
+                }
+            ]
+        },
+        {
+            "clause_id": 146,
+            "clause_text": "Additionally, \u201cnon-United States person\u201d means a person who is not a United States person, and \u201cUnited States\u201d meansthe states of the United States of America and the District of Columbia, but excluding its territories and its possessions.",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "non-United",
+                    "label": "NORP",
+                    "start_char": 15,
+                    "end_char": 25
+                },
+                {
+                    "text": "United States",
+                    "label": "GPE",
+                    "start_char": 69,
+                    "end_char": 82
+                },
+                {
+                    "text": "\u201cUnited States",
+                    "label": "GPE",
+                    "start_char": 95,
+                    "end_char": 109
+                },
+                {
+                    "text": "the United States of America",
+                    "label": "GPE",
+                    "start_char": 130,
+                    "end_char": 158
+                },
+                {
+                    "text": "the District of Columbia",
+                    "label": "GPE",
+                    "start_char": 163,
+                    "end_char": 187
+                }
+            ]
+        },
+        {
+            "clause_id": 147,
+            "clause_text": "Except as provided below, the Notes may not be redeemed prior to maturity.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 30,
+                    "end_char": 35
+                }
+            ]
+        },
+        {
+            "clause_id": 148,
+            "clause_text": "(1) The Company may, at its option, redeem the Notes if: (a) the Company becomes or will become obligated to pay Additional Amounts as described above",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 47,
+                    "end_char": 52
+                },
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 113,
+                    "end_char": 131
+                }
+            ]
+        },
+        {
+            "clause_id": 149,
+            "clause_text": "(b) the obligation to pay Additional Amounts arises as a result of any change in the laws, regulations or rulingsof the United States, or an o\ufb03cial position regarding the application or interpretation of such laws,regulations or rulings, which change is announced or becomes e\ufb00ective on or after May 1, 2025",
+            "category": "Governing Law",
+            "entities": [
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 26,
+                    "end_char": 44
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 116,
+                    "end_char": 133
+                },
+                {
+                    "text": "May 1, 2025",
+                    "label": "DATE",
+                    "start_char": 296,
+                    "end_char": 307
+                }
+            ]
+        },
+        {
+            "clause_id": 150,
+            "clause_text": "and (c) the Company determines, in its business judgment, that the obligation to pay such Additional Amountscannot be avoided by the use of reasonable measures available to it, other than substituting the obligorunder the Notes or taking any action that would entail a material cost to the Company.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Additional Amountscannot",
+                    "label": "ORG",
+                    "start_char": 90,
+                    "end_char": 114
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 222,
+                    "end_char": 227
+                }
+            ]
+        },
+        {
+            "clause_id": 151,
+            "clause_text": "(2) The Company may also redeem the Notes, at its option, if: (a) any act is taken by a taxing authority of the United States on or after May 1, 2025 whether or not such act istaken in relation to the Company or any subsidiary, that results in a substantial probability that theCompany will or may be required to pay Additional Amounts as described above",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 8,
+                    "end_char": 15
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 36,
+                    "end_char": 41
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 108,
+                    "end_char": 125
+                },
+                {
+                    "text": "May 1, 2025",
+                    "label": "DATE",
+                    "start_char": 138,
+                    "end_char": 149
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 201,
+                    "end_char": 208
+                },
+                {
+                    "text": "theCompany",
+                    "label": "ORG",
+                    "start_char": 275,
+                    "end_char": 285
+                },
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 317,
+                    "end_char": 335
+                }
+            ]
+        },
+        {
+            "clause_id": 152,
+            "clause_text": "(b) the Company determines, in its business judgment, that the obligation to pay such Additional Amountscannot be avoided by the use of reasonable measures available to it, other than substituting the obligorunder the Notes or taking any action that would entail a material cost to the Company",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Additional Amountscannot",
+                    "label": "ORG",
+                    "start_char": 86,
+                    "end_char": 110
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 218,
+                    "end_char": 223
+                }
+            ]
+        },
+        {
+            "clause_id": 153,
+            "clause_text": "and (c) the Company receives an opinion of independent counsel to the e\ufb00ect that an act taken by a taxingauthority of the United States results in a substantial probability that the Company will or may be requiredto pay the Additional Amounts described above, and delivers to the Trustee a certi\ufb01cate, signed by a dulyauthorized o\ufb03cer, stating that based on such opinion the Company is entitled to redeem the Notes pursuantto their terms.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 12,
+                    "end_char": 19
+                },
+                {
+                    "text": "the United States",
+                    "label": "GPE",
+                    "start_char": 118,
+                    "end_char": 135
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 182,
+                    "end_char": 189
+                },
+                {
+                    "text": "Additional Amounts",
+                    "label": "ORG",
+                    "start_char": 224,
+                    "end_char": 242
+                },
+                {
+                    "text": "Trustee",
+                    "label": "ORG",
+                    "start_char": 280,
+                    "end_char": 287
+                },
+                {
+                    "text": "Company",
+                    "label": "ORG",
+                    "start_char": 375,
+                    "end_char": 382
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 409,
+                    "end_char": 414
+                }
+            ]
+        },
+        {
+            "clause_id": 154,
+            "clause_text": "Any redemption of the Notes as set forth in clauses (1) or (2) above shall be in whole, and not in part, and will be made at aredemption price equal to 100% of the principal amount of the Notes outstanding plus accrued and unpaid interest thereon tothe date of redemption.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 22,
+                    "end_char": 27
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 53,
+                    "end_char": 54
+                },
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 60,
+                    "end_char": 61
+                },
+                {
+                    "text": "100%",
+                    "label": "PERCENT",
+                    "start_char": 152,
+                    "end_char": 156
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 188,
+                    "end_char": 193
+                }
+            ]
+        },
+        {
+            "clause_id": 155,
+            "clause_text": "(3) The Company may also redeem the Notes, at its option, in whole at any time or in part from time to time, on orafter November 7, 2025 (or, if additional notes are issued after May 7, 2025, beginning six months after the issuedate of such additional notes) and prior to May 7, 2027, at a redemption price (expressed as a percentage ofprincipal amount and rounded to three decimal places) equal to the greater of (1) (a) the sum of the presentvalues of the remaining scheduled payments of principal and interest thereon discounted to the redemption dateon a semiannual basis (assuming a 360-day year consisting of twelve 30-day months) at the Treasury Rate plus15 basis points less (b) interest accrued to the date of redemption, and (2) 100% of the principal amount of theNotes being redeemed, plus, in either case, accrued and unpaid interest thereon to, but excluding, the date ofredemption.",
+            "category": "Payment",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 36,
+                    "end_char": 41
+                },
+                {
+                    "text": "November 7, 2025",
+                    "label": "DATE",
+                    "start_char": 120,
+                    "end_char": 136
+                },
+                {
+                    "text": "May 7, 2025",
+                    "label": "DATE",
+                    "start_char": 179,
+                    "end_char": 190
+                },
+                {
+                    "text": "six months",
+                    "label": "DATE",
+                    "start_char": 202,
+                    "end_char": 212
+                },
+                {
+                    "text": "May 7, 2027",
+                    "label": "DATE",
+                    "start_char": 272,
+                    "end_char": 283
+                },
+                {
+                    "text": "three",
+                    "label": "CARDINAL",
+                    "start_char": 368,
+                    "end_char": 373
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 415,
+                    "end_char": 416
+                },
+                {
+                    "text": "semiannual",
+                    "label": "DATE",
+                    "start_char": 559,
+                    "end_char": 569
+                },
+                {
+                    "text": "a 360-day year",
+                    "label": "DATE",
+                    "start_char": 586,
+                    "end_char": 600
+                },
+                {
+                    "text": "twelve 30-day months",
+                    "label": "DATE",
+                    "start_char": 615,
+                    "end_char": 635
+                },
+                {
+                    "text": "Treasury Rate plus15",
+                    "label": "ORG",
+                    "start_char": 644,
+                    "end_char": 664
+                },
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 736,
+                    "end_char": 737
+                },
+                {
+                    "text": "100%",
+                    "label": "PERCENT",
+                    "start_char": 739,
+                    "end_char": 743
+                },
+                {
+                    "text": "theNotes",
+                    "label": "PRODUCT",
+                    "start_char": 771,
+                    "end_char": 779
+                }
+            ]
+        },
+        {
+            "clause_id": 156,
+            "clause_text": "\u2022 \u201cTreasury Rate\u201d means, with respect to any redemption date, the yield determined by the Company inaccordance with the following two paragraphs.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "two",
+                    "label": "CARDINAL",
+                    "start_char": 130,
+                    "end_char": 133
+                }
+            ]
+        },
+        {
+            "clause_id": 157,
+            "clause_text": "The Treasury Rate shall be determined by the Company after 4:15 p.m., New York City time (or after such time asyields on U.S.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 4,
+                    "end_char": 12
+                },
+                {
+                    "text": "4:15 p.m.",
+                    "label": "TIME",
+                    "start_char": 59,
+                    "end_char": 68
+                },
+                {
+                    "text": "New York City",
+                    "label": "GPE",
+                    "start_char": 70,
+                    "end_char": 83
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 121,
+                    "end_char": 125
+                }
+            ]
+        },
+        {
+            "clause_id": 158,
+            "clause_text": "government securities are posted daily by the Board of Governors of the Federal Reserve System),on the third business day preceding the redemption date based upon the yield or yields for the most recent daythat appear after such time on such day in the most recent statistical release published by the Board ofGovernors of the Federal Reserve System designated as \u201cSelected Interest Rates (Daily) - H.15\u201d (or any successordesignation or publication) (\u201cH.15\u201d) under the caption \u201cU.S.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "daily",
+                    "label": "DATE",
+                    "start_char": 33,
+                    "end_char": 38
+                },
+                {
+                    "text": "the Board of Governors",
+                    "label": "ORG",
+                    "start_char": 42,
+                    "end_char": 64
+                },
+                {
+                    "text": "the Federal Reserve System),on",
+                    "label": "ORG",
+                    "start_char": 68,
+                    "end_char": 98
+                },
+                {
+                    "text": "such day",
+                    "label": "DATE",
+                    "start_char": 237,
+                    "end_char": 245
+                },
+                {
+                    "text": "the Board ofGovernors of the Federal Reserve System",
+                    "label": "ORG",
+                    "start_char": 298,
+                    "end_char": 349
+                },
+                {
+                    "text": "U.S.",
+                    "label": "GPE",
+                    "start_char": 478,
+                    "end_char": 482
+                }
+            ]
+        },
+        {
+            "clause_id": 159,
+            "clause_text": "government securities\u2013Treasury constant maturities\u2013Nominal\u201d (or any successor caption or heading).",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 22,
+                    "end_char": 30
+                }
+            ]
+        },
+        {
+            "clause_id": 160,
+            "clause_text": "In determining the Treasury Rate, the Company shall select, asapplicable: (1) the yield for the Treasury constant maturity on H.15 exactly equal to the period from theredemption date to the maturity date of the Notes (the \u201cRemaining Life\u201d)",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 75,
+                    "end_char": 76
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 96,
+                    "end_char": 104
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 211,
+                    "end_char": 216
+                },
+                {
+                    "text": "Remaining Life",
+                    "label": "WORK_OF_ART",
+                    "start_char": 223,
+                    "end_char": 237
+                }
+            ]
+        },
+        {
+            "clause_id": 161,
+            "clause_text": "or (2) if there is no such Treasuryconstant maturity on H.15 exactly equal to the Remaining Life, the two yields \u2013 one yield corresponding to theTreasury constant maturity on H.15 immediately shorter than and one yield corresponding to the Treasuryconstant maturity on H.15 immediately longer than the Remaining Life \u2013 and shall interpolate to the maturitydate of the Notes on a straight-line basis (using the actual number of days) using such yields and rounding theresult to three decimal places",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "the Remaining Life",
+                    "label": "ORG",
+                    "start_char": 78,
+                    "end_char": 96
+                },
+                {
+                    "text": "two",
+                    "label": "CARDINAL",
+                    "start_char": 102,
+                    "end_char": 105
+                },
+                {
+                    "text": "one",
+                    "label": "CARDINAL",
+                    "start_char": 115,
+                    "end_char": 118
+                },
+                {
+                    "text": "theTreasury",
+                    "label": "ORG",
+                    "start_char": 142,
+                    "end_char": 153
+                },
+                {
+                    "text": "H.15",
+                    "label": "NORP",
+                    "start_char": 175,
+                    "end_char": 179
+                },
+                {
+                    "text": "Treasuryconstant",
+                    "label": "PERSON",
+                    "start_char": 240,
+                    "end_char": 256
+                },
+                {
+                    "text": "the Remaining Life",
+                    "label": "WORK_OF_ART",
+                    "start_char": 298,
+                    "end_char": 316
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 368,
+                    "end_char": 373
+                },
+                {
+                    "text": "three",
+                    "label": "CARDINAL",
+                    "start_char": 477,
+                    "end_char": 482
+                }
+            ]
+        },
+        {
+            "clause_id": 162,
+            "clause_text": "or (3) if there is no such Treasury constant maturity on H.15 shorter than or longerthan the Remaining Life, the yield for the single Treasury constant maturity on H.15 closest to the Remaining Life.For purposes of this paragraph, the applicable Treasury constant maturity or maturities on H.15 shall be deemedto have a maturity date equal to the relevant number of months or years, as applicable, of such Treasuryconstant maturity from the redemption date.",
+            "category": "General Provisions",
+            "entities": [
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 4,
+                    "end_char": 5
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 27,
+                    "end_char": 35
+                },
+                {
+                    "text": "the Remaining Life",
+                    "label": "WORK_OF_ART",
+                    "start_char": 89,
+                    "end_char": 107
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 134,
+                    "end_char": 142
+                },
+                {
+                    "text": "the Remaining Life",
+                    "label": "ORG",
+                    "start_char": 180,
+                    "end_char": 198
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 246,
+                    "end_char": 254
+                },
+                {
+                    "text": "months",
+                    "label": "DATE",
+                    "start_char": 366,
+                    "end_char": 372
+                }
+            ]
+        },
+        {
+            "clause_id": 163,
+            "clause_text": "If on the third business day preceding the redemption date H.15 or any successor designation or publication is nolonger published, the Company shall calculate the Treasury Rate based on the rate per annum equal to the semi-annual equivalent yield to maturity at 11:00 a.m., New York City time, on the second business day preceding suchredemption date of the United States Treasury security maturing on, or with a maturity that is closest to, thematurity date of the Notes, as applicable.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "the third business day",
+                    "label": "DATE",
+                    "start_char": 6,
+                    "end_char": 28
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 163,
+                    "end_char": 171
+                },
+                {
+                    "text": "11:00 a.m.",
+                    "label": "TIME",
+                    "start_char": 262,
+                    "end_char": 272
+                },
+                {
+                    "text": "New York City",
+                    "label": "GPE",
+                    "start_char": 274,
+                    "end_char": 287
+                },
+                {
+                    "text": "the second business day",
+                    "label": "DATE",
+                    "start_char": 297,
+                    "end_char": 320
+                },
+                {
+                    "text": "the United States",
+                    "label": "ORG",
+                    "start_char": 354,
+                    "end_char": 371
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 372,
+                    "end_char": 380
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 466,
+                    "end_char": 471
+                }
+            ]
+        },
+        {
+            "clause_id": 164,
+            "clause_text": "If there is no United States Treasury security maturing on the maturitydate of the Notes but there are two or more United States Treasury securities with a maturity date equally distantfrom the maturity date of the Notes, one with a maturity date preceding the maturity date of the Notes and onewith a maturity date following the maturity date of the Notes, the Company shall select the United StatesTreasury security with a maturity date preceding the maturity date of the Notes.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "United States",
+                    "label": "ORG",
+                    "start_char": 15,
+                    "end_char": 28
+                },
+                {
+                    "text": "Treasury",
+                    "label": "ORG",
+                    "start_char": 29,
+                    "end_char": 37
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 83,
+                    "end_char": 88
+                },
+                {
+                    "text": "two",
+                    "label": "CARDINAL",
+                    "start_char": 103,
+                    "end_char": 106
+                },
+                {
+                    "text": "United States Treasury",
+                    "label": "ORG",
+                    "start_char": 115,
+                    "end_char": 137
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 215,
+                    "end_char": 220
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 282,
+                    "end_char": 287
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 351,
+                    "end_char": 356
+                },
+                {
+                    "text": "United StatesTreasury",
+                    "label": "ORG",
+                    "start_char": 387,
+                    "end_char": 408
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 474,
+                    "end_char": 479
+                }
+            ]
+        },
+        {
+            "clause_id": 165,
+            "clause_text": "If there are two or more UnitedStates Treasury securities maturing on the maturity date of the Notes or two or more United States Treasurysecurities meeting the criteria of the preceding sentence, the Company shall select from among these two ormore United States Treasury securities the United States Treasury security that is trading closest to par basedupon the average of the bid and asked prices for such United States Treasury securities at 11:00 a.m., New YorkCity time.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "two",
+                    "label": "CARDINAL",
+                    "start_char": 13,
+                    "end_char": 16
+                },
+                {
+                    "text": "UnitedStates Treasury",
+                    "label": "ORG",
+                    "start_char": 25,
+                    "end_char": 46
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 95,
+                    "end_char": 100
+                },
+                {
+                    "text": "two",
+                    "label": "CARDINAL",
+                    "start_char": 104,
+                    "end_char": 107
+                },
+                {
+                    "text": "United States Treasurysecurities",
+                    "label": "ORG",
+                    "start_char": 116,
+                    "end_char": 148
+                },
+                {
+                    "text": "two",
+                    "label": "CARDINAL",
+                    "start_char": 239,
+                    "end_char": 242
+                },
+                {
+                    "text": "United States Treasury",
+                    "label": "ORG",
+                    "start_char": 250,
+                    "end_char": 272
+                },
+                {
+                    "text": "the United States Treasury",
+                    "label": "ORG",
+                    "start_char": 284,
+                    "end_char": 310
+                },
+                {
+                    "text": "United States Treasury",
+                    "label": "ORG",
+                    "start_char": 410,
+                    "end_char": 432
+                },
+                {
+                    "text": "11:00 a.m.",
+                    "label": "TIME",
+                    "start_char": 447,
+                    "end_char": 457
+                },
+                {
+                    "text": "New YorkCity",
+                    "label": "ORG",
+                    "start_char": 459,
+                    "end_char": 471
+                }
+            ]
+        },
+        {
+            "clause_id": 166,
+            "clause_text": "In determining the Treasury Rate in accordance with the terms of this paragraph, the semi-annual yieldto maturity of the applicable United States Treasury security shall be based upon the average of the bid andasked prices (expressed as a percentage of principal amount) at 11:00 a.m., New York City time, of such UnitedStates Treasury security, and rounded to three decimal places.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "the Treasury Rate",
+                    "label": "ORG",
+                    "start_char": 15,
+                    "end_char": 32
+                },
+                {
+                    "text": "United States Treasury",
+                    "label": "ORG",
+                    "start_char": 132,
+                    "end_char": 154
+                },
+                {
+                    "text": "11:00 a.m.",
+                    "label": "TIME",
+                    "start_char": 274,
+                    "end_char": 284
+                },
+                {
+                    "text": "New York City",
+                    "label": "GPE",
+                    "start_char": 286,
+                    "end_char": 299
+                },
+                {
+                    "text": "UnitedStates Treasury",
+                    "label": "ORG",
+                    "start_char": 314,
+                    "end_char": 335
+                },
+                {
+                    "text": "three",
+                    "label": "CARDINAL",
+                    "start_char": 361,
+                    "end_char": 366
+                }
+            ]
+        },
+        {
+            "clause_id": 167,
+            "clause_text": "(4) The Company may also redeem the Notes, at its option, (i) in whole, but not in part, on May 7, 2027, or (ii) inwhole at any time or in part from time to time, on or after April 7, 2028 at a redemption price equal to 100% ofthe principal amount of the Notes being redeemed plus accrued and unpaid interest thereon to, but excluding, thedate of redemption.",
+            "category": "Parties",
+            "entities": [
+                {
+                    "text": "4",
+                    "label": "CARDINAL",
+                    "start_char": 1,
+                    "end_char": 2
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 36,
+                    "end_char": 41
+                },
+                {
+                    "text": "May 7, 2027",
+                    "label": "DATE",
+                    "start_char": 92,
+                    "end_char": 103
+                },
+                {
+                    "text": "April 7, 2028",
+                    "label": "DATE",
+                    "start_char": 175,
+                    "end_char": 188
+                },
+                {
+                    "text": "100%",
+                    "label": "PERCENT",
+                    "start_char": 220,
+                    "end_char": 224
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 255,
+                    "end_char": 260
+                }
+            ]
+        },
+        {
+            "clause_id": 168,
+            "clause_text": "Holders shall be given not less than 15 days\u2019 nor more than 60 days\u2019 prior notice by the Trustee of the date \ufb01xed for suchredemption described in (1) and (2) above.",
+            "category": "Notices",
+            "entities": [
+                {
+                    "text": "less than 15 days",
+                    "label": "DATE",
+                    "start_char": 27,
+                    "end_char": 44
+                },
+                {
+                    "text": "more than 60 days",
+                    "label": "DATE",
+                    "start_char": 50,
+                    "end_char": 67
+                },
+                {
+                    "text": "the Trustee of the date",
+                    "label": "ORG",
+                    "start_char": 85,
+                    "end_char": 108
+                },
+                {
+                    "text": "1",
+                    "label": "CARDINAL",
+                    "start_char": 147,
+                    "end_char": 148
+                },
+                {
+                    "text": "2",
+                    "label": "CARDINAL",
+                    "start_char": 155,
+                    "end_char": 156
+                }
+            ]
+        },
+        {
+            "clause_id": 169,
+            "clause_text": "Holders shall be given not less than 5 days\u2019 nor more than 30 days\u2019 prior noticeby the Trustee of the date \ufb01xed for such redemption described in (3) and (4) above.",
+            "category": "Notices",
+            "entities": [
+                {
+                    "text": "less than 5 days",
+                    "label": "DATE",
+                    "start_char": 27,
+                    "end_char": 43
+                },
+                {
+                    "text": "more than 30 days",
+                    "label": "DATE",
+                    "start_char": 49,
+                    "end_char": 66
+                },
+                {
+                    "text": "the Trustee of the",
+                    "label": "ORG",
+                    "start_char": 83,
+                    "end_char": 101
+                },
+                {
+                    "text": "3",
+                    "label": "CARDINAL",
+                    "start_char": 146,
+                    "end_char": 147
+                },
+                {
+                    "text": "4",
+                    "label": "CARDINAL",
+                    "start_char": 154,
+                    "end_char": 155
+                }
+            ]
+        },
+        {
+            "clause_id": 170,
+            "clause_text": "All terms used in this Note which are de\ufb01ned in the Indenture shall have the meanings assigned to them in the Indenture.The Notes are governed by the laws of the State of New York.",
+            "category": "Term and Termination",
+            "entities": [
+                {
+                    "text": "Indenture",
+                    "label": "ORG",
+                    "start_char": 110,
+                    "end_char": 119
+                },
+                {
+                    "text": "Notes",
+                    "label": "PRODUCT",
+                    "start_char": 124,
+                    "end_char": 129
+                },
+                {
+                    "text": "the State of New York",
+                    "label": "ORG",
+                    "start_char": 158,
+                    "end_char": 179
+                }
+            ]
+        },
+        {
+            "clause_id": 171,
+            "clause_text": "Schedule 1Redemptions and Amount of Securities Date of partial redemption Aggregate principal amount of Securities then redeemed Remaining principal amount of this Global Security Authorized Signature",
+            "category": "General Provisions",
+            "entities": []
+        }
+    ]
+}
