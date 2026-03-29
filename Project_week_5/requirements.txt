@@ -1,0 +1,10 @@
+chromadb
+streamlit
+pypdf
+python-dotenv
+pandas
+matplotlib
+requests
+scikit-learn
+sentence-transformers
+spacy
