@@ -14,6 +14,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Features
+
+- **Contract Analysis**: Upload PDF, extract text, classify clauses, detect risks/obligations, enrich with external APIs.
+- **Q&A**: Ask grounded questions over the contract using RAG (vector search + LLM).
+- **Golden Dataset Testing**: Run 40 baseline questions to evaluate RAG performance, with metrics and detailed comparisons.
+- **Exports**: Download reports as CSV/JSON.
+
 ## Notes
 
 - Live external risks use NOAA, CISA KEV, and World Bank APIs.
@@ -31,3 +38,8 @@ python -m spacy download en_core_web_sm
 ollama serve
 ollama pull mistral
 ```
+
+## Testing
+
+- Use `test_rag.py` to run golden dataset tests programmatically.
+- The UI includes a "Run Golden Tests" button for interactive evaluation.

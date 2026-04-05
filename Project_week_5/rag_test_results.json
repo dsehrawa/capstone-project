@@ -1,0 +1,416 @@
+[
+  {
+    "question": "What are the main parties involved in this contract?",
+    "category": "Parties",
+    "expected_answer": "The main parties are the entities identified as organizations in the contract text, such as companies, merchants, or affiliates mentioned in the agreement clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] (a) The parties to this Agreement are independent contractors.\n\n- [General Provisions] Independent Contractors\n\n- [Parties] Each party shall be solely responsible for resolving all personnel issues and wages or salary matters pertaining to its Personnel and for all employment related claims by its Personnel, including claims for any benefits from the other party which may be afforded to such other party\u2019s employees, as well as immigrant and other employment related lega",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.6485435962677002
+  },
+  {
+    "question": "What is the term of the contract?",
+    "category": "Term and Termination",
+    "expected_answer": "The contract term is specified in the termination or term clauses, including effective date, duration, and any renewal provisions.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] (a) The parties to this Agreement are independent contractors.\n\n- [Parties] 1 [***] at [***] during [***], provided that Merchant complies with the terms and conditions of this Agreement.\n\n- [Term and Termination] The Initial Term and any Renewal Term are collectively referred to under the Agreement as the \u201cTerm.\u201d Termination of this Agreement shall result in the automatic termination of any Order Form effective as of the date of termination of this Agreement, subject to the obligations herein.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.546391487121582
+  },
+  {
+    "question": "What are the payment obligations?",
+    "category": "Payment",
+    "expected_answer": "Payment obligations include terms for fees, charges, invoices, due dates, and any late payment penalties as outlined in the payment clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] As of the Effective Date, the intent of the parties is to offer Loans to Customers, with Merchant paying Affirm in the form of Fees as set out in the Order Forms (defined below).\n\n- [Parties] As part of the Payout (as defined in the Agreement), Affirm shall net from the Payout [***] for each [***].\n\n- [Parties] and (iii) undisputed amounts owed by Merchant to Affirm under the Agreement necessary to complete settlement, which may include amounts resulting from Customer refunds exceeding the amount of Captured transactions.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.5743105411529541
+  },
+  {
+    "question": "What confidentiality requirements are there?",
+    "category": "Confidentiality",
+    "expected_answer": "Confidentiality requirements involve non-disclosure of proprietary information, handling of secret data, and any exceptions as per the confidentiality clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Confidentiality] Confidential Information and Privacy.\n\n- [Confidentiality] (a) Confidential Information.\n\n- [Confidentiality] The terms and conditions of this Agreement shall be considered Confidential Information as to both parties.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Confidentiality",
+    "top_clause_score": 0.7226701378822327
+  },
+  {
+    "question": "What is the governing law?",
+    "category": "Governing Law",
+    "expected_answer": "The governing law is specified in the governing law clauses, indicating the applicable jurisdiction, state, or country for dispute resolution.",
+    "generated_answer": "Top supporting clauses:\n\n- [Governing Law] Governing Law\n\n- [Governing Law] (d) it shall comply at all times with all applicable laws, rules and regulations in connection with carrying out its obligations contained herein\n\n- [Parties] (b) it has the right, power and authority to enter into this Agreement",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Governing Law",
+    "top_clause_score": 0.8993526697158813
+  },
+  {
+    "question": "What indemnification provisions exist?",
+    "category": "Indemnification",
+    "expected_answer": "Indemnification provisions require one party to hold harmless the other for damages, losses, or claims as detailed in the indemnification clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] The Indemnified Party\u2019s right to indemnification is conditioned upon the following: prompt written notice to the Indemnifying Party of any Claim for which indemnity is sought pursuant to this Agreement\n\n- [Indemnification] Indemnification.\n\n- [Indemnification] (a) General Indemnification.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.623340368270874
+  },
+  {
+    "question": "What are the limitation of liability terms?",
+    "category": "Limitation of Liability",
+    "expected_answer": "Limitation of liability terms cap the maximum liability, exclude certain damages, or specify indirect/consequential damages exclusions in the liability clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Limitation of Liability] Limitation of Liability.\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]\n\n- [Parties] The failure of any party to enforce any of the terms and conditions of the Agreement shall not constitute a waiver of that party\u2019s right thereafter to enforce each and every term and condition of this Agreement.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Limitation of Liability",
+    "top_clause_score": 0.9268420934677124
+  },
+  {
+    "question": "What representations and warranties are made?",
+    "category": "Representations and Warranties",
+    "expected_answer": "Representations and warranties include guarantees of accuracy, truthfulness, and compliance with certain standards as stated in the representations clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Representations and Warranties] Representations and Warranties.\n\n- [Indemnification] (b) Intellectual Property Claims.\n\n- [Limitation of Liability] Limitation of Liability.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Representations and Warranties",
+    "top_clause_score": 0.8704932332038879
+  },
+  {
+    "question": "What intellectual property rights are addressed?",
+    "category": "Intellectual Property",
+    "expected_answer": "Intellectual property rights cover ownership, licenses, patents, trademarks, copyrights, and infringement protections in the IP clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Indemnification] (b) Intellectual Property Claims.\n\n- [Intellectual Property] License Grants and Intellectual Property.\n\n- [Intellectual Property] (c) Affirm Intellectual Property.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Indemnification",
+    "top_clause_score": 0.6703760623931885
+  },
+  {
+    "question": "What force majeure events are covered?",
+    "category": "Force Majeure",
+    "expected_answer": "Force majeure covers unforeseeable events beyond control, such as acts of god, delays, or failures to perform as listed in the force majeure clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Force Majeure] Force Majeure.\n\n- [Parties] Except for each party\u2019s payment obligations, neither party will be responsible for any failure or delay in performance due, in whole or in part, directly or indirectly, to any contingency, delay, failure, or cause of any nature beyond its reasonable control, including, without in any way limiting the generality of the foregoing, fire, terrorism, ep\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Force Majeure",
+    "top_clause_score": 0.6391158103942871
+  },
+  {
+    "question": "How are notices to be delivered?",
+    "category": "Notices",
+    "expected_answer": "Notices must be delivered in writing via specified addresses, email, mail, fax, or other methods as outlined in the notices clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Notices] Notices.\n\n- [Notices] Notices shall be deemed received one (1) Business Day after being sent by electronic mail.\n\n- [Notices] All notices or other communications required or permitted hereunder shall be in writing and shall be deemed to have been given if sent via electronic mail: (a) by Merchant to [***] (b) by Affirm, to the electronic mail address submitted by Merchant on the most current Order Form between the parties, with a copy to [***] for notices of breach, indem",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Notices",
+    "top_clause_score": 0.7159445285797119
+  },
+  {
+    "question": "What assignment provisions are there?",
+    "category": "Assignment",
+    "expected_answer": "Assignment provisions restrict or allow transfer of rights and obligations, requiring written consent or prohibiting delegation in the assignment clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Assignment] Following any assignment permitted hereunder, the assignee shall have the same rights and obligations as the assignor and shall agree in writing to be bound by the terms and conditions of this Agreement.\n\n- [Assignment] Assignment.\n\n- [Assignment] (iii) suffers the appointment of a receiver or makes an assignment for the benefit of creditor",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Assignment",
+    "top_clause_score": 0.692744791507721
+  },
+  {
+    "question": "What severability clauses exist?",
+    "category": "Severability",
+    "expected_answer": "Severability clauses state that invalid or unenforceable provisions do not affect the rest of the contract, as per the severability clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] Severability.\n\n- [Parties] EXCEPT AS EXPRESSLY SET FORTH IN THE AGREEMENT AND TO THE MAXIMUM EXTENT PERMITTED BY LAW, ALL CONDITIONS AND WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR PARTICULAR PURPOSE, ARE HEREBY EXPRESSLY DISCLAIMED, EXCEPT TO THE EXTENT ANY SUCH EXCLUSION WOULD CONTRAVENE ANY APPLICABLE STATUTE.\n\n- [Term and Termination] (b) Termination without Cause.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.6581434607505798
+  },
+  {
+    "question": "How can the contract be amended?",
+    "category": "Amendments",
+    "expected_answer": "Amendments require written agreement, in writing, and may specify procedures for modifications as detailed in the amendments clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] This Agreement may not be amended or modified except by a writing executed by the duly authorized representatives of both parties.\n\n- [Amendments] Amendments\n\n- [Confidentiality] This provision shall supersede any previous agreement, whether written or oral, between the parties hereto regarding Confidential Information.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.6741416454315186
+  },
+  {
+    "question": "What is the entire agreement provision?",
+    "category": "Entire Agreement",
+    "expected_answer": "The entire agreement provision states that the contract supersedes prior agreements and includes all understandings, as per the entire agreement clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] 1 and the Agreement.\n\n- [Parties] Entire Agreement\n\n- [Entire Agreement] This Agreement, including the Exhibits and all applicable Order Forms, constitutes the entire understanding and contract between the parties and supersedes all prior agreements (including any prior agreement entered into between the parties), understandings, arrangements, commitments or representations, oral or written, between the parties with res",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.7064285278320312
+  },
+  {
+    "question": "What are the top financial risks?",
+    "category": "Financial Risk",
+    "expected_answer": "Top financial risks include payment delays, fee disputes, tax exposure, and liability caps based on the risk analysis of financial clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Governing Law] Financial Statements.\n\n- [General Provisions] Insurance.\n\n- [General Provisions] Fraudulent Transactions.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Governing Law",
+    "top_clause_score": 0.5075206160545349
+  },
+  {
+    "question": "What legal risks are present?",
+    "category": "Legal Risk",
+    "expected_answer": "Legal risks involve indemnification exposure, dispute resolution, and jurisdiction issues as identified in legal and compliance clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Limitation of Liability] Limitation of Liability.\n\n- [Governing Law] or (c) it violates any applicable laws.\n\n- [Parties] (c) is or becomes generally available to the public other than through a violation of this Agreement",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Limitation of Liability",
+    "top_clause_score": 0.5664761066436768
+  },
+  {
+    "question": "What operational risks exist?",
+    "category": "Operational Risk",
+    "expected_answer": "Operational risks include service disruptions, force majeure events, and delivery failures as per operational clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]\n\n- [Parties] Except for each party\u2019s payment obligations, neither party will be responsible for any failure or delay in performance due, in whole or in part, directly or indirectly, to any contingency, delay, failure, or cause of any nature beyond its reasonable control, including, without in any way limiting the generality of the foregoing, fire, terrorism, ep\n\n- [General Provisions] (e) Survival.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.37822532653808594
+  },
+  {
+    "question": "What obligations does each party have?",
+    "category": "Obligations",
+    "expected_answer": "Obligations are grouped by party and type, such as payment obligations for the buyer, performance obligations for the provider, and confidentiality obligations for all parties.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Page 13 09/03/2026, 19:10 sec.gov/Archives/edgar/data/1820953/000110465920126927/tm2026663d5_ex10-6.htm https://www.sec.gov/Archives/edgar/data/1820953/000110465920126927/tm2026663d5_ex10-6.htm 13/19 (b) Obligations of the Receiving Party.\n\n- [Parties] Each party shall be solely responsible for resolving all personnel issues and wages or salary matters pertaining to its Personnel and for all employment related claims by its Personnel, including claims for any benefits from the other party which may be afforded to such other party\u2019s employees, as well as immigrant and other employment related lega\n\n- [Parties] Without limiting the foregoing, each party will establish and maintain appropriate administrative, physical, and technological safeguards to protect the security, confidentiality and integrity of Personal Information of the other party.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.6284193396568298
+  },
+  {
+    "question": "What external risks are currently active?",
+    "category": "External Risks",
+    "expected_answer": "External risks include live weather alerts, cybersecurity vulnerabilities, and macroeconomic indicators from NOAA, CISA, and World Bank APIs.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] Insurance.\n\n- [Limitation of Liability] Limitation of Liability.\n\n- [General Provisions] Fraudulent Transactions.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.3777942657470703
+  },
+  {
+    "question": "What are the termination conditions?",
+    "category": "Term and Termination",
+    "expected_answer": "Termination conditions include expiration dates, renewal options, early exit clauses, and conditions for termination as specified in the term and termination clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Term and Termination] (b) Termination without Cause.\n\n- [Term and Termination] Term and Termination.\n\n- [Term and Termination] (c) Termination with Cause.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Term and Termination",
+    "top_clause_score": 0.7684578895568848
+  },
+  {
+    "question": "What are the dispute resolution mechanisms?",
+    "category": "Governing Law",
+    "expected_answer": "Dispute resolution mechanisms include arbitration, court proceedings, mediation, or other methods specified in the governing law or dispute resolution clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Governing Law] Dispute Resolution.\n\n- [Parties] and (3) Exhibit C \u2013 Affirm Customer Dispute Resolution Procedures.\n\n- [Term and Termination] Any dispute, claim or controversy arising out of or relating to this Agreement, or the breach, termination, enforcement, interpretation or validity thereof, shall be determined by final and binding arbitration before one arbitrator.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Governing Law",
+    "top_clause_score": 0.7553215026855469
+  },
+  {
+    "question": "What are the key performance indicators or service levels?",
+    "category": "Operational",
+    "expected_answer": "Key performance indicators or service levels are defined in operational clauses, specifying delivery times, quality standards, or uptime requirements.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] (2) Exhibit B \u2013 Affirm Service Level Objectives\n\n- [General Provisions] (a) Data Sharing / Performance.\n\n- [Parties] (a) Each party will keep complete and accurate books and records pertaining to its receipt and handling of transactions processed through the Services.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.5115498304367065
+  },
+  {
+    "question": "What data protection or privacy obligations are there?",
+    "category": "Compliance",
+    "expected_answer": "Data protection or privacy obligations involve handling of personal data, compliance with privacy laws, and security measures as outlined in confidentiality or compliance clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Therefore, the parties agree that (i) each other party independently owns its respective data ([***]) and may use and disclose such data as decided by such party, irrespective of the fact that such data may be the same information as the data of the other party, so long as it does so in compliance with Privacy Laws, and (ii) [***].\n\n- [Confidentiality] Confidential Information and Privacy.\n\n- [Parties] Each Receiving Party shall comply with the provisions of all laws applicable to the privacy, protection and confidentiality of Personal Information of the other party, if obtained by such Receiving Party, including customer and employee records (\u201cPrivacy Law(s)\u201d).",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.6386846899986267
+  },
+  {
+    "question": "What are the insurance requirements?",
+    "category": "Indemnification",
+    "expected_answer": "Insurance requirements specify types and amounts of coverage needed, such as liability insurance or professional indemnity, as mentioned in indemnification or general clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] Insurance.\n\n- [Parties] Page 18 09/03/2026, 19:10 sec.gov/Archives/edgar/data/1820953/000110465920126927/tm2026663d5_ex10-6.htm https://www.sec.gov/Archives/edgar/data/1820953/000110465920126927/tm2026663d5_ex10-6.htm 18/19 No later than the Effective Date, and on an annual basis thereafter, each party shall provide to the other party a certificate of insurance evidencing\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.6063148379325867
+  },
+  {
+    "question": "What are the audit or inspection rights?",
+    "category": "General Provisions",
+    "expected_answer": "Audit or inspection rights allow one party to review the other's records, compliance, or performance as specified in operational or general provisions clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Intellectual Property] Audit Rights and Disputes.\n\n- [Parties] During such audit, the party being audited shall allow a certified public accountant selected by the other party and reasonably acceptable to the party being audited reasonable access to (including the right to make copies of) the books and records in accordance with the foregoing.\n\n- [Parties] During the Term of this Agreement and for a period of six (6) months after its termination, each party shall have the right to audit those books and records of the other that are directly relevant to verifying the accuracy of the payments made by Affirm to Merchant and any Fees or other amounts payable by Merchant to Affirm hereunder.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Intellectual Property",
+    "top_clause_score": 0.7559689283370972
+  },
+  {
+    "question": "What are the currency and exchange rate provisions?",
+    "category": "Payment",
+    "expected_answer": "Currency and exchange rate provisions specify the payment currency, exchange mechanisms, or adjustments for fluctuations as detailed in payment clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Payment] (a) Fees for Online, In-Store, and Telesales Transactions.\n\n- [Parties] Merchant shall pay Affirm a percentage of the gross dollar amount of a Successful Transaction (as defined in the Agreement) [***] as part of the Successful Transaction, if applicable, (the \u201cFees\u201d) for consumer loans as described below.\n\n- [Parties] This Agreement is effective as of the Effective Date and includes: (1) Exhibit A \u2013 this Merchant Agreement",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Payment",
+    "top_clause_score": 0.3480533957481384
+  },
+  {
+    "question": "What are the non-compete or non-solicitation clauses?",
+    "category": "Intellectual Property",
+    "expected_answer": "Non-compete or non-solicitation clauses restrict competition or solicitation of employees/customers post-termination, as per intellectual property or general clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Terms and Conditions of Merchant Participation.\n\n- [Parties] (b) Each party agrees and acknowledges that its respective Personnel are not employees of the other party or any of its affiliates and are not eligible to participate in any of their employee benefit or similar programs.\n\n- [Governing Law] This clause shall not preclude parties from seeking provisional remedies in aid of arbitration from a court of appropriate jurisdiction.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.5410632491111755
+  },
+  {
+    "question": "What are the warranty periods and remedies?",
+    "category": "Representations and Warranties",
+    "expected_answer": "Warranty periods and remedies specify durations for warranties and corrective actions for breaches, as outlined in representations and warranties clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] (v) alter or remove any warranties, disclaimers, and license agreements shipped with the Services\n\n- [Parties] Beginning ninety (90) days after the Effective Date and continuing during the remainder of the Term of this Agreement, Merchant and Affirm, each at its own cost and expense, shall continuously maintain in force and effect [***] with per-claim and aggregate limits of not less than [***].\n\n- [General Provisions] Insurance.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.4772365093231201
+  },
+  {
+    "question": "What are the escalation procedures for disputes?",
+    "category": "Governing Law",
+    "expected_answer": "Escalation procedures outline steps for resolving disputes, such as initial discussions, mediation, then arbitration, as specified in governing law clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Governing Law] Dispute Resolution.\n\n- [Term and Termination] Any dispute, claim or controversy arising out of or relating to this Agreement, or the breach, termination, enforcement, interpretation or validity thereof, shall be determined by final and binding arbitration before one arbitrator.\n\n- [Governing Law] The arbitration shall be administered by Judicial Arbitration and Mediation Services pursuant to its Comprehensive Arbitration Rules and Procedures and in accordance with the \u201cExpedited Procedures\u201d described therein.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Governing Law",
+    "top_clause_score": 0.6129989624023438
+  },
+  {
+    "question": "What are the subcontracting provisions?",
+    "category": "Assignment",
+    "expected_answer": "Subcontracting provisions allow or restrict delegation of obligations to third parties, requiring approval or notification as per assignment or general clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] \u00a7 1681, et seq., and Regulation V, 12 C.F.R.\n\n- [Confidentiality] This provision shall supersede any previous agreement, whether written or oral, between the parties hereto regarding Confidential Information.\n\n- [Parties] (c) is or becomes generally available to the public other than through a violation of this Agreement",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.46490395069122314
+  },
+  {
+    "question": "What are the compliance with laws requirements?",
+    "category": "Compliance",
+    "expected_answer": "Compliance with laws requirements mandate adherence to applicable regulations, laws, and standards as stated in compliance clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Confidentiality] This includes, without limitation, the obligation to ensure that all credit-related advertising and disclosures, and all notices and disclosures relating to Loan applications, are made in compliance with applicable laws and regulations.\n\n- [Governing Law] (d) it shall comply at all times with all applicable laws, rules and regulations in connection with carrying out its obligations contained herein\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Confidentiality",
+    "top_clause_score": 0.5982353687286377
+  },
+  {
+    "question": "What are the penalty clauses for breaches?",
+    "category": "Limitation of Liability",
+    "expected_answer": "Penalty clauses specify fines, damages, or other consequences for contract breaches, as detailed in limitation of liability or payment clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Confidentiality] (c) limit access to Confidential Information to those of its Representatives who need such access for purposes consistent with this Agreement and shall be responsible for any breach of this Section 10 by such Representatives.\n\n- [Term and Termination] Notwithstanding anything to the contrary in this Agreement, either party may terminate this Agreement (or any one or more Order Forms) for a material breach by the other party that is not cured within thirty (30) days after written notice by the non-breaching party or immediately upon notice of termination in the event of a material breach that by \n\n- [Parties] The failure of any party to enforce any of the terms and conditions of the Agreement shall not constitute a waiver of that party\u2019s right thereafter to enforce each and every term and condition of this Agreement.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Confidentiality",
+    "top_clause_score": 0.5096687078475952
+  },
+  {
+    "question": "What are the intellectual property ownership transfers?",
+    "category": "Intellectual Property",
+    "expected_answer": "Intellectual property ownership transfers specify how IP rights are assigned or licensed upon creation or termination, as per IP clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Intellectual Property] License Grants and Intellectual Property.\n\n- [Indemnification] (b) Intellectual Property Claims.\n\n- [Intellectual Property] (c) Affirm Intellectual Property.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Intellectual Property",
+    "top_clause_score": 0.6627446413040161
+  },
+  {
+    "question": "What are the confidentiality breach remedies?",
+    "category": "Confidentiality",
+    "expected_answer": "Confidentiality breach remedies include injunctive relief, damages, or termination for unauthorized disclosure, as outlined in confidentiality clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] (vi) use of the Services in breach of this Agreement\n\n- [Confidentiality] Confidential Information and Privacy.\n\n- [Confidentiality] (b) protect the Confidential Information of the Disclosing Party from unauthorized use disclosure by using at least the same degree of care as the Receiving Party employs to avoid such unauthorized use or disclosure, but in no event any less than reasonable care",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.5335896611213684
+  },
+  {
+    "question": "What are the force majeure notice requirements?",
+    "category": "Force Majeure",
+    "expected_answer": "Force majeure notice requirements specify timelines and methods for notifying affected parties of force majeure events, as per force majeure clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Force Majeure] Force Majeure.\n\n- [Notices] Notices.\n\n- [General Provisions] (f) Affirm shall be responsible for complying with the Service Level Objectives described in Exhibit B attached hereto.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Force Majeure",
+    "top_clause_score": 0.5272975564002991
+  },
+  {
+    "question": "What are the governing language provisions?",
+    "category": "Governing Law",
+    "expected_answer": "Governing language provisions specify the language for contract interpretation and communications, often English, as stated in governing law clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Governing Law] Governing Law\n\n- [Confidentiality] This provision shall supersede any previous agreement, whether written or oral, between the parties hereto regarding Confidential Information.\n\n- [Governing Law] (d) it shall comply at all times with all applicable laws, rules and regulations in connection with carrying out its obligations contained herein",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Governing Law",
+    "top_clause_score": 0.4354775547981262
+  },
+  {
+    "question": "What are the merger or integration clauses?",
+    "category": "Entire Agreement",
+    "expected_answer": "Merger or integration clauses confirm that the written contract represents the entire agreement, superseding oral discussions, as per entire agreement clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Term and Termination] Further, upon termination of this Agreement, but subject to any continuation that is warranted by a transition period agreed upon by the parties in writing: i.\n\n- [Parties] (a) The parties to this Agreement are independent contractors.\n\n- [General Provisions] (d) Implied or Equitable Indemnity.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Term and Termination",
+    "top_clause_score": 0.510796308517456
+  },
+  {
+    "question": "What are the top information security risks?",
+    "category": "Information Security Risk",
+    "expected_answer": "Top information security risks include confidentiality breaches, data misuse, and security incidents based on analysis of confidentiality and compliance clauses.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Without limiting the foregoing, each party will establish and maintain appropriate administrative, physical, and technological safeguards to protect the security, confidentiality and integrity of Personal Information of the other party.\n\n- [Confidentiality] Confidential Information and Privacy.\n\n- [Confidentiality] (b) protect the Confidential Information of the Disclosing Party from unauthorized use disclosure by using at least the same degree of care as the Receiving Party employs to avoid such unauthorized use or disclosure, but in no event any less than reasonable care",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.45999467372894287
+  },
+  {
+    "question": "What are the strategic external risks?",
+    "category": "Strategic External Risk",
+    "expected_answer": "Strategic external risks include geopolitical events, weather disasters, macroeconomic changes, and supply chain disruptions from external APIs and clause analysis.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Without limiting the foregoing, each party will establish and maintain appropriate administrative, physical, and technological safeguards to protect the security, confidentiality and integrity of Personal Information of the other party.\n\n- [Parties] (b) the other party engages in conduct that damages or disparages its reputation or goodwill (or the reputation of its services or personnel)\n\n- [Limitation of Liability] Limitation of Liability.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.3638763427734375
+  },
+  {
+    "question": "What obligations relate to notices?",
+    "category": "Obligations",
+    "expected_answer": "Notice obligations require timely communication of changes, breaches, or events via specified methods, as grouped in obligation summaries.",
+    "generated_answer": "Top supporting clauses:\n\n- [Notices] Notices.\n\n- [Notices] Notices shall be deemed received one (1) Business Day after being sent by electronic mail.\n\n- [Notices] All notices or other communications required or permitted hereunder shall be in writing and shall be deemed to have been given if sent via electronic mail: (a) by Merchant to [***] (b) by Affirm, to the electronic mail address submitted by Merchant on the most current Order Form between the parties, with a copy to [***] for notices of breach, indem",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Notices",
+    "top_clause_score": 0.6811955571174622
+  },
+  {
+    "question": "What are the live cybersecurity threats?",
+    "category": "External Risks",
+    "expected_answer": "Live cybersecurity threats include known exploited vulnerabilities from CISA KEV for mentioned vendors/products, with current dates and evidence.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Without limiting the foregoing, each party will establish and maintain appropriate administrative, physical, and technological safeguards to protect the security, confidentiality and integrity of Personal Information of the other party.\n\n- [Confidentiality] Confidential Information and Privacy.\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.35924816131591797
+  },
+  {
+    "question": "What macroeconomic indicators are concerning?",
+    "category": "External Risks",
+    "expected_answer": "Concerning macroeconomic indicators include high inflation, GDP growth slowdowns, or other signals from World Bank data for relevant countries.",
+    "generated_answer": "Top supporting clauses:\n\n- [Governing Law] Financial Statements.\n\n- [General Provisions] (ii) becomes insolvent\n\n- [General Provisions] \u00a7 6801, et seq., the Federal Trade Commission (\u201cFTC\u201d) Financial Privacy Rule, 16 C.F.R.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Governing Law",
+    "top_clause_score": 0.33602190017700195
+  },
+  {
+    "question": "What weather-related risks are active?",
+    "category": "External Risks",
+    "expected_answer": "Active weather-related risks include severe alerts like tornadoes, floods, or storms from NOAA for specified areas, with current dates.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Except for each party\u2019s payment obligations, neither party will be responsible for any failure or delay in performance due, in whole or in part, directly or indirectly, to any contingency, delay, failure, or cause of any nature beyond its reasonable control, including, without in any way limiting the generality of the foregoing, fire, terrorism, ep\n\n- [General Provisions] (e) Survival.\n\n- [General Provisions] The coverage provided by these policies shall include, in connection with an act, error, omission or breach of duty in the handling, management, storage, use or control of protected [***], coverage for the following: (1) [***]",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.3210306167602539
+  },
+  {
+    "question": "What are the risk scores for different categories?",
+    "category": "Risk Analysis",
+    "expected_answer": "Risk scores are calculated as likelihood \u00c3\u2014 impact, with categories like Financial (High), Legal (High), Operational (Medium), etc., from hybrid risk classification.",
+    "generated_answer": "Top supporting clauses:\n\n- [Parties] Any future evaluations of Merchant by Affirm\u2019s risk department shall follow the process set forth in Section 5.5 of this Agreement.\n\n- [Parties] (a) As of the Effective Date, Affirm\u2019s risk department has evaluated and approved Merchant for the programs contemplated by this Agreement and the Order Forms.\n\n- [General Provisions] \u00a7 681.1, et seq., the Fair Credit Reporting Act (\u201cFCRA\u201d), 15 U.S.C.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "Parties",
+    "top_clause_score": 0.30024218559265137
+  },
+  {
+    "question": "What clauses have the highest risk scores?",
+    "category": "Risk Analysis",
+    "expected_answer": "Clauses with highest risk scores are those matching keywords for termination, payment, liability, or IP, prioritized in the combined priority risks list.",
+    "generated_answer": "Top supporting clauses:\n\n- [General Provisions] (d) Implied or Equitable Indemnity.\n\n- [Limitation of Liability] Limitation of Liability.\n\n- [General Provisions] \u00a7 313.1, et seq., the FTC Safeguards Rule, 16 C.F.R.",
+    "retrieved_clauses_count": 5,
+    "top_clause_category": "General Provisions",
+    "top_clause_score": 0.4016757011413574
+  }
+]

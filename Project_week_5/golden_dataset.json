@@ -1,0 +1,232 @@
+[
+  {
+    "question": "What are the main parties involved in this contract?",
+    "expected_answer": "The main parties are the entities identified as organizations in the contract text, such as companies, merchants, or affiliates mentioned in the agreement clauses.",
+    "category": "Parties"
+  },
+  {
+    "question": "What is the term of the contract?",
+    "expected_answer": "The contract term is specified in the termination or term clauses, including effective date, duration, and any renewal provisions.",
+    "category": "Term and Termination"
+  },
+  {
+    "question": "What are the payment obligations?",
+    "expected_answer": "Payment obligations include terms for fees, charges, invoices, due dates, and any late payment penalties as outlined in the payment clauses.",
+    "category": "Payment"
+  },
+  {
+    "question": "What confidentiality requirements are there?",
+    "expected_answer": "Confidentiality requirements involve non-disclosure of proprietary information, handling of secret data, and any exceptions as per the confidentiality clauses.",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "What is the governing law?",
+    "expected_answer": "The governing law is specified in the governing law clauses, indicating the applicable jurisdiction, state, or country for dispute resolution.",
+    "category": "Governing Law"
+  },
+  {
+    "question": "What indemnification provisions exist?",
+    "expected_answer": "Indemnification provisions require one party to hold harmless the other for damages, losses, or claims as detailed in the indemnification clauses.",
+    "category": "Indemnification"
+  },
+  {
+    "question": "What are the limitation of liability terms?",
+    "expected_answer": "Limitation of liability terms cap the maximum liability, exclude certain damages, or specify indirect/consequential damages exclusions in the liability clauses.",
+    "category": "Limitation of Liability"
+  },
+  {
+    "question": "What representations and warranties are made?",
+    "expected_answer": "Representations and warranties include guarantees of accuracy, truthfulness, and compliance with certain standards as stated in the representations clauses.",
+    "category": "Representations and Warranties"
+  },
+  {
+    "question": "What intellectual property rights are addressed?",
+    "expected_answer": "Intellectual property rights cover ownership, licenses, patents, trademarks, copyrights, and infringement protections in the IP clauses.",
+    "category": "Intellectual Property"
+  },
+  {
+    "question": "What force majeure events are covered?",
+    "expected_answer": "Force majeure covers unforeseeable events beyond control, such as acts of god, delays, or failures to perform as listed in the force majeure clauses.",
+    "category": "Force Majeure"
+  },
+  {
+    "question": "How are notices to be delivered?",
+    "expected_answer": "Notices must be delivered in writing via specified addresses, email, mail, fax, or other methods as outlined in the notices clauses.",
+    "category": "Notices"
+  },
+  {
+    "question": "What assignment provisions are there?",
+    "expected_answer": "Assignment provisions restrict or allow transfer of rights and obligations, requiring written consent or prohibiting delegation in the assignment clauses.",
+    "category": "Assignment"
+  },
+  {
+    "question": "What severability clauses exist?",
+    "expected_answer": "Severability clauses state that invalid or unenforceable provisions do not affect the rest of the contract, as per the severability clauses.",
+    "category": "Severability"
+  },
+  {
+    "question": "How can the contract be amended?",
+    "expected_answer": "Amendments require written agreement, in writing, and may specify procedures for modifications as detailed in the amendments clauses.",
+    "category": "Amendments"
+  },
+  {
+    "question": "What is the entire agreement provision?",
+    "expected_answer": "The entire agreement provision states that the contract supersedes prior agreements and includes all understandings, as per the entire agreement clauses.",
+    "category": "Entire Agreement"
+  },
+  {
+    "question": "What are the top financial risks?",
+    "expected_answer": "Top financial risks include payment delays, fee disputes, tax exposure, and liability caps based on the risk analysis of financial clauses.",
+    "category": "Financial Risk"
+  },
+  {
+    "question": "What legal risks are present?",
+    "expected_answer": "Legal risks involve indemnification exposure, dispute resolution, and jurisdiction issues as identified in legal and compliance clauses.",
+    "category": "Legal Risk"
+  },
+  {
+    "question": "What operational risks exist?",
+    "expected_answer": "Operational risks include service disruptions, force majeure events, and delivery failures as per operational clauses.",
+    "category": "Operational Risk"
+  },
+  {
+    "question": "What obligations does each party have?",
+    "expected_answer": "Obligations are grouped by party and type, such as payment obligations for the buyer, performance obligations for the provider, and confidentiality obligations for all parties.",
+    "category": "Obligations"
+  },
+  {
+    "question": "What external risks are currently active?",
+    "expected_answer": "External risks include live weather alerts, cybersecurity vulnerabilities, and macroeconomic indicators from NOAA, CISA, and World Bank APIs.",
+    "category": "External Risks"
+  },
+  {
+    "question": "What are the termination conditions?",
+    "expected_answer": "Termination conditions include expiration dates, renewal options, early exit clauses, and conditions for termination as specified in the term and termination clauses.",
+    "category": "Term and Termination"
+  },
+  {
+    "question": "What are the dispute resolution mechanisms?",
+    "expected_answer": "Dispute resolution mechanisms include arbitration, court proceedings, mediation, or other methods specified in the governing law or dispute resolution clauses.",
+    "category": "Governing Law"
+  },
+  {
+    "question": "What are the key performance indicators or service levels?",
+    "expected_answer": "Key performance indicators or service levels are defined in operational clauses, specifying delivery times, quality standards, or uptime requirements.",
+    "category": "Operational"
+  },
+  {
+    "question": "What data protection or privacy obligations are there?",
+    "expected_answer": "Data protection or privacy obligations involve handling of personal data, compliance with privacy laws, and security measures as outlined in confidentiality or compliance clauses.",
+    "category": "Compliance"
+  },
+  {
+    "question": "What are the insurance requirements?",
+    "expected_answer": "Insurance requirements specify types and amounts of coverage needed, such as liability insurance or professional indemnity, as mentioned in indemnification or general clauses.",
+    "category": "Indemnification"
+  },
+  {
+    "question": "What are the audit or inspection rights?",
+    "expected_answer": "Audit or inspection rights allow one party to review the other's records, compliance, or performance as specified in operational or general provisions clauses.",
+    "category": "General Provisions"
+  },
+  {
+    "question": "What are the currency and exchange rate provisions?",
+    "expected_answer": "Currency and exchange rate provisions specify the payment currency, exchange mechanisms, or adjustments for fluctuations as detailed in payment clauses.",
+    "category": "Payment"
+  },
+  {
+    "question": "What are the non-compete or non-solicitation clauses?",
+    "expected_answer": "Non-compete or non-solicitation clauses restrict competition or solicitation of employees/customers post-termination, as per intellectual property or general clauses.",
+    "category": "Intellectual Property"
+  },
+  {
+    "question": "What are the warranty periods and remedies?",
+    "expected_answer": "Warranty periods and remedies specify durations for warranties and corrective actions for breaches, as outlined in representations and warranties clauses.",
+    "category": "Representations and Warranties"
+  },
+  {
+    "question": "What are the escalation procedures for disputes?",
+    "expected_answer": "Escalation procedures outline steps for resolving disputes, such as initial discussions, mediation, then arbitration, as specified in governing law clauses.",
+    "category": "Governing Law"
+  },
+  {
+    "question": "What are the subcontracting provisions?",
+    "expected_answer": "Subcontracting provisions allow or restrict delegation of obligations to third parties, requiring approval or notification as per assignment or general clauses.",
+    "category": "Assignment"
+  },
+  {
+    "question": "What are the compliance with laws requirements?",
+    "expected_answer": "Compliance with laws requirements mandate adherence to applicable regulations, laws, and standards as stated in compliance clauses.",
+    "category": "Compliance"
+  },
+  {
+    "question": "What are the penalty clauses for breaches?",
+    "expected_answer": "Penalty clauses specify fines, damages, or other consequences for contract breaches, as detailed in limitation of liability or payment clauses.",
+    "category": "Limitation of Liability"
+  },
+  {
+    "question": "What are the intellectual property ownership transfers?",
+    "expected_answer": "Intellectual property ownership transfers specify how IP rights are assigned or licensed upon creation or termination, as per IP clauses.",
+    "category": "Intellectual Property"
+  },
+  {
+    "question": "What are the confidentiality breach remedies?",
+    "expected_answer": "Confidentiality breach remedies include injunctive relief, damages, or termination for unauthorized disclosure, as outlined in confidentiality clauses.",
+    "category": "Confidentiality"
+  },
+  {
+    "question": "What are the force majeure notice requirements?",
+    "expected_answer": "Force majeure notice requirements specify timelines and methods for notifying affected parties of force majeure events, as per force majeure clauses.",
+    "category": "Force Majeure"
+  },
+  {
+    "question": "What are the governing language provisions?",
+    "expected_answer": "Governing language provisions specify the language for contract interpretation and communications, often English, as stated in governing law clauses.",
+    "category": "Governing Law"
+  },
+  {
+    "question": "What are the merger or integration clauses?",
+    "expected_answer": "Merger or integration clauses confirm that the written contract represents the entire agreement, superseding oral discussions, as per entire agreement clauses.",
+    "category": "Entire Agreement"
+  },
+  {
+    "question": "What are the top information security risks?",
+    "expected_answer": "Top information security risks include confidentiality breaches, data misuse, and security incidents based on analysis of confidentiality and compliance clauses.",
+    "category": "Information Security Risk"
+  },
+  {
+    "question": "What are the strategic external risks?",
+    "expected_answer": "Strategic external risks include geopolitical events, weather disasters, macroeconomic changes, and supply chain disruptions from external APIs and clause analysis.",
+    "category": "Strategic External Risk"
+  },
+  {
+    "question": "What obligations relate to notices?",
+    "expected_answer": "Notice obligations require timely communication of changes, breaches, or events via specified methods, as grouped in obligation summaries.",
+    "category": "Obligations"
+  },
+  {
+    "question": "What are the live cybersecurity threats?",
+    "expected_answer": "Live cybersecurity threats include known exploited vulnerabilities from CISA KEV for mentioned vendors/products, with current dates and evidence.",
+    "category": "External Risks"
+  },
+  {
+    "question": "What macroeconomic indicators are concerning?",
+    "expected_answer": "Concerning macroeconomic indicators include high inflation, GDP growth slowdowns, or other signals from World Bank data for relevant countries.",
+    "category": "External Risks"
+  },
+  {
+    "question": "What weather-related risks are active?",
+    "expected_answer": "Active weather-related risks include severe alerts like tornadoes, floods, or storms from NOAA for specified areas, with current dates.",
+    "category": "External Risks"
+  },
+  {
+    "question": "What are the risk scores for different categories?",
+    "expected_answer": "Risk scores are calculated as likelihood × impact, with categories like Financial (High), Legal (High), Operational (Medium), etc., from hybrid risk classification.",
+    "category": "Risk Analysis"
+  },
+  {
+    "question": "What clauses have the highest risk scores?",
+    "expected_answer": "Clauses with highest risk scores are those matching keywords for termination, payment, liability, or IP, prioritized in the combined priority risks list.",
+    "category": "Risk Analysis"
+  }
+]

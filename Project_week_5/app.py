@@ -1,4 +1,5 @@
 import tempfile
+import os
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -172,6 +173,44 @@ def main() -> None:
         for idx, item in enumerate(result.contexts, start=1):
             st.write(f"{idx}. [{item['category']}] score={item['score']:.3f}")
             st.caption(item["clause_text"])
+
+    # Golden Dataset Testing Section
+    st.subheader("Golden Dataset Testing")
+    st.write("Run baseline questions from the golden dataset to evaluate RAG performance.")
+    if st.button("Run Golden Tests", type="secondary"):
+        if "artifacts" not in st.session_state:
+            st.error("Please upload and analyze a contract first.")
+        else:
+            with st.spinner("Running golden dataset tests..."):
+                # Import and run tests
+                from test_rag import run_golden_tests, compute_basic_metrics
+
+                # Save uploaded file temporarily for testing
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
+                    temp_file.write(uploaded_file.getbuffer())
+                    temp_pdf_path = Path(temp_file.name)
+
+                try:
+                    results = run_golden_tests(temp_pdf_path)
+                    metrics = compute_basic_metrics(results)
+
+                    st.success("Tests completed!")
+                    st.metric("Total Questions", metrics["total_questions"])
+                    st.metric("Retrieval Success Rate", f"{metrics['retrieval_success_rate']:.2%}")
+                    st.metric("Avg Answer Similarity", f"{metrics['average_answer_similarity']:.2f}")
+
+                    # Display results table
+                    results_df = pd.DataFrame(results)
+                    with st.expander("View Detailed Test Results", expanded=False):
+                        st.dataframe(results_df, use_container_width=True)
+                        st.download_button(
+                            label="Download Test Results (CSV)",
+                            data=dataframe_to_csv_bytes(results_df),
+                            file_name="golden_test_results.csv",
+                            mime="text/csv",
+                        )
+                finally:
+                    os.unlink(temp_pdf_path)
 
 
 if __name__ == "__main__":
