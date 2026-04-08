@@ -1,0 +1,8 @@
+streamlit
+pypdf
+python-dotenv
+pandas
+matplotlib
+requests
+scikit-learn
+spacy

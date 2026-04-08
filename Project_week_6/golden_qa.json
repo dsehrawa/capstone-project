@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "contract": "Peloton-Affirm",
+    "question": "Who are the two main parties in the Peloton-Affirm merchant agreement?",
+    "expected_answer": "The two main parties are Peloton Interactive, Inc. (Merchant) and Affirm, Inc. (a Delaware corporation)."
+  },
+  {
+    "id": 2,
+    "contract": "Peloton-Affirm",
+    "question": "What is the effective date of the Peloton-Affirm merchant agreement?",
+    "expected_answer": "The effective date is September 3, 2020 (9/3/2020)."
+  },
+  {
+    "id": 3,
+    "contract": "Peloton-Affirm",
+    "question": "What is the initial term of the Peloton-Affirm agreement and how does renewal work?",
+    "expected_answer": "The initial term is three (3) years from the Effective Date. After the initial term, the agreement automatically renews for successive one-year renewal terms until terminated."
+  },
+  {
+    "id": 4,
+    "contract": "Peloton-Affirm",
+    "question": "How can either party terminate the Peloton-Affirm agreement without cause?",
+    "expected_answer": "After the initial term, either party may terminate without cause by providing at least ninety (90) days' written notice to the other party."
+  },
+  {
+    "id": 5,
+    "contract": "Peloton-Affirm",
+    "question": "What are the grounds for immediate termination with cause under the Peloton-Affirm agreement?",
+    "expected_answer": "Either party may terminate immediately if the other party terminates its business operations, becomes insolvent, suffers the appointment of a receiver, makes an assignment for the benefit of creditors, or enters into any voluntary or involuntary bankruptcy proceedings. Immediate termination is also allowed for misrepresentation, conduct damaging reputation, or violation of applicable laws."
+  },
+  {
+    "id": 6,
+    "contract": "Peloton-Affirm",
+    "question": "Which state's law governs the Peloton-Affirm agreement and how are disputes resolved?",
+    "expected_answer": "The agreement is governed by the laws of the State of California. Disputes are resolved by final and binding arbitration before one arbitrator, administered by Judicial Arbitration and Mediation Services (JAMS). The place of arbitration is San Francisco if Merchant is the claimant, and New York if Affirm is the claimant."
+  },
+  {
+    "id": 7,
+    "contract": "Peloton-Affirm",
+    "question": "What is the maximum APR permitted for loans originated under the Peloton-Affirm agreement?",
+    "expected_answer": "The maximum annual percentage rate (APR) is 30%."
+  },
+  {
+    "id": 8,
+    "contract": "Peloton-Affirm",
+    "question": "What are Affirm's obligations regarding intellectual property indemnification?",
+    "expected_answer": "Affirm shall defend and indemnify Merchant against any claim that the Services infringe a third party's intellectual property rights. If the Services become subject to an IP claim, Affirm may either procure the right to continue using the Services, modify them to be non-infringing, or terminate the agreement and refund amortized fees."
+  },
+  {
+    "id": 9,
+    "contract": "Peloton-Affirm",
+    "question": "What are the confidentiality obligations under the Peloton-Affirm agreement?",
+    "expected_answer": "The receiving party must keep confidential information confidential, not use or copy it except as authorized, protect it using at least the same degree of care as for its own information (no less than reasonable care), and limit access to representatives who need it. If legally compelled to disclose, the receiving party must provide notice and limit disclosure to what is legally required."
+  },
+  {
+    "id": 10,
+    "contract": "Peloton-Affirm",
+    "question": "What happens to licenses and confidential information when the Peloton-Affirm agreement terminates?",
+    "expected_answer": "Upon termination, all licenses granted by Affirm terminate and revert to Affirm. Each party must immediately destroy or return the other party's materials, documentation, data, and confidential information, and upon request certify such destruction. Each party must cease representing itself as a partner and remove the other party's marks from all materials."
+  },
+  {
+    "id": 11,
+    "contract": "Peloton-Affirm",
+    "question": "What is the force majeure clause in the Peloton-Affirm agreement?",
+    "expected_answer": "Neither party is responsible for failure or delay due to causes beyond reasonable control, including fire, terrorism, epidemic, earthquake, storm, flood, war, riots, acts of God, government regulation, or court judgment. The affected party must give prompt written notice, and the delay is not excused for more than ninety (90) days. Payment obligations are excluded from force majeure."
+  },
+  {
+    "id": 12,
+    "contract": "Peloton-Affirm",
+    "question": "What is the payout schedule for merchant payments under the Peloton-Affirm agreement?",
+    "expected_answer": "Affirm will cause Originating Bank to initiate transfer of Settlement Funds to Merchant's bank account within three (3) business days of a Successful Transaction. Settlement Funds consist of total Successful Transactions less accrued unpaid fees, amounts relating to customer dispute resolution, and undisputed amounts owed by Merchant."
+  },
+  {
+    "id": 13,
+    "contract": "Peloton-Affirm",
+    "question": "What audit rights do the parties have under the Peloton-Affirm agreement?",
+    "expected_answer": "During the term and for six (6) months after termination, each party has the right to audit the other's books and records relevant to verifying payment accuracy. Audits occur no more than once every six months, at the audited party's premises during normal business hours, with at least thirty (30) days' prior notice. If the discrepancy exceeds 5%, the audited party pays the audit costs."
+  },
+  {
+    "id": 14,
+    "contract": "Peloton-Affirm",
+    "question": "What are the merchant's responsibilities regarding refunds and returns?",
+    "expected_answer": "When a purchase is returned or a service cancelled, Merchant must promptly process the refund so Affirm can credit the customer's balance, return the refund amount to Affirm, and issue only full or partial refunds (not store credit). For partial refunds, Merchant is solely responsible for determining the amount and is solely liable for any customer dispute."
+  },
+  {
+    "id": 15,
+    "contract": "Affirm-Amazon",
+    "question": "Who are the parties to the Affirm-Amazon First Amendment?",
+    "expected_answer": "The parties are Affirm, Inc. (Affirm), Amazon.com Services LLC (Amazon Services), and Amazon Payments, Inc. (Amazon Payments). Amazon Services and Amazon Payments are each referred to individually as Amazon."
+  },
+  {
+    "id": 16,
+    "contract": "Affirm-Amazon",
+    "question": "What is the effective date of the Affirm-Amazon First Amendment?",
+    "expected_answer": "The First Amendment is effective as of October 2, 2023 (the Amendment Effective Date)."
+  },
+  {
+    "id": 17,
+    "contract": "Affirm-Amazon",
+    "question": "What is the definition of Installments Product in the Affirm-Amazon agreement?",
+    "expected_answer": "An Installments Product is a closed-end installment loan for customers to finance the purchase of Eligible Products at 0% or 10-36% APR with various loan terms, originated by Bank or Affirm's Affiliate."
+  },
+  {
+    "id": 18,
+    "contract": "Affirm-Amazon",
+    "question": "Which state's law governs the Affirm-Amazon First Amendment and where is the forum for disputes?",
+    "expected_answer": "The First Amendment is governed by the laws of the State of Washington without reference to conflict of law rules. Each party agrees to exclusive personal jurisdiction and venue in the federal and state courts in King County, Washington. The parties waive their right to trial by jury."
+  },
+  {
+    "id": 19,
+    "contract": "Affirm-Amazon",
+    "question": "What is the Settlement Cutoff Date in the Affirm-Amazon agreement?",
+    "expected_answer": "The Settlement Cutoff Date is 120 days after the entire loan proceeds were approved for a Basket (if Affirm receives one-time prior Bank approval), or otherwise 60 days."
+  },
+  {
+    "id": 20,
+    "contract": "Affirm-Amazon",
+    "question": "How does settlement of Program Credit Proceeds work for Processed Merchant Sites vs other Participating Sites under the Affirm-Amazon agreement?",
+    "expected_answer": "For purchases on a Participating Site other than a Processed Merchant Site, Affirm initiates payment upon confirmation from Amazon that the last Purchased Good in a Basket has shipped. For purchases on a Processed Merchant Site, payment is initiated per a different trigger. The payment equals the entire loan proceeds less any Subsidy and other deductions. Program Credits for Processed Merchant Sites are disbursed to Amazon Payments, while those for other Participating Sites are disbursed to Amazon Services or the applicable Covered Affiliate."
+  }
+]
