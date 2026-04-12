@@ -3,10 +3,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-import numpy as np
+import chromadb
 import requests
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 
 
 @dataclass
@@ -36,45 +34,70 @@ class ContractRetriever:
         self.db_dir = Path(db_dir)
         self.db_dir.mkdir(parents=True, exist_ok=True)
         self.collection_name = collection_name
-        self.vectorizer = TfidfVectorizer(
-            stop_words="english", ngram_range=(1, 2))
-        self.document_matrix = None
+        self.collection = None
         self._index_clauses()
 
     def _index_clauses(self) -> None:
         if not self.texts:
-            self.document_matrix = None
+            self.collection = None
             return
-        self.document_matrix = self.vectorizer.fit_transform(self.texts)
+        client = chromadb.PersistentClient(path=str(self.db_dir))
+        # Re-index fresh each time to stay in sync with input clauses
+        try:
+            client.delete_collection(self.collection_name)
+        except Exception:
+            pass
+        self.collection = client.get_or_create_collection(
+            name=self.collection_name,
+            metadata={"hnsw:space": "cosine"},
+        )
+        self.collection.add(
+            documents=self.texts,
+            ids=[f"clause_{i}" for i in range(len(self.texts))],
+            metadatas=[
+                {"index": i, "category": self.clauses[i].get(
+                    "category", "General Provisions")}
+                for i in range(len(self.clauses))
+            ],
+        )
 
     def retrieve(self, question: str, top_k: int = 10) -> list[dict[str, Any]]:
-        if not self.texts or self.document_matrix is None:
+        if not self.texts or self.collection is None:
             return []
-        query_vector = self.vectorizer.transform([question])
-        tfidf_scores = cosine_similarity(
-            query_vector, self.document_matrix).ravel()
 
-        # Hybrid score: TF-IDF similarity + keyword overlap boost
-        keyword_scores = np.array(
-            [_keyword_overlap(question, t) for t in self.texts]
+        n_results = min(top_k, len(self.texts))
+        query_result = self.collection.query(
+            query_texts=[question],
+            n_results=n_results,
         )
-        combined = 0.6 * tfidf_scores + 0.4 * keyword_scores
 
-        ranked_indices = combined.argsort(
-        )[::-1][: min(top_k, len(self.texts))]
+        # ChromaDB cosine distance = 1 - cosine_similarity
+        chroma_indices = [m["index"] for m in query_result["metadatas"][0]]
+        chroma_scores = [1.0 - d for d in query_result["distances"][0]]
+
+        # Hybrid score: ChromaDB similarity + keyword overlap boost
+        score_map: dict[int, float] = {}
+        for idx, score in zip(chroma_indices, chroma_scores):
+            keyword_score = _keyword_overlap(question, self.texts[idx])
+            score_map[idx] = 0.6 * score + 0.4 * keyword_score
 
         # Expand context window: include neighbours of top hits
         expanded = set()
-        for idx in ranked_indices:
+        for idx in chroma_indices:
             for offset in (-1, 0, 1):
-                neighbour = int(idx) + offset
+                neighbour = idx + offset
                 if 0 <= neighbour < len(self.texts):
+                    if neighbour not in score_map:
+                        keyword_score = _keyword_overlap(
+                            question, self.texts[neighbour])
+                        score_map[neighbour] = 0.4 * keyword_score
                     expanded.add(neighbour)
+
         # Re-rank the expanded set by combined score
         expanded_ranked = sorted(
-            expanded, key=lambda i: combined[i], reverse=True)
+            expanded, key=lambda i: score_map[i], reverse=True)
         # Cap to a reasonable size
-        expanded_ranked = expanded_ranked[: min(
+        expanded_ranked = expanded_ranked[:min(
             top_k + 5, len(expanded_ranked))]
 
         results = []
@@ -82,7 +105,7 @@ class ContractRetriever:
             clause = self.clauses[clause_index]
             results.append(
                 {
-                    "score": float(combined[clause_index]),
+                    "score": float(score_map[clause_index]),
                     "clause_text": clause.get("clause_text", ""),
                     "category": clause.get("category", "General Provisions"),
                 }

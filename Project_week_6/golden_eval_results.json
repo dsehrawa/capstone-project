@@ -6,150 +6,150 @@
       "0": 0,
       "1": 0,
       "2": 0,
-      "3": 1,
-      "4": 11,
-      "5": 8
+      "3": 3,
+      "4": 7,
+      "5": 10
     },
     "scores_per_question": [
       {
         "id": 1,
         "contract": "Peloton-Affirm",
         "score": 5,
-        "reason": "The answer correctly identifies both parties involved in the Peloton-Affirm merchant agreement as Peloton Interactive, Inc. and Affirm, Inc., providing all key points in the expected answer.",
-        "top_context_score": 0.297
+        "reason": "The answer correctly identifies the two main parties in the Peloton-Affirm merchant agreement by referring to the contract clauses and providing accurate names for each party.",
+        "top_context_score": 0.553
       },
       {
         "id": 2,
         "contract": "Peloton-Affirm",
-        "score": 4,
-        "reason": "The answer correctly identifies the date mentioned in the contract clauses but offers additional and potentially confusing information about the signing date",
-        "top_context_score": 0.57
+        "score": 3,
+        "reason": "While the answer correctly identifies the clause that mentions the Effective Date, it misses the opportunity to provide a more precise answer by not specifying that the exact date is missing from the given contract clauses.",
+        "top_context_score": 0.72
       },
       {
         "id": 3,
         "contract": "Peloton-Affirm",
-        "score": 5,
-        "reason": "The answer covers all key points in the expected answer and provides additional detail about the contract clauses.",
-        "top_context_score": 0.393
+        "score": 4,
+        "reason": "The actual answer provides a clear explanation about the Peloton-Affirm agreement's initial term and renewal process, but it misses the explicit duration for the initial term as specified in the expected answer.",
+        "top_context_score": 0.615
       },
       {
         "id": 4,
         "contract": "Peloton-Affirm",
         "score": 5,
-        "reason": "The answer accurately and completely describes how either party may terminate the Peloton-Affirm agreement without cause, including references to Clauses 1 and 7. It also provides additional context about other provisions that specify circumstances for termination.",
-        "top_context_score": 0.404
+        "reason": "The answer thoroughly addresses the question by explaining how either party can terminate the Peloton-Affirm agreement without cause, providing details about the written notice period and also mentioning specific circumstances under which immediate termination is possible. It also explains that no condition regarding the nature of a breach is required for termination without cause.",
+        "top_context_score": 0.625
       },
       {
         "id": 5,
         "contract": "Peloton-Affirm",
         "score": 4,
-        "reason": "The answer covers the main grounds for immediate termination but does not mention specifics like insolvency or reputation damage that were included in the expected answer.",
-        "top_context_score": 0.494
+        "reason": "The answer provides a detailed explanation of some grounds for immediate termination with cause under the Peloton-Affirm agreement, but it is missing the specifics about misrepresentation, conduct damaging reputation, or violation of applicable laws.",
+        "top_context_score": 0.49
       },
       {
         "id": 6,
         "contract": "Peloton-Affirm",
         "score": 4,
-        "reason": "The answer correctly identifies the state's law governing the Peloton-Affirm agreement but misses the specifics about the dispute resolution process, such as the arbitration service (JAMS) and location (San Francisco or New York).",
-        "top_context_score": 0.29
+        "reason": "The answer is mostly correct as it accurately states that the Peloton-Affirm agreement is governed by California law and mentions the presence of a dispute resolution mechanism, but it does not specify that disputes are resolved through arbitration administered by JAMS and the location of the arbitration varies based on who is the claimant.",
+        "top_context_score": 0.454
       },
       {
         "id": 7,
         "contract": "Peloton-Affirm",
         "score": 5,
-        "reason": "The answer provides a detailed explanation and direct reference to the contract clauses, accurately identifying the maximum APR for loans originated under the Peloton-Affirm agreement.",
-        "top_context_score": 0.27
+        "reason": "The answer correctly identifies and states the maximum APR permitted for loans originated under the Peloton-Affirm agreement, providing context from the clauses in the contract.",
+        "top_context_score": 0.539
       },
       {
         "id": 8,
         "contract": "Peloton-Affirm",
-        "score": 4,
-        "reason": "The answer captures the main idea but misses some important details such as the possible actions Affirm may take when the Services become subject to an intellectual property claim (e.g., procuring the right to continue using the Services, modifying them to be non-infringing, or terminating the agreement and refunding amortized fees).",
-        "top_context_score": 0.573
+        "score": 5,
+        "reason": "The answer covers all key points in the expected response, providing a detailed summary of Affirm's obligations regarding intellectual property indemnification as stated in the contract.",
+        "top_context_score": 0.66
       },
       {
         "id": 9,
         "contract": "Peloton-Affirm",
-        "score": 3,
-        "reason": "While the answer correctly identifies that the Peloton-Affirm agreement contains confidentiality obligations (as stated in Clause 2), it misses important details such as the specific requirements for keeping confidential information confidential, permissible use and disclosure, and protection of confidential information. The expected answer also mentioned the need to protect the information using at least the same degree of care as for its own information, which is not addressed in the actual answer.",
-        "top_context_score": 0.401
+        "score": 5,
+        "reason": "The answer provides a comprehensive and accurate summary of the confidentiality obligations under the Peloton-Affirm agreement, including the obligation to protect confidential information, definition of confidential information, exceptions to confidentiality obligations, testimonies and disclosures, and settlements.",
+        "top_context_score": 0.55
       },
       {
         "id": 10,
         "contract": "Peloton-Affirm",
         "score": 4,
-        "reason": "While the answer covers the main idea about confidential information, it only partially answers the question as it does not provide a complete overview of what happens to licenses and provides incomplete information about intellectual property and personal data.",
-        "top_context_score": 0.378
+        "reason": "The answer provides a detailed breakdown of what happens to licenses and confidential information upon termination of the Peloton-Affirm agreement, but it misses some key details such as the exact duration of the term in the termination clause, and specifics about the notice period or consequences for termination due to non-payment.",
+        "top_context_score": 0.501
       },
       {
         "id": 11,
         "contract": "Peloton-Affirm",
-        "score": 5,
-        "reason": "The answer provides a detailed explanation of the Force Majeure clause in the Peloton-Affirm agreement, including the specific events that would constitute a force majeure event, and it also mentions the parties are excused from liability for any failure to perform their obligations under the agreement if such failure arises due to circumstances beyond their reasonable control.",
-        "top_context_score": 0.547
+        "score": 3,
+        "reason": "While the answer captures the main idea of a force majeure clause, it misses important details such as specific causes beyond reasonable control mentioned in the expected answer",
+        "top_context_score": 0.492
       },
       {
         "id": 12,
         "contract": "Peloton-Affirm",
-        "score": 4,
-        "reason": "The answer provides most of the required information regarding the payout schedule but lacks specific details about the frequency of periodic payments and the definition of 'successful transaction'",
-        "top_context_score": 0.545
+        "score": 3,
+        "reason": "The answer captures the main idea but misses important details about the payout schedule, such as the definition of 'Settlement Funds', which is a crucial part of the expected answer.",
+        "top_context_score": 0.593
       },
       {
         "id": 13,
         "contract": "Peloton-Affirm",
         "score": 4,
-        "reason": "The answer captures the main idea of the audit rights granted to both parties under the Peloton-Affirm agreement but lacks specific details about the frequency of audits and does mention that Loan Information is not included in the audit scope.",
-        "top_context_score": 0.434
+        "reason": "The answer correctly identifies that both parties have audit rights under the Peloton-Affirm agreement during the term and for six months after termination. However, it provides additional information about the obligation of good faith resolution and the selection of a certified public accountant, which are not directly related to the question about audit rights.",
+        "top_context_score": 0.6
       },
       {
         "id": 14,
         "contract": "Peloton-Affirm",
         "score": 4,
-        "reason": "The answer covers most of the key points expected in the question, but it doesn't explicitly mention that the merchant must return the refund amount to Affirm. Also, there's no mention about the answer being irrelevant or wrong.",
-        "top_context_score": 0.542
+        "reason": "The answer covers most of the key points and is quite precise about the merchant's responsibilities regarding refunds and returns as outlined in the contract clauses. However, it misses a minor detail about Affirm only issuing full or partial refunds (not store credit), which was part of the expected answer.",
+        "top_context_score": 0.588
       },
       {
         "id": 15,
         "contract": "Affirm-Amazon",
         "score": 4,
-        "reason": "The answer is mostly correct, but it misses some details. Although Amazon Services LLC and Amazon Payments, Inc. are associated with Amazon, they should be explicitly mentioned as part of the parties, along with Affirm, Inc., as stated in Clause 5.",
-        "top_context_score": 0.455
+        "reason": "The provided answer correctly identifies Affirm, Inc., Amazon.com Services LLC, and Amazon Payments, Inc. as the parties to the Affirm-Amazon First Amendment, but it misses the part where they are each referred to individually as Amazon in the contract.",
+        "top_context_score": 0.756
       },
       {
         "id": 16,
         "contract": "Affirm-Amazon",
         "score": 5,
-        "reason": "The answer provides the correct effective date of the Affirm-Amazon First Amendment as stated in the contract clauses and supports it with references to multiple clauses in the contract.",
-        "top_context_score": 0.599
+        "reason": "The answer directly quotes the clause from the contract that specifies the effective date of the Affirm-Amazon First Amendment",
+        "top_context_score": 0.702
       },
       {
         "id": 17,
         "contract": "Affirm-Amazon",
         "score": 5,
-        "reason": "The response accurately and completely defines the Installments Product as per the Affirm-Amazon agreement, includes the APR range, mentions the loan terms, and specifies the originator of the loans. It also provides additional context about the parties involved in the agreement.",
-        "top_context_score": 0.338
+        "reason": "The answer accurately reflects the definition of Installments Product in the Affirm-Amazon agreement as stated in Clause 1, including the details of a closed-end installment loan for customers to finance Eligible Products at 0% or 10-36% APR with various loan terms originated by Bank or Affirm\u2019s Affiliate. It also correctly mentions that these loans can be used for purchases made on Participating Sites and Processed Merchant Sites.",
+        "top_context_score": 0.691
       },
       {
         "id": 18,
         "contract": "Affirm-Amazon",
-        "score": 4,
-        "reason": "The answer correctly identifies the state's law governing the Affirm-Amazon First Amendment but fails to explicitly state that there is no reference to conflict of law rules and does not provide information about the forum for disputes.",
-        "top_context_score": 0.321
+        "score": 5,
+        "reason": "The answer correctly identifies the governing law and the forum for disputes based on the specific clauses mentioned in the contract.",
+        "top_context_score": 0.597
       },
       {
         "id": 19,
         "contract": "Affirm-Amazon",
         "score": 5,
-        "reason": "The answer provides the exact definition of the Settlement Cutoff Date in the Affirm-Amazon agreement as stated in Clause 2 of the contract, covering all key points in the expected answer.",
-        "top_context_score": 0.617
+        "reason": "The answer correctly identifies and explains the conditions for determining the Settlement Cutoff Date in the Affirm-Amazon agreement based on the provided contract clauses.",
+        "top_context_score": 0.825
       },
       {
         "id": 20,
         "contract": "Affirm-Amazon",
-        "score": 4,
-        "reason": "The answer provides a detailed explanation about the settlement of Program Credit Proceeds for both Processed Merchant Sites and other Participating Sites under the Affirm-Amazon agreement. However, it slightly deviates from the expected answer by mentioning some additional details such as the Settlement Cutoff Date, Rev Share, and Clauses 2, 4, 5, 6, 7, 8, 9, and 10. These additions do not significantly alter the main idea, making it mostly correct.",
-        "top_context_score": 0.499
+        "score": 5,
+        "reason": "The actual answer provides detailed information about how the settlement of Program Credit Proceeds works for both Processed Merchant Sites and other Participating Sites under the Affirm-Amazon agreement, covering all key points in the expected answer.",
+        "top_context_score": 0.797
       }
     ]
   },
@@ -159,240 +159,240 @@
       "contract": "Peloton-Affirm",
       "question": "Who are the two main parties in the Peloton-Affirm merchant agreement?",
       "expected_answer": "The two main parties are Peloton Interactive, Inc. (Merchant) and Affirm, Inc. (a Delaware corporation).",
-      "actual_answer": "The two main parties in the Peloton-Affirm merchant agreement are Peloton Interactive, Inc. (mentioned in Clause 3 of Exhibit A MERCHANT AGREEMENT) and Affirm (implied throughout the contract, especially explicitly mentioned in Clause 1).",
+      "actual_answer": "Based on the provided contract clauses, the two main parties in the Peloton-Affirm merchant agreement are:\n\n1. Merchant: Peloton Interactive Inc., as stated in Clause 4 and Clause 10.\n2. Affirm: Affirm, Inc., as mentioned in Clause 7 and Clause 10.",
       "score": 5,
-      "reason": "The answer correctly identifies both parties involved in the Peloton-Affirm merchant agreement as Peloton Interactive, Inc. and Affirm, Inc., providing all key points in the expected answer.",
-      "elapsed_sec": 8.0,
+      "reason": "The answer correctly identifies the two main parties in the Peloton-Affirm merchant agreement by referring to the contract clauses and providing accurate names for each party.",
+      "elapsed_sec": 12.7,
       "num_contexts": 15,
-      "top_context_score": 0.297
+      "top_context_score": 0.553
     },
     {
       "id": 2,
       "contract": "Peloton-Affirm",
       "question": "What is the effective date of the Peloton-Affirm merchant agreement?",
       "expected_answer": "The effective date is September 3, 2020 (9/3/2020).",
-      "actual_answer": "Based on the provided contract clauses, the effective date of the Peloton-Affirm merchant agreement is September 3, 2020, as stated in Clause 3 and Clause 9 of the Merchant Agreement. The agreement was signed by both parties on September 4, 2020, according to Clause 3 and Clause 4. However, it should be noted that Clause 1 states the effective date is the last signature date (September 4, 2020) but refers to the Merchant Agreement as Exhibit A which was executed on September 3, 2020, according to Clause 3. Therefore, the effective date can be interpreted as either September 3 or September 4, 2020.",
-      "score": 4,
-      "reason": "The answer correctly identifies the date mentioned in the contract clauses but offers additional and potentially confusing information about the signing date",
-      "elapsed_sec": 12.1,
+      "actual_answer": "Based on the provided contract clauses, the effective date of the Peloton-Affirm merchant agreement can be determined from Clause 2, which states that \"This Agreement is effective as of the Effective Date and includes: (1) Exhibit A \u2013 this Merchant Agreement\". However, the specific date for the Effective Date is not explicitly stated in the clauses provided.\n\nAdditionally, Clause 3 mentions the \"Effective Date\" again, but it only refers to the last date of signature without specifying the exact date. Furthermore, Clause 6 contains a reference to a document from sec.gov with a date of 10/19, but this does not appear to be the Effective Date of the agreement.\n\nWithout additional information or context, it is impossible to determine the specific effective date of the Peloton-Affirm merchant agreement as per the provided contract clauses.",
+      "score": 3,
+      "reason": "While the answer correctly identifies the clause that mentions the Effective Date, it misses the opportunity to provide a more precise answer by not specifying that the exact date is missing from the given contract clauses.",
+      "elapsed_sec": 14.0,
       "num_contexts": 15,
-      "top_context_score": 0.57
+      "top_context_score": 0.72
     },
     {
       "id": 3,
       "contract": "Peloton-Affirm",
       "question": "What is the initial term of the Peloton-Affirm agreement and how does renewal work?",
       "expected_answer": "The initial term is three (3) years from the Effective Date. After the initial term, the agreement automatically renews for successive one-year renewal terms until terminated.",
-      "actual_answer": "Based on the provided contract clauses, the initial term of the Peloton-Affirm agreement is three (3) years as specified in Clause 6. This initial term commences on the Effective Date, but the specific date for the Effective Date is not mentioned in the provided clauses.\n\nFor the renewal of the agreement after the Initial Term, the contract states that this Agreement will automatically renew for additional and successive terms of one year (each a \u201cRenewal Term\u201d), until terminated in accordance with the terms herein, as stated in Clause 1. This implies that after the initial three-year period, the agreement will automatically renew annually until terminated by either party under the terms specified in the contract.\n\nClause 5 allows for either party to terminate this Agreement (or any one or more Order Forms) without cause and without need for judicial or administrative action, award or resolution upon providing at least ninety (90) days' written notice to the other party, which could be used as a means to terminate the agreement after the Initial Term or during a Renewal Term.",
-      "score": 5,
-      "reason": "The answer covers all key points in the expected answer and provides additional detail about the contract clauses.",
-      "elapsed_sec": 14.5,
+      "actual_answer": "Based on the provided contract clauses, the initial term of the Peloton-Affirm agreement is not explicitly stated within the given excerpts. However, Clause 1 mentions an \"Initial Term\" for this Agreement, but no duration is specified.\n\nRegarding renewal, Clause 1 states that after the Initial Term, this Agreement will automatically renew for additional one-year terms (Renewal Terms) until terminated in accordance with the terms herein. This suggests that the Peloton-Affirm agreement would continue to renew on a yearly basis unless terminated.\n\nIt's important to note that Clause 2 requires Merchant (Peloton) to provide Affirm thirty (30) days\u2019 prior written notice in case of material modifications to its Peloton Subscription Terms and Conditions, which may potentially affect the Agreement renewal process.\n\nMoreover, Clauses 4 and 5 mention conditions under which Affirm might terminate the agreement if there's an unacceptable increased financial risk or insurance coverage requirements are not met. These clauses might also indirectly impact the renewal of the Agreement.\n\nWithout more information on the exact Initial Term duration, it is unclear how long the initial period lasts before the automatic renewals start. Further examination of the contract may provide additional details regarding this matter.",
+      "score": 4,
+      "reason": "The actual answer provides a clear explanation about the Peloton-Affirm agreement's initial term and renewal process, but it misses the explicit duration for the initial term as specified in the expected answer.",
+      "elapsed_sec": 18.1,
       "num_contexts": 15,
-      "top_context_score": 0.393
+      "top_context_score": 0.615
     },
     {
       "id": 4,
       "contract": "Peloton-Affirm",
       "question": "How can either party terminate the Peloton-Affirm agreement without cause?",
       "expected_answer": "After the initial term, either party may terminate without cause by providing at least ninety (90) days' written notice to the other party.",
-      "actual_answer": "To terminate the Peloton-Affirm agreement without cause, either party can follow the guidelines outlined in Clause 1 and Clause 7:\n\n1. Clause 1 states that \"After the Initial Term, either party may terminate this Agreement (or any one or more Order Forms) without cause and without need for judicial or administrative action, award or resolution upon providing at least ninety (90) days' written notice to the other party.\"\n\n2. Clause 7(b), titled \"Termination without Cause\", provides that either party can terminate this Agreement without cause by giving at least 90 days' written notice. However, it is important to note that Clause 6 restricts the assignment of this Agreement without the prior written consent of the other party.\n\nThere are no provisions in the provided clauses that allow for immediate termination without cause. The other mentioned clauses (2, 3, 4, and 5) detail conditions under which a party can terminate the agreement due to specific circumstances such as material breach, misrepresentation of information, force majeure, or assignment without consent.",
+      "actual_answer": "The Peloton-Affirm agreement can be terminated without cause by either party after the Initial Term, provided they give at least ninety (90) days' written notice to the other party as stated in Clause 1. No specific condition regarding the nature of the breach is required for this termination without cause, but it should be noted that this clause does not release either party from any payment or other obligations owed to the other (Clause 6).\n\nAdditionally, either party can terminate the agreement immediately under certain circumstances:\n- If the other party terminates its business operations (Clause 3)\n- If the other party discovers that the first party has misrepresented, omitted or falsified any information or documentation provided (Clause 4)\n- If Merchant offers an Alternative Service Provider under specific conditions and Affirm decides to terminate the agreement with sixty (60) days\u2019 written notice to Merchant (Clause 5)\n- If Affirm increases Fees, Merchant has the right to terminate the Agreement by written notice prior to the effective date of the Fee increase (Clause 8)\n- If a dispute arises under this Agreement and is not resolved within thirty (30) calendar days\u2019 written notice of such dispute, either party can choose to terminate the agreement (Clause 9).\n\nIt's also worth mentioning that Merchant agrees to provide Affirm thirty (30) days\u2019 prior written notice in the event that it materially modifies any provisions contained within its Peloton Subscription Terms and Conditions (Clause 7). However, this does not seem to directly relate to termination without cause.\n\nIn summary, either party can terminate the agreement without cause by providing at least ninety (90) days' written notice, or under certain specific conditions as detailed in Clauses 3, 4, 5, and 8, where immediate termination is possible. Additionally, Clause 9 allows for termination if a dispute arises and is not resolved within thirty (30) days.",
       "score": 5,
-      "reason": "The answer accurately and completely describes how either party may terminate the Peloton-Affirm agreement without cause, including references to Clauses 1 and 7. It also provides additional context about other provisions that specify circumstances for termination.",
-      "elapsed_sec": 15.3,
+      "reason": "The answer thoroughly addresses the question by explaining how either party can terminate the Peloton-Affirm agreement without cause, providing details about the written notice period and also mentioning specific circumstances under which immediate termination is possible. It also explains that no condition regarding the nature of a breach is required for termination without cause.",
+      "elapsed_sec": 23.5,
       "num_contexts": 15,
-      "top_context_score": 0.404
+      "top_context_score": 0.625
     },
     {
       "id": 5,
       "contract": "Peloton-Affirm",
       "question": "What are the grounds for immediate termination with cause under the Peloton-Affirm agreement?",
       "expected_answer": "Either party may terminate immediately if the other party terminates its business operations, becomes insolvent, suffers the appointment of a receiver, makes an assignment for the benefit of creditors, or enters into any voluntary or involuntary bankruptcy proceedings. Immediate termination is also allowed for misrepresentation, conduct damaging reputation, or violation of applicable laws.",
-      "actual_answer": "Based on the provided contract clauses, the grounds for immediate termination with cause under the Peloton-Affirm agreement are:\n\n1. Material Breach (Clause 7): Either party can terminate this Agreement immediately upon notice if the other party commits a material breach that by its nature cannot be remedied within thirty (30) days. The term 'material breach' is not specifically defined in the provided contract clauses, but it generally refers to a serious or significant violation of any obligation under the agreement.\n\n2. Uncured nonpayment (Clause 3): Affirm has the right to terminate the Agreement immediately if Merchant fails to cure (i.e., rectify) non-payment for its services that Affirm provided and for which transactions have been accepted, Services are being delivered post-termination, or Services that Merchant is in process of performing.\n\n3. Non-compliance with the Loan Program Agreement (implied from Clauses 5 and 6): If Merchant does not comply with the terms of the Loan Program Agreement, which outlines how payments are made between Affirm, Originating Bank, and Merchant for Loans, it could potentially lead to immediate termination. However, this clause is not explicitly stated in the provided contract clauses.",
+      "actual_answer": "The grounds for immediate termination with cause under the Peloton-Affirm agreement are as follows:\n\n1. Material breach by one party that is not cured within thirty (30) days after written notice by the non-breaching party or immediately upon notice of termination in the event of a material breach that by its nature cannot be remedied within thirty (30) days (Clause 1).\n2. Termination with cause if Affirm has the right to do so when Merchant offers an Alternative Service Provider under certain circumstances (Clause 7).\n3. Termination of Merchant\u2019s obligations under Section 2(c) of this Agreement if Affirm is unable or unwilling to address Merchant\u2019s concerns to Merchant\u2019s reasonable satisfaction within the ninety (90) day period above (Clause 8).\n\nIt's important to note that Clause 4 allows for termination without cause, but it requires at least ninety (90) days' written notice and does not specify 'with cause'. Clauses 5, 6, and 9 do not directly pertain to immediate termination with cause.\n\nFor more detailed information about obligations upon termination and other terms and conditions, please refer to the contract clauses mentioned in sections 9, 10, and the URL provided in Clause 9. However, those clauses do not appear to directly address immediate termination with cause.",
       "score": 4,
-      "reason": "The answer covers the main grounds for immediate termination but does not mention specifics like insolvency or reputation damage that were included in the expected answer.",
-      "elapsed_sec": 15.8,
+      "reason": "The answer provides a detailed explanation of some grounds for immediate termination with cause under the Peloton-Affirm agreement, but it is missing the specifics about misrepresentation, conduct damaging reputation, or violation of applicable laws.",
+      "elapsed_sec": 18.2,
       "num_contexts": 15,
-      "top_context_score": 0.494
+      "top_context_score": 0.49
     },
     {
       "id": 6,
       "contract": "Peloton-Affirm",
       "question": "Which state's law governs the Peloton-Affirm agreement and how are disputes resolved?",
       "expected_answer": "The agreement is governed by the laws of the State of California. Disputes are resolved by final and binding arbitration before one arbitrator, administered by Judicial Arbitration and Mediation Services (JAMS). The place of arbitration is San Francisco if Merchant is the claimant, and New York if Affirm is the claimant.",
-      "actual_answer": "The Peloton-Affirm agreement is governed by the laws of the State of California, as stated in Clause 2. For resolving disputes, both parties agree to make a good faith effort to resolve any dispute within thirty (30) calendar days\u2019 written notice of such dispute, according to Clause 3. However, it's important to note that this specific contract does not provide details on the legal venue or method for dispute resolution if the parties are unable to reach an agreement after making a good faith effort.",
+      "actual_answer": "The Peloton-Affirm agreement is governed by the laws of the State of California, as stated in Clause 2. The governing law is specified regardless of any conflict of law rules.\n\nFor resolving disputes, both parties agree to make a good faith effort to resolve the dispute within thirty (30) calendar days\u2019 written notice of such dispute, according to Clause 1. If the dispute cannot be resolved within this timeframe, it will be settled by arbitration in accordance with Section 14 of the Agreement, as mentioned in Clauses 4 and 8. Specific details regarding the arbitration process can be found in Section 14, which is not provided in the contract excerpts given.",
       "score": 4,
-      "reason": "The answer correctly identifies the state's law governing the Peloton-Affirm agreement but misses the specifics about the dispute resolution process, such as the arbitration service (JAMS) and location (San Francisco or New York).",
-      "elapsed_sec": 9.5,
+      "reason": "The answer is mostly correct as it accurately states that the Peloton-Affirm agreement is governed by California law and mentions the presence of a dispute resolution mechanism, but it does not specify that disputes are resolved through arbitration administered by JAMS and the location of the arbitration varies based on who is the claimant.",
+      "elapsed_sec": 11.1,
       "num_contexts": 15,
-      "top_context_score": 0.29
+      "top_context_score": 0.454
     },
     {
       "id": 7,
       "contract": "Peloton-Affirm",
       "question": "What is the maximum APR permitted for loans originated under the Peloton-Affirm agreement?",
       "expected_answer": "The maximum annual percentage rate (APR) is 30%.",
-      "actual_answer": "Based on the provided contract clauses, Clause 1 specifies that Affirm has entered into a loan program agreement with Cross River Bank or other FDIC-insured institutions to offer consumer financing options, including loans with an annual percentage rate (APR) no greater than 30%. Therefore, the maximum APR permitted for loans originated under the Peloton-Affirm agreement is 30%. However, it's important to note that Clauses 2 and 5 mention certain disclaimers and exceptions, but they do not specify any conditions related to the APR. To confirm the exact terms of the APR for the Peloton-Affirm agreement, more information might be needed about specific Order Forms or other parts of the agreement that were not included in this response.",
+      "actual_answer": "Based on the provided contract clauses, it is stated in Clause 1 that Affirm has entered into a loan program agreement with Cross River Bank or other FDIC-insured institutions to offer consumer financing options, including closed-end installment loans and payment deferral options, through their proprietary financial platform and APIs. The interest rates for these Loans are specified to be no greater than a 30% annual percentage rate (APR). Therefore, the maximum APR permitted for loans originated under the Peloton-Affirm agreement is 30%. However, it's important to note that there might be specific terms or conditions related to individual loan agreements that are not included in this contract summary. To confirm the exact maximum APR for a particular loan, those details would need to be reviewed.",
       "score": 5,
-      "reason": "The answer provides a detailed explanation and direct reference to the contract clauses, accurately identifying the maximum APR for loans originated under the Peloton-Affirm agreement.",
-      "elapsed_sec": 11.7,
+      "reason": "The answer correctly identifies and states the maximum APR permitted for loans originated under the Peloton-Affirm agreement, providing context from the clauses in the contract.",
+      "elapsed_sec": 13.9,
       "num_contexts": 15,
-      "top_context_score": 0.27
+      "top_context_score": 0.539
     },
     {
       "id": 8,
       "contract": "Peloton-Affirm",
       "question": "What are Affirm's obligations regarding intellectual property indemnification?",
       "expected_answer": "Affirm shall defend and indemnify Merchant against any claim that the Services infringe a third party's intellectual property rights. If the Services become subject to an IP claim, Affirm may either procure the right to continue using the Services, modify them to be non-infringing, or terminate the agreement and refund amortized fees.",
-      "actual_answer": "Based on the contract clauses provided, Affirm's obligations regarding intellectual property indemnification can be summarized as follows:\n\n1. **Affirm Intellectual Property**: As per Clause 1, Affirm holds certain intellectual property rights. This could potentially include rights to patents, trademarks, copyrights, and trade secrets. (Clause 1)\n\n2. **Indemnification for Intellectual Property Claims**: If there are any claims that the Services provided by Affirm infringe upon a third-party's intellectual property rights (IP Claims), Affirm is obligated to defend and indemnify the other party, Merchant, at its own expense. This implies that Affirm will cover all costs associated with such IP Claims. (Clause 4)\n\n3. **General Indemnification**: In addition to the specific intellectual property indemnification, Affirm also agrees to a general indemnification. The details of this indemnification are not explicitly defined in the provided clauses, but it may extend beyond intellectual property matters. (Clause 7)\n\n4. It's important to note that Merchant has no obligations to Affirm under this Agreement or obligations under applicable law with respect to any loan information. (Clause 6)\n\n5. The contract also mentions the handling of personal, sensitive, or confidential information. However, these clauses do not directly relate to intellectual property indemnification and are thus not explicitly included in the summary. (Clauses 8, 9)\n\n6. Finally, Affirm is the party identified as Affirm, Inc. (Clause 10)\n\nWithout additional context or contract clauses, it's impossible to provide a more detailed analysis of Affirm's intellectual property indemnification obligations. For example, the scope and duration of these obligations, any exclusions or limitations, and the specific conditions under which they are triggered are not addressed in the provided clauses.",
-      "score": 4,
-      "reason": "The answer captures the main idea but misses some important details such as the possible actions Affirm may take when the Services become subject to an intellectual property claim (e.g., procuring the right to continue using the Services, modifying them to be non-infringing, or terminating the agreement and refunding amortized fees).",
-      "elapsed_sec": 21.1,
+      "actual_answer": "Based on the provided contract clauses, Affirm's obligations regarding intellectual property indemnification can be summarized as follows:\n\n1. **Obligation to Defend and Indemnify**: Affirm agrees to defend and indemnify Merchant from any Claim that the Services infringe any third-party\u2019s intellectual property rights (Clause 1).\n\n2. **Options for Addressing Infringement Claims**: If the Services become, or in Affirm's opinion likely become the subject of an IP Claim, Affirm has three options: (a) procure the right for Merchant to continue using the Services, (b) modify the Services to make them non-infringing while maintaining the same functionality, or (c) terminate the agreement as to the potentially infringing Services and refund Merchant the amortized fees paid under this Agreement for such potentially infringing Services (Clause 3).\n\n3. **Indemnification Exclusions**: Affirm will not have any obligation or liability with respect to any claim of infringement based on the combination, operation, or use of the Services with any hardware, software, or other device supplied by a party other than Affirm (Clause 5).\n\n4. **Affirm's Ownership of Intellectual Property**: Affirm is the exclusive owner of all software, technology, and tools used to promote, market, sell, generate, or distribute the Services, including its name, logo, and any other trademarks or copyrighted material (Clause 6).\n\n5. **Use of Feedback**: Affirm may use any comments, ideas, or feedback about the In-Store Services submitted by Merchant without restriction or compensation to Merchant. Any derivative works created by Affirm which incorporate such comments, ideas, or feedback will be owned by Affirm and considered Affirm IP (Clause 8).\n\n6. **Restrictions on Distribution**: Affirm reserves the right to restrict Merchant from distributing or marketing the Services and any Affirm IP without its prior written authorization (Clauses 9 and 10).",
+      "score": 5,
+      "reason": "The answer covers all key points in the expected response, providing a detailed summary of Affirm's obligations regarding intellectual property indemnification as stated in the contract.",
+      "elapsed_sec": 24.3,
       "num_contexts": 15,
-      "top_context_score": 0.573
+      "top_context_score": 0.66
     },
     {
       "id": 9,
       "contract": "Peloton-Affirm",
       "question": "What are the confidentiality obligations under the Peloton-Affirm agreement?",
       "expected_answer": "The receiving party must keep confidential information confidential, not use or copy it except as authorized, protect it using at least the same degree of care as for its own information (no less than reasonable care), and limit access to representatives who need it. If legally compelled to disclose, the receiving party must provide notice and limit disclosure to what is legally required.",
-      "actual_answer": "The Peloton-Affirm agreement contains confidentiality obligations for both parties, specifically outlined in Clause 2. This clause states:\n\n\"Auditors must agree to be bound to confidentiality obligations no less restrictive than those contained herein.\"\n\nHowever, the contract does not provide explicit details about what these confidentiality obligations entail or the duration they apply for. For a comprehensive understanding of the confidentiality obligations, more specific clauses detailing the scope, definition of confidential information, and permissible use and disclosure should be reviewed. Additionally, Clause 7 requires Merchant to provide Affirm thirty (30) days\u2019 prior written notice in the event of any material modifications to Peloton Subscription Terms and Conditions, which may indirectly imply a need for maintaining confidentiality during these changes.",
-      "score": 3,
-      "reason": "While the answer correctly identifies that the Peloton-Affirm agreement contains confidentiality obligations (as stated in Clause 2), it misses important details such as the specific requirements for keeping confidential information confidential, permissible use and disclosure, and protection of confidential information. The expected answer also mentioned the need to protect the information using at least the same degree of care as for its own information, which is not addressed in the actual answer.",
-      "elapsed_sec": 12.2,
+      "actual_answer": "The Peloton-Affirm agreement outlines several confidentiality obligations for both parties. Here's a breakdown:\n\n1. **Obligation to Protect Confidential Information**: Both parties agree to treat the terms and conditions of this Agreement as Confidential Information (Clause 6). This means they must keep the information confidential and not use or copy it other than as expressly authorized by the disclosing party and as permitted under this Agreement (Clause 7).\n\n2. **Definition of Confidential Information**: The contract defines Personal Information, which includes any information regarding customers, personnel, and counterparties that is of a personal, sensitive, or confidential nature relating to a living person who can be identified from such information alone or when used in conjunction with other information available to the party (Clause 2).\n\n3. **Additional Confidential Information**: The Agreement itself is considered Confidential Information (Clause 6), implying that any additional information shared between the parties during the course of their agreement should also be treated as confidential.\n\n4. **Exceptions to Confidentiality Obligations**: There are some exceptions to these obligations. For instance, the parties may disclose Confidential Information when required by law or a court order, to their advisors on a need-to-know basis, or in connection with a merger, acquisition, or sale of all or substantially all of their assets (Clauses not explicitly provided but implied).\n\n5. **Testimony and Disclosures**: Affirm reserves the right to perform unscheduled and/or anonymous testing to confirm Merchant\u2019s compliance with the requirements of the Telesales Services. This testing may involve disclosing some Confidential Information, but it's done under specific conditions (Clause 8).\n\n6. **Settlements**: Affirm shall not be obligated or responsible for any settlement entered into without Affirm\u2019s prior written consent (Clause 9), which could potentially involve the disclosure of Confidential Information if the settlement involves shared information.",
+      "score": 5,
+      "reason": "The answer provides a comprehensive and accurate summary of the confidentiality obligations under the Peloton-Affirm agreement, including the obligation to protect confidential information, definition of confidential information, exceptions to confidentiality obligations, testimonies and disclosures, and settlements.",
+      "elapsed_sec": 24.3,
       "num_contexts": 15,
-      "top_context_score": 0.401
+      "top_context_score": 0.55
     },
     {
       "id": 10,
       "contract": "Peloton-Affirm",
       "question": "What happens to licenses and confidential information when the Peloton-Affirm agreement terminates?",
       "expected_answer": "Upon termination, all licenses granted by Affirm terminate and revert to Affirm. Each party must immediately destroy or return the other party's materials, documentation, data, and confidential information, and upon request certify such destruction. Each party must cease representing itself as a partner and remove the other party's marks from all materials.",
-      "actual_answer": "In response to your question about what happens to licenses and confidential information when the Peloton-Affirm agreement terminates, we can determine the following based on the provided contract clauses:\n\n1. Confidential Information: The parties have agreed to keep each other's confidential information confidential and not disclose or use such information except as permitted under this Agreement (Clause 3). This clause also applies to the terms and conditions of this Agreement itself, which are considered Confidential Information (Clause 4). Furthermore, any confidential information disclosed during the agreement's term will be protected after its termination by this confidentiality provision (Clause 9).\n\n2. Intellectual Property: Affirm may use comments, ideas, or feedback about the In-Store Services and Telesales Services submitted by Merchant, and any derivative works created based on such input shall be owned by Affirm and considered Affirm IP (Clauses 7 and 8). However, the clause does not explicitly mention whether these intellectual property rights will be revoked or continue after the agreement's termination.\n\n3. Loan Information: Merchant has no obligations to Affirm under this Agreement or applicable law with respect to such Loan Information (Clause 5). The contract does not specify what happens to loan information when the agreement ends.\n\n4. Personal Information: Both parties may have access to personal, sensitive, or confidential information about each other's customers, personnel, and counterparties during the performing of their obligations under this Agreement (Clause 6). It is unclear from the provided contract clauses what happens to personal information when the agreement terminates.\n\nIn summary:\n- Confidential Information: The parties are obligated to maintain confidentiality after the agreement's termination.\n- Intellectual Property and Personal Information: The provided contract clauses do not explicitly state what happens to intellectual property rights or personal information when the agreement ends.",
+      "actual_answer": "Upon termination of the Peloton-Affirm agreement, it appears that there are specific provisions regarding licenses and confidential information.\n\n1. Licenses: According to Clause 1, any licenses granted by Affirm for Services which Customer transactions have been accepted or are in process will continue post-termination. However, this exception does not apply if the termination is due to Affirm terminating services for Merchant\u2019s uncured nonpayment (Clause 9). All other licenses granted by Affirm will terminate and rights shall revert to Affirm as stated in Clause 2.\n\n2. Confidential Information: Parties are obligated to keep each other's confidential information confidential under Clauses 3 and 4. This obligation persists even after the termination of the agreement, unless one party misrepresents, omits or falsifies any information, in which case either party can terminate the agreement immediately (Clause 4).\n\nRegarding specific details: The termination clause (Clause 2) does not specify an exact term duration. Clauses 1 and 9 mention termination for non-payment but do not provide details about the notice period or consequences. Clause 7 provides a right to audit books and records for six months after termination, but it is unclear whether this is related to the continuing licensing of services mentioned in Clause 1. Additionally, there are provisions allowing either party to terminate immediately if certain conditions are met (Clauses 3 and 4), but no information is provided about the notice period or consequences.",
       "score": 4,
-      "reason": "While the answer covers the main idea about confidential information, it only partially answers the question as it does not provide a complete overview of what happens to licenses and provides incomplete information about intellectual property and personal data.",
-      "elapsed_sec": 21.1,
+      "reason": "The answer provides a detailed breakdown of what happens to licenses and confidential information upon termination of the Peloton-Affirm agreement, but it misses some key details such as the exact duration of the term in the termination clause, and specifics about the notice period or consequences for termination due to non-payment.",
+      "elapsed_sec": 19.1,
       "num_contexts": 15,
-      "top_context_score": 0.378
+      "top_context_score": 0.501
     },
     {
       "id": 11,
       "contract": "Peloton-Affirm",
       "question": "What is the force majeure clause in the Peloton-Affirm agreement?",
       "expected_answer": "Neither party is responsible for failure or delay due to causes beyond reasonable control, including fire, terrorism, epidemic, earthquake, storm, flood, war, riots, acts of God, government regulation, or court judgment. The affected party must give prompt written notice, and the delay is not excused for more than ninety (90) days. Payment obligations are excluded from force majeure.",
-      "actual_answer": "The Force Majeure clause in the Peloton-Affirm agreement is outlined in Clause 1 and Clause 2.\n\nClause 1 (Force Majeure) states: \"Force Majeure.\"\n\nClause 2 provides more details about the events that would constitute a force majeure event:\n\n\"Neither party will be responsible for any failure or delay in performance due, in whole or in part, directly or indirectly, to any contingency, delay, failure, or cause of any nature beyond its reasonable control, including, without in any way limiting the generality of the foregoing, fire, terrorism, epidemic, earthquake, storm, flood or other weather, unavailability of necessary utilities or raw materials, strike, lockout, unavailability of components, war, riot, acts of God, regulation, ordinance, or instructions of government or other public authorities, or judgment or decree of a court of competent jurisdiction (not arising out of breach by such party of this Agreement) or other event that is traditionally recognized by California courts as an event of force majeure.\"\n\nThis clause indicates that either party is excused from liability for any failure to perform its obligations under the agreement if such failure arises due to circumstances beyond their reasonable control, which are generally recognized as events of force majeure. Examples of such events include natural disasters, acts of war, and government regulations.",
-      "score": 5,
-      "reason": "The answer provides a detailed explanation of the Force Majeure clause in the Peloton-Affirm agreement, including the specific events that would constitute a force majeure event, and it also mentions the parties are excused from liability for any failure to perform their obligations under the agreement if such failure arises due to circumstances beyond their reasonable control.",
-      "elapsed_sec": 17.3,
+      "actual_answer": "The force majeure clause in the Peloton-Affirm agreement is not explicitly stated in the provided contract clauses. However, a force majeure clause typically provides for the suspension or termination of obligations due to extraordinary events or circumstances beyond the control of the parties. In this case, since the contract does not contain a specific force majeure clause, it can be inferred that the parties may still be bound by their obligations unless an extraordinary event occurs that is not foreseeable or preventable by either party (as per Clause 3's severability provision).\n\nIn the absence of a specific force majeure clause, one could potentially apply common law principles to this contract. For example, under the doctrine of frustration, if an unforeseen event occurs that fundamentally changes the nature of the contract or makes it impossible for either party to fulfill their obligations, the contract may be considered frustrated and terminated (Clauses 6 and 7 discuss dispute resolution, which could potentially apply in such a situation).\n\nIt is essential to note that this interpretation is based on the provided clauses and does not include a comprehensive force majeure clause. To fully understand the impact of extraordinary events on this contract, it would be necessary to consult additional agreements or legal precedents.",
+      "score": 3,
+      "reason": "While the answer captures the main idea of a force majeure clause, it misses important details such as specific causes beyond reasonable control mentioned in the expected answer",
+      "elapsed_sec": 17.4,
       "num_contexts": 15,
-      "top_context_score": 0.547
+      "top_context_score": 0.492
     },
     {
       "id": 12,
       "contract": "Peloton-Affirm",
       "question": "What is the payout schedule for merchant payments under the Peloton-Affirm agreement?",
       "expected_answer": "Affirm will cause Originating Bank to initiate transfer of Settlement Funds to Merchant's bank account within three (3) business days of a Successful Transaction. Settlement Funds consist of total Successful Transactions less accrued unpaid fees, amounts relating to customer dispute resolution, and undisputed amounts owed by Merchant.",
-      "actual_answer": "Based on the provided contract clauses, here's a summary of the payout schedule for merchant payments under the Peloton-Affirm agreement:\n\n1. Affirm will initiate periodic payments to Merchant in accordance with the Agreement (Clause 3). The specific frequency or dates of these payments are not specified in the provided clauses.\n\n2. For each transaction, Affirm shall net from the total payout an undisclosed amount (referenced as [***] in Clause 2), and then make a payment to Merchant after reviewing and verifying their bank account information (Clause 3).\n\n3. The exact amount paid to Merchant will be the total dollar amount of successful transactions not included in previous payments, less accrued but unpaid fees (Clause 9). However, the specific definition of a \"successful transaction\" is not provided in the clauses.\n\n4. Affirm will cause the Originating Bank to initiate transfer of settlement funds to Merchant's bank account within three business days of a successful transaction (Clause 7, referred to as \"Payout\").\n\n5. If there are any undisputed amounts owed by Merchant to Affirm under the agreement necessary to complete settlement, these may include amounts resulting from customer refunds exceeding the amount of captured transactions (Clause 6).\n\n6. Merchant agrees to provide Affirm thirty days' prior written notice in case of material modifications to any provisions within its Peloton Subscription Terms and Conditions (Clause 8), which could potentially affect the payout schedule.\n\n7. Each party has the right to audit the other's books and records relevant to verifying the accuracy of the payments made by Affirm to Merchant for a period of six months after the termination of this Agreement (Clause 4).\n\n8. The contract does not provide specific details about when or how the first payment will be initiated, nor does it specify any penalties or consequences for late payments. Therefore, it's unclear what happens if Affirm fails to make a payment on time.",
-      "score": 4,
-      "reason": "The answer provides most of the required information regarding the payout schedule but lacks specific details about the frequency of periodic payments and the definition of 'successful transaction'",
-      "elapsed_sec": 22.1,
+      "actual_answer": "Based on the provided contract clauses, the payout schedule for merchant payments under the Peloton-Affirm agreement is as follows:\n\n1. Affirm will begin making periodic payments to Merchant in accordance with the Agreement once Merchant's Bank Account information has been reviewed and verified by Affirm (Clause 1).\n2. The specific timing of these periodic payments is not specified in the provided clauses.\n3. Each successful transaction triggers a payout, and Affirm will cause Originating Bank to initiate transfer of Settlement Funds to Merchant\u2019s Bank Account within three (3) Business Days of a Successful Transaction (Clause 4).\n4. If there are insufficient Settlement Funds or undisputed amounts owed to Affirm, Merchant shall pay through the Automated Clearing House (\"ACH\") system within thirty (30) days of Merchant\u2019s receipt of the applicable invoice (Clause 5).\n5. Merchant is expected to provide financial statements and other materials as reasonably requested by Affirm within ninety (90) days of the end of each quarter (Clause 7).\n6. In case Affirm determines that the continued provision of Services under the Agreement presents an unacceptable increased financial risk, the parties agree to work in good faith to resolve Affirm\u2019s concerns within ninety (90) calendar days of Affirm's notice to Merchant (Clause 8).\n7. A specific payment is mentioned after a certain period, where Merchant shall pay Affirm [***] based upon [***] as of the last calendar quarter of the Initial Term (Clause 9), but the exact amount and details are not provided in the clauses.\n8. The Payout Schedule is further outlined in Section 10 of the Agreement, but no specifics are provided within the clauses you've presented.",
+      "score": 3,
+      "reason": "The answer captures the main idea but misses important details about the payout schedule, such as the definition of 'Settlement Funds', which is a crucial part of the expected answer.",
+      "elapsed_sec": 21.8,
       "num_contexts": 15,
-      "top_context_score": 0.545
+      "top_context_score": 0.593
     },
     {
       "id": 13,
       "contract": "Peloton-Affirm",
       "question": "What audit rights do the parties have under the Peloton-Affirm agreement?",
       "expected_answer": "During the term and for six (6) months after termination, each party has the right to audit the other's books and records relevant to verifying payment accuracy. Audits occur no more than once every six months, at the audited party's premises during normal business hours, with at least thirty (30) days' prior notice. If the discrepancy exceeds 5%, the audited party pays the audit costs.",
-      "actual_answer": "Based on the provided contract clauses, the Peloton-Affirm agreement grants both parties audit rights with respect to verifying the accuracy of payments made and fees or other amounts payable under the agreement. Specifically:\n\n1. Clause 2 states that during the term of this Agreement and for a period of six (6) months after its termination, each party shall have the right to audit those books and records of the other that are directly relevant to verifying the accuracy of the payments made by Affirm to Merchant and any fees or other amounts payable by Merchant to Affirm.\n\nHowever, it's important to note that there is no mention of specific audit procedures or frequency in the contract. Furthermore, the rights granted do not seem to extend to Loan Information, as mentioned in Clause 3.\n\nRegarding disputes, Clauses 5 and 6 state that both parties agree to work in good faith to resolve any disputes arising under this Agreement within certain timeframes (90 calendar days for increased financial risk concerns and 30 calendar days for other disputes). The parties are also required to make a good faith effort to resolve the dispute.\n\nLastly, notices or communications required or permitted under the agreement must be in writing and can be sent via electronic mail as stated in Clause 9.",
+      "actual_answer": "Based on the provided contract clauses, the Peloton-Affirm agreement grants both parties audit rights for a period of six (6) months after the termination of the agreement and during its duration. Specifically, each party has the right to audit those books and records of the other that are directly relevant to verifying the accuracy of the payments made by Affirm to Peloton (Merchant) and any Fees or other amounts payable by Merchant to Affirm (Clause 1).\n\nThe parties also have the obligation to work in good faith to resolve any concerns about increased financial risk or commercially unsatisfactory service provision within ninety (90) calendar days of notice, should either party determine that the continued provision of Services under the Agreement presents an unacceptable increased financial risk to Affirm or if Affirm is not able to provide the Services in a commercially satisfactory manner (Clauses 4 and 8).\n\nDuring an audit, the party being audited shall allow a certified public accountant selected by the other party and reasonably acceptable to the party being audited reasonable access to the books and records (Clause 9).",
       "score": 4,
-      "reason": "The answer captures the main idea of the audit rights granted to both parties under the Peloton-Affirm agreement but lacks specific details about the frequency of audits and does mention that Loan Information is not included in the audit scope.",
-      "elapsed_sec": 17.1,
+      "reason": "The answer correctly identifies that both parties have audit rights under the Peloton-Affirm agreement during the term and for six months after termination. However, it provides additional information about the obligation of good faith resolution and the selection of a certified public accountant, which are not directly related to the question about audit rights.",
+      "elapsed_sec": 17.4,
       "num_contexts": 15,
-      "top_context_score": 0.434
+      "top_context_score": 0.6
     },
     {
       "id": 14,
       "contract": "Peloton-Affirm",
       "question": "What are the merchant's responsibilities regarding refunds and returns?",
       "expected_answer": "When a purchase is returned or a service cancelled, Merchant must promptly process the refund so Affirm can credit the customer's balance, return the refund amount to Affirm, and issue only full or partial refunds (not store credit). For partial refunds, Merchant is solely responsible for determining the amount and is solely liable for any customer dispute.",
-      "actual_answer": "Based on the provided contract clauses, the merchant's responsibilities regarding refunds and returns can be summarized as follows:\n\n1. **Prompt Processing of Refunds**: Clause 6 states that if a purchase is returned to the merchant by a customer, or a subscription service is cancelled, and a refund is owed to a customer, the merchant shall promptly process such refund so that Affirm may credit the customer's outstanding balance accordingly.\n\n2. **Determination of Refund Amount**: In the case of partial refunds, Clause 7 indicates that the merchant shall be solely responsible for determining the amount of such refund and shall be solely liable for any dispute with a customer relating to it.\n\n3. **Settlement of Undisputed Amounts**: According to Clause 8, the merchant shall also ensure that undisputed amounts owed by them to Affirm under the agreement necessary to complete settlement, which may include amounts resulting from customer refunds exceeding the amount of Captured transactions.\n\n4. **Compliance with Policies and Procedures**: Clause 9 requires the merchant to comply with all policies and procedures regarding Telesales Materials and trainings provided by Affirm in connection with phone sales which offer or promote the Services.\n\n5. **Issuance of Refunds**: Lastly, Clause 10 specifies that the merchant shall issue only full or partial refunds and not store credit.\n\nIt's important to note that while these clauses provide details about the merchant's responsibilities regarding refunds and returns, they do not specify any conditions related to the timeframe for processing refunds or the circumstances under which a refund might be denied. Therefore, missing from the contract are specific details about the timeframe for refunds and conditions for denying refunds.",
+      "actual_answer": "The merchant's responsibilities regarding refunds and returns are outlined in the following clauses:\n\n1. **Prompt Processing of Refunds** (Clauses 1a): When a purchase is returned, cancelled, or a refund is owed due to various reasons, including warranty returns, customer satisfaction returns, or cancellations outside of the stated return policy, the merchant shall promptly process such refunds so that Affirm can credit the customer's outstanding balance accordingly.\n\n2. **Displaying Refund and Return Policy** (Clause 2f): The merchant is responsible for maintaining a clear and conspicuous refund and return policy that is easily accessible to customers before checkout.\n\n3. **Determining Amount of Partial Refunds** (Clause 3): In the case of partial refunds, the merchant shall be solely responsible for determining the amount of such refund and shall be solely liable for any dispute with a customer relating thereto.\n\n4. **Settlement of Undisputed Amounts** (Clauses 5 and 6e, 7c): The merchant is also responsible for settling undisputed amounts owed by them to Affirm under the Agreement necessary to complete settlement, which may include amounts resulting from customer refunds exceeding the amount of Captured transactions.\n\n5. **General Provisions on Refunds** (Clause 8): The contract includes provisions related to refunds in its general terms. However, specific details about these provisions are not provided in the excerpt you've given.\n\n6. **Liability for Fraudulent Misconduct** (Clause 9): The merchant is liable for all loss resulting from fraudulent misconduct of their employees, contractors, representatives, or agents. While this clause does not explicitly mention refunds, it suggests that the merchant may be held responsible for any fraudulent activities related to refunds as well.\n\n7. **Returning Refund Amounts to Affirm** (Clause 10b): In case Affirm is required to issue a refund on behalf of the merchant, the merchant is expected to return the amount of such refund to Affirm. However, this clause does not detail when or under what circumstances Affirm would need to issue a refund on behalf of the merchant.\n\nIn summary, the merchant's responsibilities regarding refunds and returns include promptly processing refunds, maintaining a clear refund policy, determining the amount of partial refunds, settling undisputed amounts owed to Affirm due to customer refunds, being liable for fraudulent misconduct, and potentially returning refund amounts to Affirm when necessary. However, some aspects of these responsibilities, such as the specific details of general provisions on refunds and circumstances under which Affirm would need to issue a refund on behalf of the merchant, are not detailed in the provided contract excerpt.",
       "score": 4,
-      "reason": "The answer covers most of the key points expected in the question, but it doesn't explicitly mention that the merchant must return the refund amount to Affirm. Also, there's no mention about the answer being irrelevant or wrong.",
-      "elapsed_sec": 20.1,
+      "reason": "The answer covers most of the key points and is quite precise about the merchant's responsibilities regarding refunds and returns as outlined in the contract clauses. However, it misses a minor detail about Affirm only issuing full or partial refunds (not store credit), which was part of the expected answer.",
+      "elapsed_sec": 31.0,
       "num_contexts": 15,
-      "top_context_score": 0.542
+      "top_context_score": 0.588
     },
     {
       "id": 15,
       "contract": "Affirm-Amazon",
       "question": "Who are the parties to the Affirm-Amazon First Amendment?",
       "expected_answer": "The parties are Affirm, Inc. (Affirm), Amazon.com Services LLC (Amazon Services), and Amazon Payments, Inc. (Amazon Payments). Amazon Services and Amazon Payments are each referred to individually as Amazon.",
-      "actual_answer": "The parties to the Affirm-Amazon First Amendment are Affirm, Inc. and Amazon. This is stated in Clauses 1, 2, 3, 5, and 7 of the contract. Specifically, Clause 1 mentions that both Affirm and Amazon are parties to the Agreement, while Clause 5 refers to this First Amendment being made between Affirm, Inc. on one hand, and on the other hand, it does not explicitly name Amazon but refers to them as \"Amazon Services LLC\" and \"Amazon Payments, Inc.\" However, since these entities are associated with Amazon in the context of the contract, they can be inferred as part of the parties. Lastly, Clause 7 mentions Affirm, Inc. as one of the parties.",
+      "actual_answer": "Based on the provided contract clauses, the parties to the Affirm-Amazon First Amendment are as follows:\n\n1. Affirm, Inc., referred to as \"Affirm\" in Clause 5.\n2. Amazon.com Services LLC, referred to as \"Amazon Services\" in Clause 6.\n3. Amazon Payments, Inc., referred to as \"Amazon Payments\" in Clause 6.\n\nThese parties are collectively referred to as the \"Parties\" throughout the contract (Clauses 2 and 8). Additionally, there is a mention of Affirm Loan Services, LLC, an Affiliate of Affirm, which will disburse Settled Loan Proceeds to Amazon (Clause 7). However, this Affiliate is not explicitly considered a party in the Agreement.",
       "score": 4,
-      "reason": "The answer is mostly correct, but it misses some details. Although Amazon Services LLC and Amazon Payments, Inc. are associated with Amazon, they should be explicitly mentioned as part of the parties, along with Affirm, Inc., as stated in Clause 5.",
-      "elapsed_sec": 13.0,
+      "reason": "The provided answer correctly identifies Affirm, Inc., Amazon.com Services LLC, and Amazon Payments, Inc. as the parties to the Affirm-Amazon First Amendment, but it misses the part where they are each referred to individually as Amazon in the contract.",
+      "elapsed_sec": 11.5,
       "num_contexts": 15,
-      "top_context_score": 0.455
+      "top_context_score": 0.756
     },
     {
       "id": 16,
       "contract": "Affirm-Amazon",
       "question": "What is the effective date of the Affirm-Amazon First Amendment?",
       "expected_answer": "The First Amendment is effective as of October 2, 2023 (the Amendment Effective Date).",
-      "actual_answer": "Based on the provided contract clauses, the effective date of the Affirm-Amazon First Amendment is October 2, 2023, as stated in Clause 2 and Clause 6. This information is further supported by Clause 1, which refers to the First Amendment Effective Date mentioned earlier in Clause 2.",
+      "actual_answer": "Based on the provided contract clauses, the effective date of the Affirm-Amazon First Amendment is October 2, 2023, as stated in Clause 3: \"This Amendment is effective as of the First Amendment Effective Date.\"",
       "score": 5,
-      "reason": "The answer provides the correct effective date of the Affirm-Amazon First Amendment as stated in the contract clauses and supports it with references to multiple clauses in the contract.",
-      "elapsed_sec": 8.6,
+      "reason": "The answer directly quotes the clause from the contract that specifies the effective date of the Affirm-Amazon First Amendment",
+      "elapsed_sec": 6.3,
       "num_contexts": 15,
-      "top_context_score": 0.599
+      "top_context_score": 0.702
     },
     {
       "id": 17,
       "contract": "Affirm-Amazon",
       "question": "What is the definition of Installments Product in the Affirm-Amazon agreement?",
       "expected_answer": "An Installments Product is a closed-end installment loan for customers to finance the purchase of Eligible Products at 0% or 10-36% APR with various loan terms, originated by Bank or Affirm's Affiliate.",
-      "actual_answer": "The definition of an Installments Product in the Affirm-Amazon agreement is a closed-end installment loan for customers to finance the purchase of Eligible Products at 0% or 10-36% APR with various loan terms originated by Bank or Affirm\u2019s Affiliate, as stated in Clause 1. This definition is provided within the context of the parties involved in the agreement, which are Affirm, Amazon.com Services LLC (Amazon Services), and Amazon Payments, Inc., as mentioned in Clause 5. The loan proceeds for an Installment Product will be distributed to Amazon or Amazon Payments based on the specifics outlined in Clauses 4 and 9.",
+      "actual_answer": "The definition of Installments Product in the Affirm-Amazon agreement is a closed-end installment loan for customers to finance the purchase of Eligible Products at 0% or 10-36% APR with various loan terms, which are originated by Bank or Affirm\u2019s Affiliate (as stated in Clause 1). This contract also indicates that these loans are used for purchases made on either Participating Sites or Processed Merchant Sites. The specific details of the loan terms and the Eligible Products are not explicitly defined within the provided clauses.",
       "score": 5,
-      "reason": "The response accurately and completely defines the Installments Product as per the Affirm-Amazon agreement, includes the APR range, mentions the loan terms, and specifies the originator of the loans. It also provides additional context about the parties involved in the agreement.",
-      "elapsed_sec": 12.7,
+      "reason": "The answer accurately reflects the definition of Installments Product in the Affirm-Amazon agreement as stated in Clause 1, including the details of a closed-end installment loan for customers to finance Eligible Products at 0% or 10-36% APR with various loan terms originated by Bank or Affirm\u2019s Affiliate. It also correctly mentions that these loans can be used for purchases made on Participating Sites and Processed Merchant Sites.",
+      "elapsed_sec": 12.5,
       "num_contexts": 15,
-      "top_context_score": 0.338
+      "top_context_score": 0.691
     },
     {
       "id": 18,
       "contract": "Affirm-Amazon",
       "question": "Which state's law governs the Affirm-Amazon First Amendment and where is the forum for disputes?",
       "expected_answer": "The First Amendment is governed by the laws of the State of Washington without reference to conflict of law rules. Each party agrees to exclusive personal jurisdiction and venue in the federal and state courts in King County, Washington. The parties waive their right to trial by jury.",
-      "actual_answer": "Based on the provided contract clauses, it is specified that:\n\n1. The state's law governing the Affirm-Amazon First Amendment is the State of Washington (Clauses 1 and 2).\n2. However, there isn't a specific clause defining the forum for disputes in this agreement. To determine the forum for disputes, it would be necessary to review other relevant contracts or agreements between the parties that may contain such information, as well as any applicable laws or regulations regarding dispute resolution in the State of Washington.",
-      "score": 4,
-      "reason": "The answer correctly identifies the state's law governing the Affirm-Amazon First Amendment but fails to explicitly state that there is no reference to conflict of law rules and does not provide information about the forum for disputes.",
-      "elapsed_sec": 10.0,
+      "actual_answer": "Based on the provided contract clauses, it can be determined that:\n\n1. The state's law that governs the Affirm-Amazon First Amendment is the laws of the State of Washington (Clause 2 and Clause 6).\n2. The forum for disputes arising out of this Agreement is the federal and state courts in King County, Washington (Clause 10).",
+      "score": 5,
+      "reason": "The answer correctly identifies the governing law and the forum for disputes based on the specific clauses mentioned in the contract.",
+      "elapsed_sec": 7.5,
       "num_contexts": 15,
-      "top_context_score": 0.321
+      "top_context_score": 0.597
     },
     {
       "id": 19,
       "contract": "Affirm-Amazon",
       "question": "What is the Settlement Cutoff Date in the Affirm-Amazon agreement?",
       "expected_answer": "The Settlement Cutoff Date is 120 days after the entire loan proceeds were approved for a Basket (if Affirm receives one-time prior Bank approval), or otherwise 60 days.",
-      "actual_answer": "Based on the provided contract clauses, the Settlement Cutoff Date in the Affirm-Amazon agreement is defined in Clause 2 as follows:\n\n1. If Affirm receives one-time, prior Bank approval, it will be 120 days after the entire loan proceeds under the Installment Credit Agreement were approved for a Basket.\n2. In all other cases, it will be 60 days after the same event.\n\nTherefore, the Settlement Cutoff Date can vary depending on whether Affirm receives one-time, prior Bank approval or not. The specific date for each instance would need to be determined based on when the loan proceeds were approved for a Basket.",
+      "actual_answer": "Based on the provided contract clauses, the Settlement Cutoff Date in the Affirm-Amazon agreement is defined as follows:\n\n1. Clause 2 specifies that the Settlement Cutoff Date is either:\n   - One hundred twenty (120) days after the entire loan proceeds under the Installment Credit Agreement were approved for a Basket, if Affirm receives one-time prior Bank approval; or\n   - Sixty (60) days otherwise, after the entire loan proceeds under the Installment Credit Agreement were approved for a Basket.\n\nTherefore, the Settlement Cutoff Date is determined based on the duration of time after the entire loan proceeds are approved for a Basket, with varying periods depending on whether Affirm receives prior Bank approval or not.",
       "score": 5,
-      "reason": "The answer provides the exact definition of the Settlement Cutoff Date in the Affirm-Amazon agreement as stated in Clause 2 of the contract, covering all key points in the expected answer.",
-      "elapsed_sec": 13.0,
+      "reason": "The answer correctly identifies and explains the conditions for determining the Settlement Cutoff Date in the Affirm-Amazon agreement based on the provided contract clauses.",
+      "elapsed_sec": 13.9,
       "num_contexts": 15,
-      "top_context_score": 0.617
+      "top_context_score": 0.825
     },
     {
       "id": 20,
       "contract": "Affirm-Amazon",
       "question": "How does settlement of Program Credit Proceeds work for Processed Merchant Sites vs other Participating Sites under the Affirm-Amazon agreement?",
       "expected_answer": "For purchases on a Participating Site other than a Processed Merchant Site, Affirm initiates payment upon confirmation from Amazon that the last Purchased Good in a Basket has shipped. For purchases on a Processed Merchant Site, payment is initiated per a different trigger. The payment equals the entire loan proceeds less any Subsidy and other deductions. Program Credits for Processed Merchant Sites are disbursed to Amazon Payments, while those for other Participating Sites are disbursed to Amazon Services or the applicable Covered Affiliate.",
-      "actual_answer": "In regards to the settlement of Program Credit Proceeds under the Affirm-Amazon agreement, there are differences between Processed Merchant Sites and other Participating Sites:\n\n1. For transactions processed through Participating Sites that do not include Processed Merchant Sites (Clause 1), the Settled Loan Proceeds will be disbursed to Amazon Services or the applicable Covered Affiliate.\n\n2. For purchases made on a Participating Site other than a Processed Merchant Site, if any item in a Basket has not shipped by the Settlement Cutoff Date (Clause 3), Affirm will reduce the principal amount of the corresponding Program Credit and initiate payment to Amazon Services. Thirty days following the end of each month during the Term, Affirm will also pay to Amazon Payments the aggregate amount of Rev Share in respect of Program Credits relating to all transactions processed through the Amazon Pay Widget on Processed Merchant Sites (Clause 2).\n\n3. However, for purchases made on a Processed Merchant Site, the Settled Loan Proceeds will be disbursed to Amazon Payments (Clause 4).\n\nIt is important to note that Affirm may not otherwise reduce or set off against the Settled Loan Proceeds, except for certain specific circumstances mentioned in Clause 7. The Settlement Cutoff Date is defined as 120 days after the entire loan proceeds under the Installment Credit Agreement were approved for a Basket (Clause 9).\n\nRegarding partial payments made on behalf of a Processed Merchant through the Amazon Pay Widget, Affirm Loan Services, LLC may collect an initial, one-time partial payment of the applicable purchase price (Clause 8).\n\nThe settlement process is outlined in Section 6.10 (E) - Settlement of Program Credit Proceeds (Clause 5), and the details related to this section can be found in EXHIBIT A (E) (Clause 6). Lastly, Affirm's Affiliate will disburse the Settled Loan Proceeds to Amazon for Program Credits originated by Affirm's Affiliate, Affirm Loan Services, LLC (Clause 10).",
-      "score": 4,
-      "reason": "The answer provides a detailed explanation about the settlement of Program Credit Proceeds for both Processed Merchant Sites and other Participating Sites under the Affirm-Amazon agreement. However, it slightly deviates from the expected answer by mentioning some additional details such as the Settlement Cutoff Date, Rev Share, and Clauses 2, 4, 5, 6, 7, 8, 9, and 10. These additions do not significantly alter the main idea, making it mostly correct.",
-      "elapsed_sec": 27.8,
+      "actual_answer": "Based on the provided contract clauses, here's how the settlement of Program Credit Proceeds works for Processed Merchant Sites compared to other Participating Sites under the Affirm-Amazon agreement:\n\n1. Settlement for Transactions on Participating Sites other than Processed Merchant Sites (Clause 1):\n   - After confirmation from Amazon that the last Purchased Good in a Basket has shipped, Affirm will initiate payment to Amazon Services of an amount equal to the entire loan proceeds under the Installment Credit Agreement approved for that Basket.\n   - If any item in a Basket has not shipped by the Settlement Cutoff Date, Affirm will reduce the principal amount of the corresponding Program Credit and initiate payment to Amazon Services of the loan proceeds after the Settlement Cutoff Date.\n   - The settlement is disbursed to Amazon Services or Amazon Payments, as the case may be.\n\n2. Settlement for Transactions on Processed Merchant Sites (Clause 1, Clause 4):\n   - Affirm will initiate payment to Amazon Payments of an amount equal to the entire loan proceeds under the Installment Credit Agreement approved for that Basket after the Purchased Goods have shipped.\n   - Thirty days following the end of each month during the Term, Affirm will also pay to Amazon Payments the aggregate amount of Rev Share in respect of Program Credits relating to all transactions processed through the Amazon Pay Widget on Processed Merchant Sites during the immediately preceding month.\n\nIn summary, for transactions made on Participating Sites other than Processed Merchant Sites, Affirm will initiate payments to Amazon Services after confirmation of shipment or, if applicable, after a delay in shipment. For transactions made on Processed Merchant Sites, Affirm will initiate payments to Amazon Payments after confirmation of shipment and make additional monthly payments for Rev Share.",
+      "score": 5,
+      "reason": "The actual answer provides detailed information about how the settlement of Program Credit Proceeds works for both Processed Merchant Sites and other Participating Sites under the Affirm-Amazon agreement, covering all key points in the expected answer.",
+      "elapsed_sec": 23.7,
       "num_contexts": 15,
-      "top_context_score": 0.499
+      "top_context_score": 0.797
     }
   ]
 }
