@@ -61,30 +61,57 @@ class ContractRetriever:
             ],
         )
 
-    def retrieve(self, question: str, top_k: int = 10) -> list[dict[str, Any]]:
+    def _expand_query(self, question: str) -> list[str]:
+        """Generate additional query variants to improve retrieval recall."""
+        queries = [question]
+        if not ollama_available():
+            return queries
+        prompt = (
+            "Generate 3 short keyword-rich search queries to find relevant legal contract clauses "
+            "for the following question. Return ONLY the queries, one per line, no numbering.\n\n"
+            f"Question: {question}"
+        )
+        try:
+            raw = ollama_chat("mistral", prompt, timeout=30)
+            for line in raw.strip().splitlines():
+                line = line.strip().lstrip("0123456789.-) ")
+                if len(line) > 10:
+                    queries.append(line)
+        except Exception:
+            pass
+        return queries[:4]  # original + up to 3 expansions
+
+    def retrieve(self, question: str, top_k: int = 15) -> list[dict[str, Any]]:
         if not self.texts or self.collection is None:
             return []
 
+        # Multi-query retrieval: run original + expanded queries
+        queries = self._expand_query(question)
         n_results = min(top_k, len(self.texts))
-        query_result = self.collection.query(
-            query_texts=[question],
-            n_results=n_results,
-        )
 
-        # ChromaDB cosine distance = 1 - cosine_similarity
-        chroma_indices = [m["index"] for m in query_result["metadatas"][0]]
-        chroma_scores = [1.0 - d for d in query_result["distances"][0]]
-
-        # Hybrid score: ChromaDB similarity + keyword overlap boost
         score_map: dict[int, float] = {}
-        for idx, score in zip(chroma_indices, chroma_scores):
-            keyword_score = _keyword_overlap(question, self.texts[idx])
-            score_map[idx] = 0.6 * score + 0.4 * keyword_score
+        all_hit_indices: list[int] = []
 
-        # Expand context window: include neighbours of top hits
+        for q in queries:
+            query_result = self.collection.query(
+                query_texts=[q],
+                n_results=n_results,
+            )
+            indices = [m["index"] for m in query_result["metadatas"][0]]
+            scores = [1.0 - d for d in query_result["distances"][0]]
+            all_hit_indices.extend(indices)
+
+            for idx, chroma_score in zip(indices, scores):
+                keyword_score = _keyword_overlap(question, self.texts[idx])
+                combined = 0.6 * chroma_score + 0.4 * keyword_score
+                # Keep the best score across all query variants
+                if idx not in score_map or combined > score_map[idx]:
+                    score_map[idx] = combined
+
+        # Expand context window: include ±2 neighbours of top hits
         expanded = set()
-        for idx in chroma_indices:
-            for offset in (-1, 0, 1):
+        for idx in all_hit_indices:
+            for offset in (-2, -1, 0, 1, 2):
                 neighbour = idx + offset
                 if 0 <= neighbour < len(self.texts):
                     if neighbour not in score_map:
@@ -144,7 +171,7 @@ def ollama_chat(model: str, prompt: str, timeout: int = 120) -> str:
 def build_contract_qa_prompt(question: str, contexts: list[dict[str, Any]], risk_summary: dict[str, Any]) -> str:
     numbered_clauses = "\n\n".join(
         f"Clause {idx}. [{item['category']}] {item['clause_text']}"
-        for idx, item in enumerate(contexts[:10], start=1)
+        for idx, item in enumerate(contexts[:12], start=1)
     )
     return (
         "You are an expert legal analyst reviewing a contract.\n\n"
@@ -165,7 +192,7 @@ def build_contract_qa_prompt(question: str, contexts: list[dict[str, Any]], risk
 
 
 def answer_question(question: str, retriever: ContractRetriever, risk_summary: dict[str, Any]) -> RetrievalResult:
-    contexts = retriever.retrieve(question, top_k=10)
+    contexts = retriever.retrieve(question, top_k=15)
     if not contexts:
         return RetrievalResult(answer="No relevant clauses were retrieved.", contexts=contexts)
 
