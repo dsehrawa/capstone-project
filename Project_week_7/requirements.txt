@@ -1,0 +1,11 @@
+streamlit
+pypdf
+python-dotenv
+pandas
+matplotlib
+requests
+scikit-learn
+chromadb
+spacy
+nltk
+rouge-score
