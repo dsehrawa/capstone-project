@@ -18,6 +18,111 @@ def dataframe_to_csv_bytes(df: pd.DataFrame) -> bytes:
     return df.to_csv(index=False).encode("utf-8")
 
 
+def annotate_clauses_with_document(clauses: list[dict], document_name: str) -> list[dict]:
+    return [{**clause, "document_name": document_name} for clause in clauses]
+
+
+def combine_analysis_artifacts(artifacts_list: list[AnalysisArtifacts], document_names: list[str]) -> AnalysisArtifacts:
+    combined_clause_records = []
+    for artifacts, document_name in zip(artifacts_list, document_names):
+        combined_clause_records.extend(
+            annotate_clauses_with_document(artifacts.structured_output["clauses"], document_name)
+        )
+
+    combined_clauses_df = pd.concat(
+        [artifact.clauses_df.assign(document_name=document_name) for artifact, document_name in zip(artifacts_list, document_names)],
+        ignore_index=True,
+    ) if artifacts_list else pd.DataFrame()
+
+    combined_obligation_summary_df = pd.concat(
+        [artifact.obligation_summary_df.assign(document_name=document_name) for artifact, document_name in zip(artifacts_list, document_names)],
+        ignore_index=True,
+    ) if any(not artifact.obligation_summary_df.empty for artifact in artifacts_list) else pd.DataFrame(columns=["party", "obligation_type", "obligation_count", "document_name"])
+
+    if not combined_obligation_summary_df.empty:
+        combined_obligation_summary_df = (
+            combined_obligation_summary_df.groupby(["party", "obligation_type"], dropna=False, as_index=False)["obligation_count"]
+            .sum()
+            .sort_values(by="obligation_count", ascending=False)
+        )
+
+    if not combined_clauses_df.empty:
+        risk_category_summary_df = combined_clauses_df.groupby("predicted_risk_category", as_index=False).agg(
+            clause_count=("clause_text", "count"),
+            avg_score=("overall_score", "mean"),
+            llm_review_count=("llm_review_required", "sum"),
+        ).sort_values(by=["avg_score", "clause_count"], ascending=[False, False])
+        heatmap_df = (
+            combined_clauses_df.groupby(["likelihood", "impact"]).size().unstack(fill_value=0)
+            .reindex(index=["Low", "Medium", "High"], columns=["Low", "Medium", "High"], fill_value=0)
+        )
+        combined_priority_risks_df = combined_clauses_df[["predicted_risk_category", "likelihood", "impact", "overall_score"]].rename(columns={"predicted_risk_category": "risk_name"})
+    else:
+        risk_category_summary_df = pd.DataFrame(columns=["predicted_risk_category", "clause_count", "avg_score", "llm_review_count"])
+        heatmap_df = pd.DataFrame(0, index=["Low", "Medium", "High"], columns=["Low", "Medium", "High"])
+        combined_priority_risks_df = pd.DataFrame(columns=["risk_name", "likelihood", "impact", "overall_score"])
+
+    all_live_external_risks = []
+    all_live_external_errors = []
+    for artifacts in artifacts_list:
+        risk_block = artifacts.structured_output["risk_obligation_intelligence"]
+        all_live_external_risks.extend(risk_block.get("live_external_risks", []) or [])
+        all_live_external_errors.extend(risk_block.get("live_external_errors", []) or [])
+
+    if not all_live_external_risks:
+        all_live_external_risks = []
+
+    if all_live_external_risks:
+        external_risks_df = pd.DataFrame(all_live_external_risks)[["risk_name", "likelihood", "impact", "overall_score"]]
+        combined_priority_risks_df = pd.concat([combined_priority_risks_df, external_risks_df], ignore_index=True)
+
+    combined_priority_risks_df = combined_priority_risks_df.sort_values(by="overall_score", ascending=False)
+
+    structured_output = {
+        "metadata": {
+            "document_count": len(document_names),
+            "documents": document_names,
+            "clause_count": len(combined_clause_records),
+            "parties": list(dict.fromkeys(
+                party
+                for artifact in artifacts_list
+                for party in artifact.structured_output.get("metadata", {}).get("parties", [])
+            )),
+        },
+        "full_text": "\n\n".join(
+            artifact.structured_output.get("full_text", "") for artifact in artifacts_list
+        ),
+        "clauses": combined_clause_records,
+        "risk_obligation_intelligence": {
+            "taxonomy": artifacts_list[0].structured_output["risk_obligation_intelligence"]["taxonomy"] if artifacts_list else {},
+            "internal_risks": artifacts_list[0].structured_output["risk_obligation_intelligence"]["internal_risks"] if artifacts_list else [],
+            "hybrid_clause_risks": [
+                {**row, "document_name": doc_name}
+                for artifact, doc_name in zip(artifacts_list, document_names)
+                for row in artifact.structured_output["risk_obligation_intelligence"]["hybrid_clause_risks"]
+            ],
+            "obligations": [
+                {**item, "document_name": doc_name}
+                for artifact, doc_name in zip(artifacts_list, document_names)
+                for item in artifact.structured_output["risk_obligation_intelligence"]["obligations"]
+            ],
+            "risk_category_summary": risk_category_summary_df.to_dict(orient="records"),
+            "obligation_summary": combined_obligation_summary_df.to_dict(orient="records"),
+            "live_external_risks": all_live_external_risks,
+            "live_external_errors": all_live_external_errors,
+        },
+    }
+
+    return AnalysisArtifacts(
+        structured_output=structured_output,
+        clauses_df=combined_clauses_df,
+        obligation_summary_df=combined_obligation_summary_df,
+        risk_category_summary_df=risk_category_summary_df,
+        heatmap_df=heatmap_df,
+        combined_priority_risks_df=combined_priority_risks_df,
+    )
+
+
 def render_heatmap(artifacts: AnalysisArtifacts) -> None:
     fig, ax = plt.subplots(figsize=(6, 4))
     image = ax.imshow(artifacts.heatmap_df.values, cmap="YlOrRd")
@@ -43,6 +148,9 @@ def render_structured_report(artifacts: AnalysisArtifacts) -> None:
     col1.metric("Clauses", metadata.get("clause_count", 0))
     col2.metric("Parties Found", len(metadata.get("parties", [])))
     col3.metric("Live External Risks", len(risk_block.get("live_external_risks", [])))
+
+    if metadata.get("documents"):
+        st.markdown(f"**Documents processed:** {', '.join(metadata['documents'])}")
 
     st.subheader("Top Risk Categories")
     st.dataframe(artifacts.risk_category_summary_df, use_container_width=True)
@@ -135,30 +243,46 @@ def render_structured_report(artifacts: AnalysisArtifacts) -> None:
 
 def main() -> None:
     st.title("Contract Risk and Obligation Intelligence")
-    st.write("Upload a contract PDF to generate a structured risk report and ask grounded questions over the document.")
+    st.write("Upload one or more contract PDFs to generate a structured risk report and ask grounded questions over the documents.")
 
-    uploaded_file = st.file_uploader("Upload contract PDF", type=["pdf"])
-    if uploaded_file and st.button("Run Analysis", type="primary"):
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
-            temp_file.write(uploaded_file.getbuffer())
-            temp_pdf_path = Path(temp_file.name)
-        with st.spinner("Running contract analysis..."):
-            artifacts = analyze_contract(temp_pdf_path)
-            st.session_state["artifacts"] = artifacts
+    uploaded_files = st.file_uploader("Upload contract PDFs", type=["pdf"], accept_multiple_files=True)
+    if uploaded_files and st.button("Run Analysis", type="primary"):
+        artifacts_list = []
+        document_names = []
+        contract_clauses = []
+
+        for uploaded_file in uploaded_files:
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
+                temp_file.write(uploaded_file.getbuffer())
+                temp_pdf_path = Path(temp_file.name)
+            document_name = uploaded_file.name
+            document_names.append(document_name)
+            with st.spinner(f"Processing {document_name}..."):
+                contract_artifacts = analyze_contract(temp_pdf_path)
+                artifacts_list.append(contract_artifacts)
+                contract_clauses.extend(
+                    annotate_clauses_with_document(contract_artifacts.structured_output["clauses"], document_name)
+                )
+            os.unlink(temp_pdf_path)
+
+        if artifacts_list:
+            combined_artifacts = combine_analysis_artifacts(artifacts_list, document_names)
+            st.session_state["artifacts"] = combined_artifacts
             st.session_state["retriever"] = ContractRetriever(
-                artifacts.structured_output["clauses"],
+                combined_artifacts.structured_output["clauses"],
                 db_dir=VECTOR_DB_DIR,
-                collection_name="uploaded_contract",
+                collection_name="uploaded_contracts",
             )
+            st.success(f"Processed {len(artifacts_list)} contract(s): {', '.join(document_names)}")
 
     artifacts = st.session_state.get("artifacts")
     if artifacts is None:
-        st.info("Upload a PDF and run the analysis to see the structured result.")
+        st.info("Upload at least one PDF and run the analysis to see the structured result.")
         return
 
     render_structured_report(artifacts)
 
-    st.subheader("Ask Questions About the Contract")
+    st.subheader("Ask Questions About the Contracts")
     question = st.text_input("Ask a grounded question", placeholder="What are the termination risks?")
     if question and st.button("Answer Question"):
         with st.spinner("Retrieving evidence and generating answer..."):
@@ -171,7 +295,7 @@ def main() -> None:
         st.write(result.answer)
         st.markdown("**Retrieved Clauses**")
         for idx, item in enumerate(result.contexts, start=1):
-            st.write(f"{idx}. [{item['category']}] score={item['score']:.3f}")
+            st.write(f"{idx}. [{item['document_name']}] [{item['category']}] score={item['score']:.3f}")
             st.caption(item["clause_text"])
 
     # Golden Dataset Testing Section
@@ -179,15 +303,16 @@ def main() -> None:
     st.write("Run baseline questions from the golden dataset to evaluate RAG performance.")
     if st.button("Run Golden Tests", type="secondary"):
         if "artifacts" not in st.session_state:
-            st.error("Please upload and analyze a contract first.")
+            st.error("Please upload and analyze at least one contract first.")
         else:
             with st.spinner("Running golden dataset tests..."):
                 # Import and run tests
                 from test_rag import run_golden_tests, compute_basic_metrics
 
-                # Save uploaded file temporarily for testing
+                # Save the first uploaded file temporarily for testing
+                first_uploaded_file = uploaded_files[0]
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as temp_file:
-                    temp_file.write(uploaded_file.getbuffer())
+                    temp_file.write(first_uploaded_file.getbuffer())
                     temp_pdf_path = Path(temp_file.name)
 
                 try:

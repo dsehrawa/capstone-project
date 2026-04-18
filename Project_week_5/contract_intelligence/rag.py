@@ -38,7 +38,13 @@ class ContractRetriever:
         if not self.texts:
             return
         ids = [f"clause-{idx}" for idx in range(len(self.texts))]
-        metadatas = [{"category": self.clauses[idx].get("category", "General Provisions")} for idx in range(len(self.texts))]
+        metadatas = [
+            {
+                "category": self.clauses[idx].get("category", "General Provisions"),
+                "document_name": self.clauses[idx].get("document_name", "uploaded_contract"),
+            }
+            for idx in range(len(self.texts))
+        ]
         self.collection.add(ids=ids, documents=self.texts, metadatas=metadatas)
 
     def retrieve(self, question: str, top_k: int = 5) -> list[dict[str, Any]]:
@@ -52,7 +58,14 @@ class ContractRetriever:
         for idx, clause_text in enumerate(documents):
             score = 1 - float(distances[idx]) if idx < len(distances) else 0.0
             metadata = metadatas[idx] if idx < len(metadatas) else {}
-            results.append({"score": score, "clause_text": clause_text, "category": metadata.get("category", "General Provisions")})
+            results.append(
+                {
+                    "score": score,
+                    "clause_text": clause_text,
+                    "category": metadata.get("category", "General Provisions"),
+                    "document_name": metadata.get("document_name", "uploaded_contract"),
+                }
+            )
         return results
 
 
