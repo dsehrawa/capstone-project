@@ -8,6 +8,25 @@ import streamlit as st
 from contract_intelligence.analysis import AnalysisArtifacts, analyze_contract, structured_output_json
 from contract_intelligence.comparison import ComparisonResult, compare_contracts
 from contract_intelligence.rag import ContractRetriever, answer_question
+from nltk.translate.bleu_score import SmoothingFunction, sentence_bleu
+from rouge_score import rouge_scorer as _rouge_scorer
+
+_ROUGE = _rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
+_BLEU_SMOOTH = SmoothingFunction().method1
+
+def _compute_overlap(reference: str, hypothesis: str) -> dict:
+    if not reference.strip() or not hypothesis.strip():
+        return {"bleu": 0.0, "rouge1": 0.0, "rouge2": 0.0, "rougeL": 0.0}
+    rouge = _ROUGE.score(reference, hypothesis)
+    bleu = sentence_bleu(
+        [reference.split()], hypothesis.split(), smoothing_function=_BLEU_SMOOTH,
+    )
+    return {
+        "bleu": round(float(bleu), 4),
+        "rouge1": round(rouge["rouge1"].fmeasure, 4),
+        "rouge2": round(rouge["rouge2"].fmeasure, 4),
+        "rougeL": round(rouge["rougeL"].fmeasure, 4),
+    }
 
 
 st.set_page_config(page_title="Contract Risk Intelligence", layout="wide")
@@ -262,11 +281,100 @@ def render_comparison(comparison: ComparisonResult) -> None:
         )
 
 
+
+KNOWN_CATEGORIES = [
+    "Payment & Financial Terms", "Termination", "Liability & Indemnification",
+    "Confidentiality", "Intellectual Property", "Compliance & Regulatory",
+    "Dispute Resolution", "General Provisions",
+]
+
+CATEGORY_KEYWORDS = {
+    "Payment & Financial Terms": ["payment", "fee", "price", "cost", "invoice", "revenue", "royalt", "financ"],
+    "Termination": ["terminat", "cancel", "end", "expir", "exit", "notice"],
+    "Liability & Indemnification": ["liabilit", "indemnif", "damage", "loss", "claim", "warrant"],
+    "Confidentiality": ["confidential", "secret", "nda", "disclose", "proprietary"],
+    "Intellectual Property": ["intellectual property", "ip", "patent", "trademark", "copyright", "license"],
+    "Compliance & Regulatory": ["comply", "compliance", "regulat", "law", "legal", "govern"],
+    "Dispute Resolution": ["dispute", "arbitrat", "mediati", "litigation", "court", "jurisdict"],
+    "General Provisions": [],
+}
+
+def _detect_category(question: str) -> str:
+    q = question.lower()
+    for category, keywords in CATEGORY_KEYWORDS.items():
+        if category == "General Provisions":
+            continue
+        if any(kw in q for kw in keywords):
+            return category
+    return "General Provisions"
+
+def _is_contract_question(question: str) -> bool:
+    contract_signals = [
+        "contract", "clause", "agreement", "party", "payment", "fee",
+        "terminat", "liabilit", "confidential", "ip", "patent", "comply",
+        "dispute", "govern", "law", "penalty", "breach", "renew",
+    ]
+    return any(signal in question.lower() for signal in contract_signals)
+
+def render_chatbot_tab() -> None:
+    st.subheader("💬 Contract Chatbot")
+    col_left, col_right = st.columns([1, 2])
+
+    with col_left:
+        st.markdown("### 📄 Upload Contract")
+        uploaded = st.file_uploader("Upload contract PDF", type=["pdf"], key="chatbot_pdf")
+        if uploaded:
+            if "chatbot_retriever" not in st.session_state or st.session_state.get("chatbot_filename") != uploaded.name:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+                    tmp.write(uploaded.getbuffer())
+                    tmp_path = Path(tmp.name)
+                artifacts = analyze_contract(tmp_path)
+                st.session_state["chatbot_retriever"] = ContractRetriever(artifacts.clauses_df.to_dict("records"), str(VECTOR_DB_DIR))
+                st.session_state["chatbot_filename"] = uploaded.name
+                st.session_state["chat_history"] = []
+                st.success(f"✅ Loaded: {uploaded.name}")
+
+        st.markdown("### 📝 Reference Answer (optional)")
+        reference = st.text_area("Paste reference answer for BLEU/ROUGE scoring", height=120, key="chatbot_ref")
+
+    with col_right:
+        st.markdown("### 💬 Chat")
+        if "chat_history" not in st.session_state:
+            st.session_state["chat_history"] = []
+
+        retriever = st.session_state.get("chatbot_retriever")
+
+        with st.form("chat_form", clear_on_submit=True):
+            question = st.text_input("Ask a question about the contract...")
+            submitted = st.form_submit_button("Send")
+
+        if submitted and question:
+            if not _is_contract_question(question):
+                st.session_state["chat_history"].append({"role": "user", "content": question})
+                st.session_state["chat_history"].append({"role": "assistant", "content": "⚠️ Out of scope! Please ask contract-related questions only."})
+            elif retriever is None:
+                st.warning("Please upload a contract PDF first.")
+            else:
+                category = _detect_category(question)
+                with st.spinner("Thinking..."):
+                    result = answer_question(question, retriever, {})
+                    answer = result.answer
+                scores = _compute_overlap(reference, answer) if reference.strip() else None
+                response = f"**Category:** {category}nn{answer}"
+                if scores:
+                    response += f"nn📊 **BLEU:** {scores["bleu"]} | **ROUGE-1:** {scores["rouge1"]} | **ROUGE-2:** {scores["rouge2"]} | **ROUGE-L:** {scores["rougeL"]}"
+                st.session_state["chat_history"].append({"role": "user", "content": question})
+                st.session_state["chat_history"].append({"role": "assistant", "content": response})
+
+        for msg in st.session_state.get("chat_history", []):
+            if msg["role"] == "user":
+                st.markdown(f"🧑 **You:** {msg["content"]}")
+            else:
+                st.markdown(f"🤖 **Bot:** {msg["content"]}")
 def main() -> None:
     st.title("Contract Risk and Obligation Intelligence")
 
-    tab_single, tab_compare = st.tabs(
-        ["Single Contract Analysis", "Compare Two Contracts"])
+    tab_single, tab_compare, tab_chatbot = st.tabs(["Single Contract Analysis", "Compare Two Contracts", "💬 Contract Chatbot"])
 
     # ---- Tab 1: Single contract analysis (existing behaviour) ----
     with tab_single:
@@ -365,5 +473,8 @@ def main() -> None:
             render_explainability_panel(st.session_state["artifacts_b"])
 
 
+
+    with tab_chatbot:
+        render_chatbot_tab()
 if __name__ == "__main__":
     main()
